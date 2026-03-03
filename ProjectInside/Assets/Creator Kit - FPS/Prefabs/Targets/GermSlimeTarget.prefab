@@ -294,7 +294,6 @@ GameObject:
   - component: {fileID: 1407279479756981044}
   - component: {fileID: 5949802199157995707}
   - component: {fileID: 7818527331259110205}
-  - component: {fileID: -8140608001448602215}
   m_Layer: 10
   m_Name: GermSlimeTarget
   m_TagString: Untagged
@@ -386,39 +385,15 @@ MonoBehaviour:
   pointValue: 5
   DestroyedEffect: {fileID: 198321120434662062, guid: 5656e7ea1f1a75d4c895547ec2b824b3,
     type: 3}
-  HitPlayer: {fileID: 8212324151211496083}
-  IdleSource: {fileID: 2512953057398773005}
---- !u!114 &-8140608001448602215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8070109232193553997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
+  deathEvent:
     Guid:
       Data1: -1646634212
       Data2: 1223428605
       Data3: 1424241334
       Data4: -1878555043
     Path: event:/Bacteria Death
-  Event: 
-  EventPlayTrigger: 7
-  EventStopTrigger: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  HitPlayer: {fileID: 8212324151211496083}
+  IdleSource: {fileID: 2512953057398773005}
 --- !u!1001 &2834995659269953124
 PrefabInstance:
   m_ObjectHideFlags: 0

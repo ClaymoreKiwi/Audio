@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Numerics;
+using FMODUnity;
 using UnityEngine;
 using Vector3 = UnityEngine.Vector3;
 
@@ -12,6 +13,7 @@ public class Target : MonoBehaviour
     public ParticleSystem DestroyedEffect;
 
     [Header("Audio")]
+    [SerializeField] private EventReference deathEvent;
     public RandomPlayer HitPlayer;
     public AudioSource IdleSource;
     
@@ -50,10 +52,7 @@ public class Target : MonoBehaviour
         //the audiosource of the target will get destroyed, so we need to grab a world one and play the clip through it
         if (HitPlayer != null)
         {
-            var source = WorldAudioPool.GetWorldSFXSource();
-            source.transform.position = position;
-            source.pitch = HitPlayer.source.pitch;
-            source.PlayOneShot(HitPlayer.GetRandomClip());
+            RuntimeManager.PlayOneShot(deathEvent, transform.position);
         }
 
         if (DestroyedEffect != null)

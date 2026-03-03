@@ -5,7 +5,7 @@
 			<value>Bacteria Death</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{408b7bb9-0a91-4418-a703-150aa018e468}</destination>
@@ -114,6 +114,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{c04e9620-1342-4bb8-b8ce-702247a2207e}">
 		<relationship name="effects">
+			<destination>{e895167c-07d4-4570-80ae-777210bdec6f}</destination>
 			<destination>{b4d660cd-2835-42a8-9bd1-0b9b379c0c9e}</destination>
 		</relationship>
 	</object>
@@ -140,6 +141,23 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4788bc69-acff-45a0-a645-67ee75fcecd9}" />
+	<object class="SpatialiserEffect" id="{e895167c-07d4-4570-80ae-777210bdec6f}">
+		<property name="distanceRolloffType">
+			<value>2</value>
+		</property>
+		<property name="maximumDistance">
+			<value>9</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{b4d660cd-2835-42a8-9bd1-0b9b379c0c9e}" />
 	<object class="MixerBusFader" id="{ba4b5f07-1a6a-4b36-a4a6-46983d869377}" />
 </objects>
