@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{063f4de3-15ce-4e37-a8ab-ca893b7f42d1}">
+		<property name="assetPath">
+			<value>Non-Combat Unit.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.6583673469387754</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b12c445f-a210-42f9-bfbc-6ca87c664ca7}</destination>
+		</relationship>
+	</object>
+</objects>

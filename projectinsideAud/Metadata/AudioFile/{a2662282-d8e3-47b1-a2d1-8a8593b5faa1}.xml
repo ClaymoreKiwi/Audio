@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{a2662282-d8e3-47b1-a2d1-8a8593b5faa1}">
+		<property name="assetPath">
+			<value>Just Got Circulated.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.5538095238095238</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b12c445f-a210-42f9-bfbc-6ca87c664ca7}</destination>
+		</relationship>
+	</object>
+</objects>
