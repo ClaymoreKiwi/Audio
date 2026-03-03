@@ -102,14 +102,11 @@
 			<destination>{110bc828-69e0-414c-8745-57f2c0367eff}</destination>
 		</relationship>
 		<relationship name="sounds">
-			<destination>{289ab646-5787-480d-9c5d-3ba7099caf6a}</destination>
 			<destination>{b3572cb3-11f2-4880-8c5d-a81013f390f7}</destination>
 			<destination>{c8486e3d-118c-49fa-b367-52ec7477f2ca}</destination>
 			<destination>{aae7a057-f9c0-417f-aff7-6a6cf8466f89}</destination>
 			<destination>{7ab1abb4-845e-4d1d-bdfd-f87f239771c4}</destination>
 			<destination>{00dfb4cd-30cc-4217-8290-f90642516ae9}</destination>
-			<destination>{48969895-9244-4493-bc18-e864faee5494}</destination>
-			<destination>{ee0f4b4e-54b6-473a-bb33-95b1423ea1c2}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{a74d6ca4-b6c7-4330-a00d-83263232beb7}">
@@ -141,11 +138,6 @@
 			<destination>{10c1f182-ca10-4d42-8d25-01bb8bec26ca}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{289ab646-5787-480d-9c5d-3ba7099caf6a}">
-		<relationship name="audioFile">
-			<destination>{a6189591-31e1-4e27-b6ea-b381fee37536}</destination>
-		</relationship>
-	</object>
 	<object class="SingleSound" id="{b3572cb3-11f2-4880-8c5d-a81013f390f7}">
 		<relationship name="audioFile">
 			<destination>{b11b7512-8310-40b3-a2a6-a103f62da678}</destination>
@@ -169,16 +161,6 @@
 	<object class="SingleSound" id="{00dfb4cd-30cc-4217-8290-f90642516ae9}">
 		<relationship name="audioFile">
 			<destination>{624f587b-cd00-4859-9688-9102afe11860}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{48969895-9244-4493-bc18-e864faee5494}">
-		<relationship name="audioFile">
-			<destination>{4bdaa1b5-734f-4a49-8bdc-4fa51bfdcfb5}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{ee0f4b4e-54b6-473a-bb33-95b1423ea1c2}">
-		<relationship name="audioFile">
-			<destination>{ba974f04-20eb-4c89-b645-7dd232c1b4ca}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{fa043d1f-3e27-4a0c-91b6-a626c2b6e224}">

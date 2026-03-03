@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 [RequireComponent(typeof(AudioSource))]
 public class RandomPlayer : MonoBehaviour
@@ -8,7 +9,8 @@ public class RandomPlayer : MonoBehaviour
     public AudioClip[] Clips;
     public float PitchMin = 1.0f;
     public float PitchMax = 1.0f;
-    
+    [SerializeField] private EventReference footstepEvent;
+
     public AudioSource source => m_Source;
 
     AudioSource m_Source;
@@ -33,7 +35,6 @@ public class RandomPlayer : MonoBehaviour
 
     public void PlayClip(AudioClip clip, float pitchMin, float pitchMax)
     {
-        m_Source.pitch = Random.Range(pitchMin, pitchMax);
-        m_Source.PlayOneShot(clip);
+        RuntimeManager.PlayOneShot(footstepEvent, transform.position);
     }
 }

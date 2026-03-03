@@ -47,6 +47,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 845408
   Exists: 1
+--- !u!114 &-9090105957980682740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BackgroundMusic
+  m_EditorClassIdentifier: 
+  Path: event:/BackgroundMusic
+  Guid:
+    Data1: 163821448
+    Data2: 1309341108
+    Data3: 1741686719
+    Data4: 2055804635
+  Banks:
+  - {fileID: -6919354076153971371}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 123870
 --- !u!114 &-9029986168494290888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123,6 +150,26 @@ MonoBehaviour:
   Name: AcidBubbles
   StudioPath: bank:/AcidBubbles
   lastModified: 639081616069755341
+  FileSizes:
+  - Name: Desktop
+    Value: 506
+  Exists: 1
+--- !u!114 &-8707764957812971075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerInjury.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/PlayerInjury.bank
+  Name: PlayerInjury
+  StudioPath: bank:/PlayerInjury
+  lastModified: 639081640417548666
   FileSizes:
   - Name: Desktop
     Value: 506
@@ -254,6 +301,26 @@ MonoBehaviour:
   - Name: Desktop
     Value: 54976
   Exists: 1
+--- !u!114 &-8391639328703741520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/WeaponReloading.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/WeaponReloading.bank
+  Name: WeaponReloading
+  StudioPath: bank:/WeaponReloading
+  lastModified: 639081640420158501
+  FileSizes:
+  - Name: Desktop
+    Value: 506
+  Exists: 1
 --- !u!114 &-8248470404750991142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -370,6 +437,26 @@ MonoBehaviour:
   Name: Ambiant
   StudioPath: bank:/Ambiant
   lastModified: 639081616069755341
+  FileSizes:
+  - Name: Desktop
+    Value: 506
+  Exists: 1
+--- !u!114 &-7833639289854406050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AcidBubbles.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/AcidBubbles.bank
+  Name: AcidBubbles
+  StudioPath: bank:/AcidBubbles
+  lastModified: 639081640396069302
   FileSizes:
   - Name: Desktop
     Value: 506
@@ -775,6 +862,26 @@ MonoBehaviour:
   - Name: Desktop
     Value: 2341504
   Exists: 1
+--- !u!114 &-6919354076153971371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/bg.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/bg.bank
+  Name: bg
+  StudioPath: bank:/bg
+  lastModified: 639081640416677123
+  FileSizes:
+  - Name: Desktop
+    Value: 2341504
+  Exists: 1
 --- !u!114 &-6877289075995745903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -902,6 +1009,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 123870
+--- !u!114 &-6697574355981803870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/WeaponFiring.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/WeaponFiring.bank
+  Name: WeaponFiring
+  StudioPath: bank:/WeaponFiring
+  lastModified: 639081640420093417
+  FileSizes:
+  - Name: Desktop
+    Value: 506
+  Exists: 1
 --- !u!114 &-6671732583491179631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1156,6 +1283,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1344
   Exists: 1
+--- !u!114 &-6020616583515729756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BackgroundMusic
+  m_EditorClassIdentifier: 
+  Path: event:/BackgroundMusic
+  Guid:
+    Data1: 163821448
+    Data2: 1309341108
+    Data3: 1741686719
+    Data4: 2055804635
+  Banks:
+  - {fileID: 1330412785911464392}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 123870
 --- !u!114 &-6014092410892369703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1444,6 +1598,26 @@ MonoBehaviour:
   - Name: Desktop
     Value: 54976
   Exists: 1
+--- !u!114 &-5594810911432262264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 639081640417493481
+  FileSizes:
+  - Name: Desktop
+    Value: 1074
+  Exists: 1
 --- !u!114 &-5530294716593541620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1711,6 +1885,26 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 506
+  Exists: 1
+--- !u!114 &-4757929737439570992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/RedBloodCells.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/RedBloodCells.bank
+  Name: RedBloodCells
+  StudioPath: bank:/RedBloodCells
+  lastModified: 639081640419983204
+  FileSizes:
+  - Name: Desktop
+    Value: 845376
   Exists: 1
 --- !u!114 &-4708821313926889842
 MonoBehaviour:
@@ -2087,6 +2281,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1240
+--- !u!114 &-3681469604237851814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambiant.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/Ambiant.bank
+  Name: Ambiant
+  StudioPath: bank:/Ambiant
+  lastModified: 639081640396151300
+  FileSizes:
+  - Name: Desktop
+    Value: 506
+  Exists: 1
 --- !u!114 &-3675113277445034302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2187,6 +2401,26 @@ MonoBehaviour:
   - Name: Desktop
     Value: 506
   Exists: 1
+--- !u!114 &-3365170436215915528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/RedBloodCells.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/RedBloodCells.bank
+  Name: RedBloodCells
+  StudioPath: bank:/RedBloodCells
+  lastModified: 639081640419983204
+  FileSizes:
+  - Name: Desktop
+    Value: 845376
+  Exists: 1
 --- !u!114 &-3342914720898441882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2207,6 +2441,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 506
   Exists: 1
+--- !u!114 &-3332974395241536066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bacteria Death
+  m_EditorClassIdentifier: 
+  Path: event:/Bacteria Death
+  Guid:
+    Data1: -1646634212
+    Data2: 1223428605
+    Data3: 1424241334
+    Data4: -1878555043
+  Banks:
+  - {fileID: -927332687481196169}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1146
 --- !u!114 &-3306497163169193826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3030,6 +3291,26 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1074
   Exists: 1
+--- !u!114 &-927332687481196169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Bacteria.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/Bacteria.bank
+  Name: Bacteria
+  StudioPath: bank:/Bacteria
+  lastModified: 639081667227422824
+  FileSizes:
+  - Name: Desktop
+    Value: 26336
+  Exists: 1
 --- !u!114 &-832105089088584061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3057,6 +3338,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1240
+--- !u!114 &-773938724068244371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambiant.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/Ambiant.bank
+  Name: Ambiant
+  StudioPath: bank:/Ambiant
+  lastModified: 639081640396151300
+  FileSizes:
+  - Name: Desktop
+    Value: 506
+  Exists: 1
 --- !u!114 &-693617881949514201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3076,6 +3377,26 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 26336
+  Exists: 1
+--- !u!114 &-629688374028420196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 639081640417493481
+  FileSizes:
+  - Name: Desktop
+    Value: 1074
   Exists: 1
 --- !u!114 &-590783882597019781
 MonoBehaviour:
@@ -3124,6 +3445,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 506
   Exists: 1
+--- !u!114 &-503599993261028246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Footsteps
+  Guid:
+    Data1: -973660618
+    Data2: 1263503351
+    Data3: -1816697165
+    Data4: -1823801017
+  Banks:
+  - {fileID: 8451370524214219075}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1240
 --- !u!114 &-490662839402985013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3298,30 +3646,30 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -5289043705620353602}
-  - {fileID: -6325342581827526629}
-  - {fileID: 2867315823971718961}
-  - {fileID: -280325464254684481}
-  - {fileID: -5666224579313540744}
-  - {fileID: 4654404740822741913}
-  - {fileID: 4264126483643801175}
-  - {fileID: -3541896444539645597}
-  - {fileID: -230643463369475364}
-  - {fileID: -2822623576075235974}
-  - {fileID: 8640519129003017313}
-  - {fileID: -1149410049015965423}
+  - {fileID: 3214289267178738491}
+  - {fileID: 3109294532211434828}
+  - {fileID: -3681469604237851814}
+  - {fileID: 3138520773855289589}
+  - {fileID: 1330412785911464392}
+  - {fileID: 8451370524214219075}
+  - {fileID: -629688374028420196}
+  - {fileID: -8707764957812971075}
+  - {fileID: -4757929737439570992}
+  - {fileID: 5379154447684668499}
+  - {fileID: 8487413191627804113}
+  - {fileID: -8391639328703741520}
   EditorEvents:
-  - {fileID: -2049981621302402790}
-  - {fileID: -5234705363538430441}
-  - {fileID: -5798082027736919827}
-  - {fileID: 7925894354161354354}
+  - {fileID: 2767321286495265996}
+  - {fileID: -6020616583515729756}
+  - {fileID: -503599993261028246}
+  - {fileID: 1773305190218862579}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 4264126483643801175}
+  - {fileID: -629688374028420196}
   StringsBanks:
-  - {fileID: -5289043705620353602}
+  - {fileID: 3214289267178738491}
   cacheVersion: 131858
-  cacheTime: 639081667227422824
+  cacheTime: 639081744015288601
   SerializableEventsDict:
   - key: event:/Bacteria Death
     index: 0
@@ -3331,6 +3679,33 @@ MonoBehaviour:
     index: 2
   - key: event:/RBC_Voicelines
     index: 3
+--- !u!114 &32170978077254670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Footsteps
+  Guid:
+    Data1: -973660618
+    Data2: 1263503351
+    Data3: -1816697165
+    Data4: -1823801017
+  Banks:
+  - {fileID: 1793247404134706797}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1240
 --- !u!114 &70804141732393668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3378,6 +3753,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 26336
   Exists: 1
+--- !u!114 &210896018493588123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RBC_Voicelines
+  m_EditorClassIdentifier: 
+  Path: event:/RBC_Voicelines
+  Guid:
+    Data1: -231594544
+    Data2: 1166107038
+    Data3: -839575673
+    Data4: -913202323
+  Banks:
+  - {fileID: -3365170436215915528}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10524
 --- !u!114 &392846709623329664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3579,6 +3981,26 @@ MonoBehaviour:
   - Name: Desktop
     Value: 845376
   Exists: 1
+--- !u!114 &999938172312918649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerInjury.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/PlayerInjury.bank
+  Name: PlayerInjury
+  StudioPath: bank:/PlayerInjury
+  lastModified: 639081640417548666
+  FileSizes:
+  - Name: Desktop
+    Value: 506
+  Exists: 1
 --- !u!114 &1032836610941978689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3760,6 +4182,26 @@ MonoBehaviour:
   - Name: Desktop
     Value: 506
   Exists: 1
+--- !u!114 &1330412785911464392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/bg.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/bg.bank
+  Name: bg
+  StudioPath: bank:/bg
+  lastModified: 639081640416677123
+  FileSizes:
+  - Name: Desktop
+    Value: 2341504
+  Exists: 1
 --- !u!114 &1337155491130795692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3834,6 +4276,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 123870
+--- !u!114 &1386548521682094855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/WallImpacts.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/WallImpacts.bank
+  Name: WallImpacts
+  StudioPath: bank:/WallImpacts
+  lastModified: 639081640420048330
+  FileSizes:
+  - Name: Desktop
+    Value: 506
+  Exists: 1
 --- !u!114 &1411223354326819182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3954,6 +4416,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 506
   Exists: 1
+--- !u!114 &1773305190218862579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RBC_Voicelines
+  m_EditorClassIdentifier: 
+  Path: event:/RBC_Voicelines
+  Guid:
+    Data1: -231594544
+    Data2: 1166107038
+    Data3: -839575673
+    Data4: -913202323
+  Banks:
+  - {fileID: -4757929737439570992}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10524
 --- !u!114 &1784507781819522269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3973,6 +4462,26 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 1074
+  Exists: 1
+--- !u!114 &1793247404134706797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Footsteps.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/Footsteps.bank
+  Name: Footsteps
+  StudioPath: bank:/Footsteps
+  lastModified: 639081663506628860
+  FileSizes:
+  - Name: Desktop
+    Value: 54976
   Exists: 1
 --- !u!114 &1921523634696754221
 MonoBehaviour:
@@ -4175,6 +4684,26 @@ MonoBehaviour:
   - Name: Desktop
     Value: 506
   Exists: 1
+--- !u!114 &2539960311134325217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 639081640417503513
+  FileSizes:
+  - Name: Desktop
+    Value: 1388
+  Exists: 1
 --- !u!114 &2546435849073123908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4235,6 +4764,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 506
   Exists: 1
+--- !u!114 &2767321286495265996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bacteria Death
+  m_EditorClassIdentifier: 
+  Path: event:/Bacteria Death
+  Guid:
+    Data1: -1646634212
+    Data2: 1223428605
+    Data3: 1424241334
+    Data4: -1878555043
+  Banks:
+  - {fileID: 3138520773855289589}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1146
 --- !u!114 &2811490415548260092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4322,6 +4878,46 @@ MonoBehaviour:
   - Name: Desktop
     Value: 845376
   Exists: 1
+--- !u!114 &3109294532211434828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AcidBubbles.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/AcidBubbles.bank
+  Name: AcidBubbles
+  StudioPath: bank:/AcidBubbles
+  lastModified: 639081640396069302
+  FileSizes:
+  - Name: Desktop
+    Value: 506
+  Exists: 1
+--- !u!114 &3138520773855289589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Bacteria.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/Bacteria.bank
+  Name: Bacteria
+  StudioPath: bank:/Bacteria
+  lastModified: 639081667227422824
+  FileSizes:
+  - Name: Desktop
+    Value: 26336
+  Exists: 1
 --- !u!114 &3139712516952690008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4389,6 +4985,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 123870
+--- !u!114 &3214289267178738491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 639081640417503513
+  FileSizes:
+  - Name: Desktop
+    Value: 1388
+  Exists: 1
 --- !u!114 &3529169311041746758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5065,6 +5681,26 @@ MonoBehaviour:
   - Name: Desktop
     Value: 506
   Exists: 1
+--- !u!114 &5379154447684668499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/WallImpacts.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/WallImpacts.bank
+  Name: WallImpacts
+  StudioPath: bank:/WallImpacts
+  lastModified: 639081640420048330
+  FileSizes:
+  - Name: Desktop
+    Value: 506
+  Exists: 1
 --- !u!114 &5488863581392727036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5106,6 +5742,26 @@ MonoBehaviour:
     Value: 506
   Exists: 1
 --- !u!114 &5629798390803151928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/WeaponReloading.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/WeaponReloading.bank
+  Name: WeaponReloading
+  StudioPath: bank:/WeaponReloading
+  lastModified: 639081640420158501
+  FileSizes:
+  - Name: Desktop
+    Value: 506
+  Exists: 1
+--- !u!114 &5635930151100134173
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6005,6 +6661,46 @@ MonoBehaviour:
   Name: Ambiant
   StudioPath: bank:/Ambiant
   lastModified: 639081640396151300
+  FileSizes:
+  - Name: Desktop
+    Value: 506
+  Exists: 1
+--- !u!114 &8451370524214219075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Footsteps.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/Footsteps.bank
+  Name: Footsteps
+  StudioPath: bank:/Footsteps
+  lastModified: 639081744015288601
+  FileSizes:
+  - Name: Desktop
+    Value: 38496
+  Exists: 1
+--- !u!114 &8487413191627804113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/WeaponFiring.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/WeaponFiring.bank
+  Name: WeaponFiring
+  StudioPath: bank:/WeaponFiring
+  lastModified: 639081640420093417
   FileSizes:
   - Name: Desktop
     Value: 506
