@@ -40,13 +40,13 @@ MonoBehaviour:
     Data4: -913202323
   Banks:
   - {fileID: -5901200721542083290}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 10524
 --- !u!114 &-6026295231854683511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82,10 +82,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/RedBloodCells.bank
   Name: RedBloodCells
   StudioPath: bank:/RedBloodCells
-  lastModified: 639081384298443266
+  lastModified: 639081389186639294
   FileSizes:
   - Name: Desktop
-    Value: 1058
+    Value: 845408
   Exists: 1
 --- !u!114 &-5530294716593541620
 MonoBehaviour:
@@ -269,7 +269,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -6026295231854683511}
   cacheVersion: 131858
-  cacheTime: 639081384298443266
+  cacheTime: 639081389186639294
   SerializableEventsDict:
   - key: event:/Footsteps
     index: 0
