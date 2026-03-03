@@ -15,11 +15,38 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639081380531778651
+  lastModified: 639081384298421084
   FileSizes:
   - Name: Desktop
     Value: 1074
   Exists: 1
+--- !u!114 &-6072418101669774449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RBC_Voicelines
+  m_EditorClassIdentifier: 
+  Path: event:/RBC_Voicelines
+  Guid:
+    Data1: -231594544
+    Data2: 1166107038
+    Data3: -839575673
+    Data4: -913202323
+  Banks:
+  - {fileID: -5901200721542083290}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-6026295231854683511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,10 +62,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639081380531782256
+  lastModified: 639081384298427093
   FileSizes:
   - Name: Desktop
-    Value: 1290
+    Value: 1334
   Exists: 1
 --- !u!114 &-5901200721542083290
 MonoBehaviour:
@@ -55,10 +82,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/RedBloodCells.bank
   Name: RedBloodCells
   StudioPath: bank:/RedBloodCells
-  lastModified: 639081375339447821
+  lastModified: 639081384298443266
   FileSizes:
   - Name: Desktop
-    Value: 506
+    Value: 1058
   Exists: 1
 --- !u!114 &-5530294716593541620
 MonoBehaviour:
@@ -235,16 +262,21 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: -5530294716593541620}
   - {fileID: 414001842296724043}
+  - {fileID: -6072418101669774449}
   EditorParameters: []
   MasterBanks:
   - {fileID: -8706493154896204760}
   StringsBanks:
   - {fileID: -6026295231854683511}
   cacheVersion: 131858
-  cacheTime: 639081381543000283
+  cacheTime: 639081384298443266
   SerializableEventsDict:
   - key: event:/Footsteps
     index: 0
+  - key: event:/BackgroundMusic
+    index: 1
+  - key: event:/RBC_Voicelines
+    index: 2
 --- !u!114 &414001842296724043
 MonoBehaviour:
   m_ObjectHideFlags: 0
