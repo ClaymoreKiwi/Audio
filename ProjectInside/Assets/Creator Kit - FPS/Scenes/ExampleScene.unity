@@ -3733,6 +3733,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1237241343}
     m_Modifications:
+    - target: {fileID: -8140608001448602215, guid: 547e1bb5b288bc14187ab3bdf87891f6,
+        type: 3}
+      propertyPath: EventReference.Path
+      value: event:/Bacteria Death
+      objectReference: {fileID: 0}
+    - target: {fileID: -8140608001448602215, guid: 547e1bb5b288bc14187ab3bdf87891f6,
+        type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: -1646634212
+      objectReference: {fileID: 0}
+    - target: {fileID: -8140608001448602215, guid: 547e1bb5b288bc14187ab3bdf87891f6,
+        type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1223428605
+      objectReference: {fileID: 0}
+    - target: {fileID: -8140608001448602215, guid: 547e1bb5b288bc14187ab3bdf87891f6,
+        type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: 1424241334
+      objectReference: {fileID: 0}
+    - target: {fileID: -8140608001448602215, guid: 547e1bb5b288bc14187ab3bdf87891f6,
+        type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: -1878555043
+      objectReference: {fileID: 0}
     - target: {fileID: 7162997211635013435, guid: 547e1bb5b288bc14187ab3bdf87891f6,
         type: 3}
       propertyPath: m_RootOrder
@@ -8099,7 +8124,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1925753579}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
