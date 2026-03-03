@@ -34,6 +34,7 @@ public class Controller : MonoBehaviour
     public float PlayerSpeed = 5.0f;
     public float RunningSpeed = 7.0f;
     public float JumpSpeed = 5.0f;
+    public Vector3 velocityDir = Vector3.zero;
 
     [Header("Audio")]
     public RandomPlayer FootstepPlayer;
@@ -45,8 +46,7 @@ public class Controller : MonoBehaviour
     int m_CurrentWeapon;
     
     float m_VerticalAngle, m_HorizontalAngle;
-    public float Speed { get; private set; } = 0.0f;
-
+    public float Speed { get; set; } = 0.0f;
     public bool LockControl { get; set; }
     public bool CanPause { get; set; } = true;
 
@@ -135,7 +135,6 @@ public class Controller : MonoBehaviour
         }
 
         Speed = 0;
-        Vector3 move = Vector3.zero;
         if (!m_IsPaused && !LockControl)
         {
             // Jump (we do it first as 
@@ -156,16 +155,16 @@ public class Controller : MonoBehaviour
             }
 
             // Move around with WASD
-            move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
-            if (move.sqrMagnitude > 1.0f)
-                move.Normalize();
+            velocityDir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
+            if (velocityDir.sqrMagnitude > 1.0f)
+                velocityDir.Normalize();
 
             float usedSpeed = m_Grounded ? actualSpeed : m_SpeedAtJump;
-            
-            move = move * usedSpeed * Time.deltaTime;
-            
-            move = transform.TransformDirection(move);
-            m_CharacterController.Move(move);
+
+            velocityDir = velocityDir * usedSpeed * Time.deltaTime;
+
+            velocityDir = transform.TransformDirection(velocityDir);
+            m_CharacterController.Move(velocityDir);
             
             // Turn player
             float turnPlayer =  Input.GetAxis("Mouse X") * MouseSensitivity;
@@ -188,7 +187,7 @@ public class Controller : MonoBehaviour
   
             m_Weapons[m_CurrentWeapon].triggerDown = Input.GetMouseButton(0);
 
-            Speed = move.magnitude / (PlayerSpeed * Time.deltaTime);
+            Speed = velocityDir.magnitude / (PlayerSpeed * Time.deltaTime);
 
             if (Input.GetButton("Reload"))
                 m_Weapons[m_CurrentWeapon].Reload();

@@ -562,7 +562,16 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
+  - AcidBubbles
+  - Ambiant
+  - Bacteria
   - bg
+  - Footsteps
+  - PlayerInjury
+  - RedBloodCells
+  - WallImpacts
+  - WeaponFiring
+  - WeaponReloading
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
@@ -575,7 +584,7 @@ MonoBehaviour:
   SharedLibraryUpdateStage: 0
   SharedLibraryTimeSinceStart: 0
   CurrentVersion: 131858
-  HideSetupWizard: 0
+  HideSetupWizard: 1
   LastEventReferenceScanVersion: 131858
   Platforms:
   - {fileID: 7255991165759665731}
