@@ -1,7 +1,8 @@
-﻿using System.Collections;
+﻿using FMOD.Studio;
+using FMODUnity;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using FMODUnity;
 
 [RequireComponent(typeof(AudioSource))]
 public class RandomPlayer : MonoBehaviour
@@ -11,13 +12,8 @@ public class RandomPlayer : MonoBehaviour
     public float PitchMax = 1.0f;
     [SerializeField] private EventReference footstepEvent;
 
-    public AudioSource source => m_Source;
-
-    AudioSource m_Source;
-
     void Awake()
     {
-        m_Source = GetComponent<AudioSource>();
     }
 
     public AudioClip GetRandomClip()
@@ -35,6 +31,15 @@ public class RandomPlayer : MonoBehaviour
 
     public void PlayClip(AudioClip clip, float pitchMin, float pitchMax)
     {
-        RuntimeManager.PlayOneShot(footstepEvent, transform.position);
+        EventInstance instance = RuntimeManager.CreateInstance(footstepEvent);
+
+        instance.set3DAttributes(RuntimeUtils.To3DAttributes(transform));
+
+        float randomPitch = Random.Range(pitchMin, pitchMax);
+        instance.setParameterByName("PitchShifterVar", randomPitch);
+
+        instance.start();
+        instance.release();
+        //RuntimeManager.PlayOneShot(footstepEvent, transform.position);
     }
 }

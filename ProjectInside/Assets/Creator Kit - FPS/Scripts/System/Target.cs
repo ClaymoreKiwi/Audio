@@ -41,8 +41,8 @@ public class Target : MonoBehaviour
     {
         m_CurrentHealth -= damage;
         
-        if(HitPlayer != null)
-            HitPlayer.PlayRandom();
+        //if(HitPlayer != null)
+            //HitPlayer.PlayRandom();
         
         if(m_CurrentHealth > 0)
             return;

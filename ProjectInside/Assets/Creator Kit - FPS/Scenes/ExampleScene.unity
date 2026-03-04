@@ -3275,6 +3275,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character
       objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: PitchMax
+      value: 1.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: PitchMin
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: footstepEvent.Path
+      value: event:/Footsteps
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: footstepEvent.Guid.Data1
+      value: -973660618
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: footstepEvent.Guid.Data2
+      value: 1263503351
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: footstepEvent.Guid.Data3
+      value: -1816697165
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: footstepEvent.Guid.Data4
+      value: -1823801017
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
     m_RemovedGameObjects: []
@@ -3284,10 +3319,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1925753581}
-    - targetCorrespondingSourceObject: {fileID: 9066338771475785965, guid: 6ca000ead671ebe449deb210e0a19be8,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 923148846}
   m_SourcePrefab: {fileID: 100100000, guid: 6ca000ead671ebe449deb210e0a19be8, type: 3}
 --- !u!1001 &760221305
 PrefabInstance:
@@ -3733,31 +3764,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1237241343}
     m_Modifications:
-    - target: {fileID: -8140608001448602215, guid: 547e1bb5b288bc14187ab3bdf87891f6,
-        type: 3}
-      propertyPath: EventReference.Path
-      value: event:/Bacteria Death
-      objectReference: {fileID: 0}
-    - target: {fileID: -8140608001448602215, guid: 547e1bb5b288bc14187ab3bdf87891f6,
-        type: 3}
-      propertyPath: EventReference.Guid.Data1
-      value: -1646634212
-      objectReference: {fileID: 0}
-    - target: {fileID: -8140608001448602215, guid: 547e1bb5b288bc14187ab3bdf87891f6,
-        type: 3}
-      propertyPath: EventReference.Guid.Data2
-      value: 1223428605
-      objectReference: {fileID: 0}
-    - target: {fileID: -8140608001448602215, guid: 547e1bb5b288bc14187ab3bdf87891f6,
-        type: 3}
-      propertyPath: EventReference.Guid.Data3
-      value: 1424241334
-      objectReference: {fileID: 0}
-    - target: {fileID: -8140608001448602215, guid: 547e1bb5b288bc14187ab3bdf87891f6,
-        type: 3}
-      propertyPath: EventReference.Guid.Data4
-      value: -1878555043
-      objectReference: {fileID: 0}
     - target: {fileID: 7162997211635013435, guid: 547e1bb5b288bc14187ab3bdf87891f6,
         type: 3}
       propertyPath: m_RootOrder
@@ -3920,45 +3926,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 254245975}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &923148842 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9066338771475785965, guid: 6ca000ead671ebe449deb210e0a19be8,
-    type: 3}
-  m_PrefabInstance: {fileID: 757582095}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &923148846
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 923148842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -973660618
-      Data2: 1263503351
-      Data3: -1816697165
-      Data4: -1823801017
-    Path: event:/Footsteps
-  Event: 
-  EventPlayTrigger: 1
-  EventStopTrigger: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params:
-  - Name: PlayerSpeed
-    Value: 0
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!4 &931618343 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2651243229121143123, guid: da8d4734e4960124d94e80bf3b24e790,
@@ -5538,6 +5505,13 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 849ab1b6ae344ca4a8059d8d5d9bfe7e, type: 3}
   PitchMin: 0.8
   PitchMax: 1.1
+  footstepEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!82 &1293402503
 AudioSource:
   m_ObjectHideFlags: 0
