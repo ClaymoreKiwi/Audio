@@ -234,6 +234,7 @@ GameObject:
   - component: {fileID: 1782824342990945115}
   - component: {fileID: 1478356705}
   - component: {fileID: -602959706916409206}
+  - component: {fileID: 8170487785117336800}
   m_Layer: 12
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -382,6 +383,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nonRigidbodyVelocity: 0
   attenuationObject: {fileID: 0}
+--- !u!114 &8170487785117336800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782824342990945093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 163821448
+      Data2: 1309341108
+      Data3: 1741686719
+      Data4: 2055804635
+    Path: event:/BackgroundMusic
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1782824343720584451
 GameObject:
   m_ObjectHideFlags: 0
@@ -533,6 +565,7 @@ MonoBehaviour:
   PlayerSpeed: 5
   RunningSpeed: 10
   JumpSpeed: 5
+  velocityDir: {x: 0, y: 0, z: 0}
   FootstepPlayer: {fileID: 4771553560791580875}
   JumpingAudioCLip: {fileID: 8300000, guid: d44cae06e297aa4458bf0a432cdf4f03, type: 3}
   LandingAudioClip: {fileID: 8300000, guid: 80b8397262d56df49828a3b530021dba, type: 3}
@@ -723,3 +756,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 9293593a23bcc74459f4038689a7f70a, type: 3}
   PitchMin: 0.8
   PitchMax: 1.1
+  footstepEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
