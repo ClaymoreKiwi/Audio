@@ -3347,6 +3347,11 @@ PrefabInstance:
       propertyPath: footstepEvent.Guid.Data4
       value: -1823801017
       objectReference: {fileID: 0}
+    - target: {fileID: 8170487785117336800, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
     m_RemovedGameObjects: []
@@ -3355,7 +3360,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1782824342990945093, guid: 6ca000ead671ebe449deb210e0a19be8,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1925753581}
+      addedObject: {fileID: 1925753587}
   m_SourcePrefab: {fileID: 100100000, guid: 6ca000ead671ebe449deb210e0a19be8, type: 3}
 --- !u!1001 &760221305
 PrefabInstance:
@@ -8128,14 +8133,14 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 757582095}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1925753581
+--- !u!114 &1925753587
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1925753579}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
@@ -8143,11 +8148,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 163821448
-      Data2: 1309341108
-      Data3: 1741686719
-      Data4: 2055804635
-    Path: event:/BackgroundMusic
+      Data1: 803101623
+      Data2: 1144930308
+      Data3: -977550427
+      Data4: 1786071265
+    Path: event:/HeartbeatGlob
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 2
