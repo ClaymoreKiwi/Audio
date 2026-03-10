@@ -40,6 +40,7 @@ public class Controller : MonoBehaviour
     public RandomPlayer FootstepPlayer;
     public AudioClip JumpingAudioCLip;
     public AudioClip LandingAudioClip;
+    public EventReference WeaponSwapClip;
     
     float m_VerticalSpeed = 0.0f;
     bool m_IsPaused = false;
@@ -270,6 +271,8 @@ public class Controller : MonoBehaviour
         {
             m_Weapons[m_CurrentWeapon].PutAway();
             m_Weapons[m_CurrentWeapon].gameObject.SetActive(false);
+
+            WeaponRPlay.PlayOneShot(WeaponSwapClip, this.transform.position);
         }
 
         m_CurrentWeapon = number;

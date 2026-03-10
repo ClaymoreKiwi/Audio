@@ -6,10 +6,12 @@ using UnityEngine.Serialization;
 using UnityEngine.UI;
 #if UNITY_EDITOR
 using UnityEditor;
+using FMODUnity;
 #endif
 
 public class Weapon : MonoBehaviour
 {
+    
     static RaycastHit[] s_HitInfoBuffer = new RaycastHit[8];
     
     public enum TriggerType
@@ -62,7 +64,7 @@ public class Weapon : MonoBehaviour
 
     [Header("Audio Clips")]
     public AudioClip FireAudioClip;
-    public AudioClip ReloadAudioClip;
+    public EventReference ReloadAudioClip;
     
     [Header("Visual Settings")]
     public LineRenderer PrefabRayTrail;
@@ -318,11 +320,11 @@ public class Weapon : MonoBehaviour
         }
 
 
-        if (ReloadAudioClip != null)
-        {
-            m_Source.pitch = Random.Range(0.7f, 1.0f);
-            m_Source.PlayOneShot(ReloadAudioClip);
-        }
+
+        //if (ReloadAudioClip)
+        //{
+            WeaponRPlay.instance.PlayOneShot(ReloadAudioClip, this.transform.position);
+        //}
 
         int chargeInClip = Mathf.Min(remainingBullet, clipSize - m_ClipContent);
      
