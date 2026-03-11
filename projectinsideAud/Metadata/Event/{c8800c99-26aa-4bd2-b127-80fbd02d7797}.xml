@@ -110,6 +110,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{6ae2df4e-c9b7-42de-ace4-5fc1cd5c9d26}">
 		<relationship name="effects">
+			<destination>{54a2dcd3-aee8-47d2-8537-f3df8c8cc466}</destination>
 			<destination>{51e7a863-b100-4fbe-917d-180bbe770b22}</destination>
 			<destination>{24cff7b8-c5db-4081-a651-8900719386fb}</destination>
 			<destination>{fa5d47ef-1a08-47e0-a211-dd41b18103c5}</destination>
@@ -117,6 +118,20 @@
 	</object>
 	<object class="MixerBusPanner" id="{1109a8aa-6af1-4f52-a173-23cd4e972b64}" />
 	<object class="MixerBusFader" id="{5dc9db35-1c7c-47d0-8377-2535142603ed}" />
+	<object class="CompressorEffect" id="{54a2dcd3-aee8-47d2-8537-f3df8c8cc466}">
+		<property name="threshold">
+			<value>-24</value>
+		</property>
+		<property name="ratio">
+			<value>15.5</value>
+		</property>
+		<property name="releaseTime">
+			<value>820</value>
+		</property>
+		<property name="gain">
+			<value>15.5</value>
+		</property>
+	</object>
 	<object class="MultibandEqEffect" id="{51e7a863-b100-4fbe-917d-180bbe770b22}">
 		<property name="filterTypeA">
 			<value>9</value>
@@ -125,21 +140,28 @@
 			<value>3</value>
 		</property>
 		<property name="frequencyA">
-			<value>20.8461781</value>
+			<value>20.0000019</value>
 		</property>
 		<property name="frequencyE">
-			<value>40.4546928</value>
+			<value>70.781601</value>
 		</property>
 		<property name="qualityA">
-			<value>0.900000036</value>
+			<value>1</value>
 		</property>
 		<property name="qualityE">
-			<value>0.170705676</value>
+			<value>0.183724135</value>
 		</property>
 		<property name="gainA">
-			<value>-1.20682526</value>
+			<value>0.5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{24cff7b8-c5db-4081-a651-8900719386fb}" />
-	<object class="SFXReverbEffect" id="{fa5d47ef-1a08-47e0-a211-dd41b18103c5}" />
+	<object class="SFXReverbEffect" id="{fa5d47ef-1a08-47e0-a211-dd41b18103c5}">
+		<property name="decayTime">
+			<value>3200</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>66</value>
+		</property>
+	</object>
 </objects>

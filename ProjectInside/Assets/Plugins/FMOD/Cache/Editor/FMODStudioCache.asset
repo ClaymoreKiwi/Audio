@@ -256,7 +256,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/WeaponReloading.bank
   Name: WeaponReloading
   StudioPath: bank:/WeaponReloading
-  lastModified: 639087621114424626
+  lastModified: 639088388531259321
   FileSizes:
   - Name: Desktop
     Value: 506
@@ -1319,7 +1319,7 @@ MonoBehaviour:
   - {fileID: 499312156744905388}
   IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -1734,7 +1734,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/RedBloodCells.bank
   Name: RedBloodCells
   StudioPath: bank:/RedBloodCells
-  lastModified: 639087621114354250
+  lastModified: 639088388531199003
   FileSizes:
   - Name: Desktop
     Value: 845376
@@ -2477,7 +2477,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Bacteria.bank
   Name: Bacteria
   StudioPath: bank:/Bacteria
-  lastModified: 639087621089655890
+  lastModified: 639088388512121196
   FileSizes:
   - Name: Desktop
     Value: 26336
@@ -3466,7 +3466,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639087621111154812
+  lastModified: 639088388529249502
   FileSizes:
   - Name: Desktop
     Value: 1532
@@ -3747,7 +3747,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/WallImpacts.bank
   Name: WallImpacts
   StudioPath: bank:/WallImpacts
-  lastModified: 639087621114389538
+  lastModified: 639088388531229254
   FileSizes:
   - Name: Desktop
     Value: 506
@@ -4112,7 +4112,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -1351621264264063633}
   cacheVersion: 131858
-  cacheTime: 639087621447162592
+  cacheTime: 639088397379479173
   SerializableEventsDict:
   - key: event:/Bacteria Death
     index: 0
@@ -4124,6 +4124,8 @@ MonoBehaviour:
     index: 3
   - key: event:/Heartbeat
     index: 4
+  - key: event:/HeartbeatGlob
+    index: 5
 --- !u!114 &32170978077254670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4314,10 +4316,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/bg.bank
   Name: bg
   StudioPath: bank:/bg
-  lastModified: 639087621110368014
+  lastModified: 639088390918373255
   FileSizes:
   - Name: Desktop
-    Value: 2341504
+    Value: 2341632
   Exists: 1
 --- !u!114 &538061745400454642
 MonoBehaviour:
@@ -4374,7 +4376,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/PlayerInjury.bank
   Name: PlayerInjury
   StudioPath: bank:/PlayerInjury
-  lastModified: 639087621111174857
+  lastModified: 639088388529274719
   FileSizes:
   - Name: Desktop
     Value: 506
@@ -4394,7 +4396,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639087621111144764
+  lastModified: 639088388529249502
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -5335,7 +5337,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Footsteps.bank
   Name: Footsteps
   StudioPath: bank:/Footsteps
-  lastModified: 639087621111114667
+  lastModified: 639088388529219457
   FileSizes:
   - Name: Desktop
     Value: 39136
@@ -5656,7 +5658,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/WeaponFiring.bank
   Name: WeaponFiring
   StudioPath: bank:/WeaponFiring
-  lastModified: 639087621114409633
+  lastModified: 639088388531239306
   FileSizes:
   - Name: Desktop
     Value: 506
@@ -5838,7 +5840,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/AcidBubbles.bank
   Name: AcidBubbles
   StudioPath: bank:/AcidBubbles
-  lastModified: 639087621079820019
+  lastModified: 639088388504137895
   FileSizes:
   - Name: Desktop
     Value: 506
@@ -6621,10 +6623,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Ambiant.bank
   Name: Ambiant
   StudioPath: bank:/Ambiant
-  lastModified: 639087621447162592
+  lastModified: 639088397379479173
   FileSizes:
   - Name: Desktop
-    Value: 670592
+    Value: 670752
   Exists: 1
 --- !u!114 &5949604737561993463
 MonoBehaviour:
