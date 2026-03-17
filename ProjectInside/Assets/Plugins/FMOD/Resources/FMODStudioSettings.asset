@@ -570,6 +570,7 @@ MonoBehaviour:
   - PlayerInjury
   - RedBloodCells
   - WallImpacts
+  - WeaponEquip
   - WeaponFiring
   - WeaponReloading
   BanksToLoad: []

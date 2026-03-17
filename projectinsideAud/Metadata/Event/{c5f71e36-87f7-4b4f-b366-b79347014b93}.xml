@@ -183,6 +183,7 @@
 		<relationship name="effects">
 			<destination>{e68c37d8-ad90-49f8-af47-fa46e58a44d8}</destination>
 			<destination>{c8794a1a-968f-496e-8d70-d057c0836317}</destination>
+			<destination>{703a4063-3ac8-4fc5-9c13-e79f699535aa}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{534dd780-74ff-473b-a6bd-047f16f8f2e9}" />
@@ -212,6 +213,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{c8794a1a-968f-496e-8d70-d057c0836317}" />
+	<object class="GainEffect" id="{703a4063-3ac8-4fc5-9c13-e79f699535aa}">
+		<property name="gain">
+			<value>4</value>
+		</property>
+	</object>
 	<object class="Automator" id="{1d5bb85f-4e66-4d5b-b0fb-14bbb3671442}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>pitch</value>
