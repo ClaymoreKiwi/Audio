@@ -569,6 +569,9 @@ MonoBehaviour:
   - Footsteps
   - PlayerInjury
   - RedBloodCells
+  - UI Enter
+  - UI Exit
+  - UI Hover
   - WallImpacts
   - WeaponEquip
   - WeaponFiring

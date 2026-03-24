@@ -24,8 +24,8 @@ public class PauseMenu : MonoBehaviour
 
     public void OpenEpisode()
     {
-        if(LevelSelectionUI.Instance.IsEmpty())
-            return;
+        //if(LevelSelectionUI.Instance.IsEmpty())
+        //   return;
         
         UIAudioPlayer.PlayPositive();
         gameObject.SetActive(false);
