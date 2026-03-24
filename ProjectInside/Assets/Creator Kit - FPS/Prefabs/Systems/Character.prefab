@@ -234,7 +234,7 @@ GameObject:
   - component: {fileID: 1782824342990945115}
   - component: {fileID: 1478356705}
   - component: {fileID: -602959706916409206}
-  - component: {fileID: 8170487785117336800}
+  - component: {fileID: 6003619676189176501}
   m_Layer: 12
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -383,7 +383,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nonRigidbodyVelocity: 0
   attenuationObject: {fileID: 0}
---- !u!114 &8170487785117336800
+--- !u!114 &6003619676189176501
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
