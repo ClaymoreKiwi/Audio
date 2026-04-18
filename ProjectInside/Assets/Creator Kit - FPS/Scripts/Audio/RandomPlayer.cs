@@ -41,7 +41,7 @@ public class RandomPlayer : MonoBehaviour
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.down), out hit, Mathf.Infinity))
         {
             //we have tags for each room, just need these to pass into fmod for the correct sound
-            //instance.setParameterByIDWithLabel("RoomBankVar", hit.collider.tag);
+            instance.setParameterByNameWithLabel("RoomSounds", hit.collider.tag);
         }
 
         float randomPitch = Random.Range(pitchMin, pitchMax);
