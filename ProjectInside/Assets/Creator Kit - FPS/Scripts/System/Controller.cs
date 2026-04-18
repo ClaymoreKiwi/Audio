@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 #if UNITY_EDITOR
 using UnityEditor;
@@ -256,11 +257,18 @@ public class Controller : MonoBehaviour
             w.name = prefab.name;
             w.transform.localPosition = Vector3.zero;
             w.transform.localRotation = Quaternion.identity;
+            
             w.gameObject.SetActive(false);
             
             w.PickedUp(this);
             
             m_Weapons.Add(w);
+
+            var animator =w.GetComponentInChildren<Animator>().gameObject;
+            if (!animator.GetComponent<WeaponAnimationEventHandler>())
+            {
+                animator.AddComponent<WeaponAnimationEventHandler>();
+            }
         }
     }
 

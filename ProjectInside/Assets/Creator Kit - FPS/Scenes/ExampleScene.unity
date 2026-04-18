@@ -3374,6 +3374,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1478356705, guid: 6ca000ead671ebe449deb210e0a19be8, type: 3}
+      propertyPath: m_ShowToolkit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478356705, guid: 6ca000ead671ebe449deb210e0a19be8, type: 3}
+      propertyPath: m_ShowCustomSorter
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1782824343737523952, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: 'startingWeapons.Array.data[0]'
+      value: 
+      objectReference: {fileID: 521019951643201760, guid: a7112150bc902aa40a065439ad698c01,
+        type: 3}
+    - target: {fileID: 1782824343737523952, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: 'startingWeapons.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8587774576786866763, guid: 760a5cd9833938442ba8a4b54bfa8148,
+        type: 3}
     - target: {fileID: 1782824343737523953, guid: 6ca000ead671ebe449deb210e0a19be8,
         type: 3}
       propertyPath: m_RootOrder
@@ -9130,6 +9150,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GermSlime (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212324151211496083, guid: 547e1bb5b288bc14187ab3bdf87891f6,
+        type: 3}
+      propertyPath: footstepEvent.Path
+      value: event:/Footsteps
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212324151211496083, guid: 547e1bb5b288bc14187ab3bdf87891f6,
+        type: 3}
+      propertyPath: footstepEvent.Guid.Data1
+      value: -973660618
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212324151211496083, guid: 547e1bb5b288bc14187ab3bdf87891f6,
+        type: 3}
+      propertyPath: footstepEvent.Guid.Data2
+      value: 1263503351
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212324151211496083, guid: 547e1bb5b288bc14187ab3bdf87891f6,
+        type: 3}
+      propertyPath: footstepEvent.Guid.Data3
+      value: -1816697165
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212324151211496083, guid: 547e1bb5b288bc14187ab3bdf87891f6,
+        type: 3}
+      propertyPath: footstepEvent.Guid.Data4
+      value: -1823801017
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
