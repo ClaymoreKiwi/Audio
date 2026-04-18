@@ -12,8 +12,8 @@ public class GameSystem : MonoBehaviour
 {
     public static GameSystem Instance { get; private set; }
 
-    static int s_CurrentEpisode = -1;
-    static int s_CurrentLevel = -1;
+    static int s_CurrentEpisode = 0;
+    static int s_CurrentLevel = 0;
     
     public GameObject[] StartPrefabs;
     public float TargetMissedPenalty = 1.0f;

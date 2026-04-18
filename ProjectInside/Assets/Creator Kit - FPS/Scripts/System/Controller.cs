@@ -264,6 +264,7 @@ public class Controller : MonoBehaviour
             
             m_Weapons.Add(w);
 
+            //add the event to the weapon
             var animator =w.GetComponentInChildren<Animator>().gameObject;
             if (!animator.GetComponent<WeaponAnimationEventHandler>())
             {

@@ -19,4 +19,9 @@ MonoBehaviour:
       id: 0
     - name: Pill
       id: 2
-  episodes: []
+  episodes:
+  - title: BigBoss
+    sceneAssets:
+    - {fileID: 102900000, guid: e217333b9e695f74aa79513a2ffa1cae, type: 3}
+    scenes:
+    - Assets/Creator Kit - FPS/Scenes/Boss.unity
