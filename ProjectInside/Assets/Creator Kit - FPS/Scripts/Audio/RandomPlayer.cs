@@ -11,9 +11,11 @@ public class RandomPlayer : MonoBehaviour
     public float PitchMin = 1.0f;
     public float PitchMax = 1.0f;
     [SerializeField] private EventReference footstepEvent;
+    public string[] roomTags;
 
     void Awake()
     {
+        roomTags = UnityEditorInternal.InternalEditorUtility.tags;
     }
 
     public AudioClip GetRandomClip()
@@ -34,6 +36,13 @@ public class RandomPlayer : MonoBehaviour
         EventInstance instance = RuntimeManager.CreateInstance(footstepEvent);
 
         instance.set3DAttributes(RuntimeUtils.To3DAttributes(transform));
+        
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.down), out hit, Mathf.Infinity))
+        {
+            //we have tags for each room, just need these to pass into fmod for the correct sound
+            //instance.setParameterByIDWithLabel("RoomBankVar", hit.collider.tag);
+        }
 
         float randomPitch = Random.Range(pitchMin, pitchMax);
         instance.setParameterByName("PitchShifterVar", randomPitch);
