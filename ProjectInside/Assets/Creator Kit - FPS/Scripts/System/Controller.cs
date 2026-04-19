@@ -35,6 +35,7 @@ public class Controller : MonoBehaviour
     public float PlayerSpeed = 5.0f;
     public float RunningSpeed = 7.0f;
     public float JumpSpeed = 5.0f;
+    public float PlayerHealth = 100.0f;
     public Vector3 velocityDir = Vector3.zero;
 
     [Header("Audio")]
@@ -107,6 +108,11 @@ public class Controller : MonoBehaviour
         if (CanPause && Input.GetButtonDown("Menu"))
         {
             PauseMenu.Instance.Display();
+        }
+
+        if (PlayerHealth <= 0)
+        {
+            DeathMenu.Instance.Display();
         }
         
         FullscreenMap.Instance.gameObject.SetActive(Input.GetButton("Map"));
@@ -322,5 +328,18 @@ public class Controller : MonoBehaviour
     public void PlayFootstep()
     {
         FootstepPlayer.PlayRandom();
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("germ"))
+        {
+            PlayerHealth--;
+        }
+
+        if (other.gameObject.CompareTag("germSpike"))
+        {
+            PlayerHealth -= 5;
+        }
     }
 }

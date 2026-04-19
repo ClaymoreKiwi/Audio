@@ -6,9 +6,9 @@ using UnityEngine.SceneManagement;
 using UnityEditor;
 #endif
 
-public class PauseMenu : MonoBehaviour
+public class DeathMenu : MonoBehaviour
 {
-    public static PauseMenu Instance { get; private set; }
+    public static DeathMenu Instance { get; private set; }
 
     void Awake()
     {
@@ -23,27 +23,11 @@ public class PauseMenu : MonoBehaviour
         Controller.Instance.DisplayCursor(true);
     }
 
-    public void OpenEpisode()
-    {
-        //if(LevelSelectionUI.Instance.IsEmpty())
-        //   return;
-        
-        UIAudioPlayer.PlayPositive();
-        gameObject.SetActive(false);
-        LevelSelectionUI.Instance.DisplayEpisode();
-    }
-
-    public void ReturnToGame()
-    {
-        UIAudioPlayer.PlayPositive();
-        GameSystem.Instance.StartTimer();
-        gameObject.SetActive(false);
-        Controller.Instance.DisplayCursor(false);
-    }
-
     public void RestartGame()
     {
-        SceneManager.LoadScene("ExampleScene");
+        FMOD.Studio.Bus masterBus = FMODUnity.RuntimeManager.GetBus("bus:/");
+        masterBus.stopAllEvents(FMOD.Studio.STOP_MODE.IMMEDIATE);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void ExitGame()

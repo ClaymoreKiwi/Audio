@@ -306,7 +306,7 @@ GameObject:
   - component: {fileID: 3797559090639080954}
   m_Layer: 10
   m_Name: GermSlimeTarget
-  m_TagString: Untagged
+  m_TagString: germ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -438,6 +438,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6db9e87ee9fd8d944b12f95f5075234e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  updateRate: 0.2
 --- !u!1001 &2834995659269953124
 PrefabInstance:
   m_ObjectHideFlags: 0
