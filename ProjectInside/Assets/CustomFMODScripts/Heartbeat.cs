@@ -8,6 +8,7 @@ public class Heartbeat : MonoBehaviour
 {
     [SerializeField] private EventReference heartDistance;
     [SerializeField] private GameObject Player;
+    [SerializeField] private string paramName;
     EventInstance instance;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -22,6 +23,6 @@ public class Heartbeat : MonoBehaviour
     void Update()
     {
         float distance = (transform.position - Player.transform.position).sqrMagnitude;
-        instance.setParameterByName("DistanceHeart", distance);
+        instance.setParameterByName(paramName, distance);
     }
 }

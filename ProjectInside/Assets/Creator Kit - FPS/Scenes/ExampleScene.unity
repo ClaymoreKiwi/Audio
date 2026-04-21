@@ -3102,37 +3102,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2136614602}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &686216665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 686216660}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1390541220
-      Data2: 1177255278
-      Data3: 115145918
-      Data4: -1206938324
-    Path: event:/Heartbeat
-  Event: 
-  EventPlayTrigger: 1
-  EventStopTrigger: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 40
 --- !u!114 &686216670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3184,6 +3153,7 @@ MonoBehaviour:
       Data4: -1099341404
     Path: event:/SpatialHeart
   Player: {fileID: 757582096}
+  paramName: DistanceHeart
 --- !u!4 &747635990 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5895921109282496624, guid: ec691380843541646a7f18b7c7384272,
@@ -3556,10 +3526,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 757582103}
-    - targetCorrespondingSourceObject: {fileID: 1782824342990945093, guid: 6ca000ead671ebe449deb210e0a19be8,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1925753581}
   m_SourcePrefab: {fileID: 100100000, guid: 6ca000ead671ebe449deb210e0a19be8, type: 3}
 --- !u!1 &757582096 stripped
 GameObject:
@@ -3935,6 +3901,66 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.3268005, y: 2.4480002, z: 1.1546004}
   m_Center: {x: -5.107026e-15, y: -0.00000005960465, z: 0.000000923872}
+--- !u!1 &834396192 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2288753979273324623, guid: b79abcb9ee326264694320b336aa66c6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1118897295}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &834396197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834396192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -125323146
+      Data2: 1077614850
+      Data3: -439409791
+      Data4: 1050869369
+    Path: event:/Brain Signals
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params:
+  - Name: BrainDist
+    Value: 0
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &834396198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834396192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5bb48f5a49a9464e858ff8010af9a9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heartDistance:
+    Guid:
+      Data1: -125323146
+      Data2: 1077614850
+      Data3: -439409791
+      Data4: 1050869369
+    Path: event:/Brain Signals
+  Player: {fileID: 757582096}
+  paramName: BrainDist
 --- !u!1001 &842252558
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4916,7 +4942,15 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 2288753979273324615, guid: b79abcb9ee326264694320b336aa66c6, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2288753979273324623, guid: b79abcb9ee326264694320b336aa66c6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 834396197}
+    - targetCorrespondingSourceObject: {fileID: 2288753979273324623, guid: b79abcb9ee326264694320b336aa66c6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 834396198}
   m_SourcePrefab: {fileID: 100100000, guid: b79abcb9ee326264694320b336aa66c6, type: 3}
 --- !u!114 &1118897296 stripped
 MonoBehaviour:
@@ -8485,43 +8519,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1718681326}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1925753579 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1782824342990945093, guid: 6ca000ead671ebe449deb210e0a19be8,
-    type: 3}
-  m_PrefabInstance: {fileID: 757582095}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1925753581
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1925753579}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -931132263
-      Data2: 1272063658
-      Data3: -75487311
-      Data4: -1753797168
-    Path: event:/HeartbeatGlob
-  Event: 
-  EventPlayTrigger: 1
-  EventStopTrigger: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1938979759
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9503,10 +9500,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2729237056595955333, guid: b9c7f73cbb9617a4c82234a257216bbf,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 686216665}
     - targetCorrespondingSourceObject: {fileID: 2729237056595955333, guid: b9c7f73cbb9617a4c82234a257216bbf,
         type: 3}
       insertIndex: -1
