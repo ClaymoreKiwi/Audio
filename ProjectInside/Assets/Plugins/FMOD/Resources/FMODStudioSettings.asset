@@ -576,6 +576,7 @@ MonoBehaviour:
   - WeaponEquip
   - WeaponFiring
   - WeaponReloading
+  - Weapons
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

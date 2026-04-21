@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using UnityEngine.Serialization;
-using UnityEngine.UI;
-#if UNITY_EDITOR
 using UnityEditor;
-#endif
+using FMOD.Studio;
+using FMODUnity;
+using System;
+
 
 public class Weapon : MonoBehaviour
 {
@@ -30,7 +30,7 @@ public class Weapon : MonoBehaviour
         Firing,
         Reloading
     }
-
+ 
     [System.Serializable]
     public class AdvancedSettings
     {
@@ -38,7 +38,7 @@ public class Weapon : MonoBehaviour
         public int projectilePerShot = 1;
         public float screenShakeMultiplier = 1.0f;
     }
-
+ 
     public TriggerType triggerType = TriggerType.Manual;
     public WeaponType weaponType = WeaponType.Raycast;
     public float fireRate = 0.5f;
@@ -46,6 +46,7 @@ public class Weapon : MonoBehaviour
     public int clipSize = 4;
     public float damage = 1.0f;
 
+    
     [AmmoType]
     public int ammoType = -1;
 
@@ -63,7 +64,10 @@ public class Weapon : MonoBehaviour
     [Header("Audio Clips")]
     public AudioClip FireAudioClip;
     public AudioClip ReloadAudioClip;
-    
+    [SerializeField] public EventReference shootingEvent;
+    [SerializeField] public EventReference reloadEvent;
+        
+
     [Header("Visual Settings")]
     public LineRenderer PrefabRayTrail;
     public bool DisabledOnEmpty;
@@ -215,9 +219,9 @@ public class Weapon : MonoBehaviour
         
         m_Animator.SetTrigger("fire");
 
-        m_Source.pitch = Random.Range(0.7f, 1.0f);
-        m_Source.PlayOneShot(FireAudioClip);
-        
+        m_Source.pitch = UnityEngine.Random.Range(0.7f, 1.0f);
+        RuntimeManager.PlayOneShot(shootingEvent, transform.position);
+
         CameraShaker.Instance.Shake(0.2f, 0.05f * advancedSettings.screenShakeMultiplier);
 
         if (weaponType == WeaponType.Raycast)
@@ -240,7 +244,7 @@ public class Weapon : MonoBehaviour
         //compute the ratio of our spread angle over the fov to know in viewport space what is the possible offset from center
         float spreadRatio = advancedSettings.spreadAngle / Controller.Instance.MainCamera.fieldOfView;
 
-        Vector2 spread = spreadRatio * Random.insideUnitCircle;
+        Vector2 spread = spreadRatio * UnityEngine.Random.insideUnitCircle;
         
         RaycastHit hit;
         Ray r = Controller.Instance.MainCamera.ViewportPointToRay(Vector3.one * 0.5f + (Vector3)spread);
@@ -283,8 +287,8 @@ public class Weapon : MonoBehaviour
     {
         for (int i = 0; i < advancedSettings.projectilePerShot; ++i)
         {
-            float angle = Random.Range(0.0f, advancedSettings.spreadAngle * 0.5f);
-            Vector2 angleDir = Random.insideUnitCircle * Mathf.Tan(angle * Mathf.Deg2Rad);
+            float angle = UnityEngine.Random.Range(0.0f, advancedSettings.spreadAngle * 0.5f);
+            Vector2 angleDir = UnityEngine.Random.insideUnitCircle * Mathf.Tan(angle * Mathf.Deg2Rad);
 
             Vector3 dir = EndPoint.transform.forward + (Vector3)angleDir;
             dir.Normalize();
@@ -318,11 +322,7 @@ public class Weapon : MonoBehaviour
         }
 
 
-        if (ReloadAudioClip != null)
-        {
-            m_Source.pitch = Random.Range(0.7f, 1.0f);
-            m_Source.PlayOneShot(ReloadAudioClip);
-        }
+        RuntimeManager.PlayOneShot(reloadEvent, transform.position);
 
         int chargeInClip = Mathf.Min(remainingBullet, clipSize - m_ClipContent);
      
@@ -499,8 +499,10 @@ public class WeaponEditor : Editor
    SerializedProperty m_PrefabRayTrailProp;
    SerializedProperty m_AmmoDisplayProp;
    SerializedProperty m_DisabledOnEmpty;
+   SerializedProperty m_ShootingEventProp;
+    SerializedProperty m_reloadEventProp;
 
-   void OnEnable()
+    void OnEnable()
    {
        m_TriggerTypeProp = serializedObject.FindProperty("triggerType");
        m_WeaponTypeProp = serializedObject.FindProperty("weaponType");
@@ -520,7 +522,9 @@ public class WeaponEditor : Editor
        m_PrefabRayTrailProp = serializedObject.FindProperty("PrefabRayTrail");
        m_AmmoDisplayProp = serializedObject.FindProperty("AmmoDisplay");
        m_DisabledOnEmpty = serializedObject.FindProperty("DisabledOnEmpty");
-   }
+       m_ShootingEventProp = serializedObject.FindProperty("shootingEvent");
+        m_reloadEventProp = serializedObject.FindProperty("reloadEvent");
+    }
 
    public override void OnInspectorGUI()
     {
@@ -546,6 +550,9 @@ public class WeaponEditor : Editor
         EditorGUILayout.PropertyField(m_ReloadAnimationClipProp);
         EditorGUILayout.PropertyField(m_FireAudioClipProp);
         EditorGUILayout.PropertyField(m_ReloadAudioClipProp);
+        EditorGUILayout.PropertyField(m_ShootingEventProp);
+        EditorGUILayout.PropertyField(m_reloadEventProp);
+
 
         if (m_WeaponTypeProp.intValue == (int)Weapon.WeaponType.Raycast)
         {

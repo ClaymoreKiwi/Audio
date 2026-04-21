@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8451913374945288254}
   - component: {fileID: 521019951643201760}
   - component: {fileID: 4346231888284757310}
+  - component: {fileID: 171244861155495666}
   m_Layer: 9
   m_Name: GermOBlaster
   m_TagString: Untagged
@@ -64,6 +65,13 @@ MonoBehaviour:
   ReloadAnimationClip: {fileID: 7400008, guid: 36622a955330bc346a249a1e63e61d2a, type: 3}
   FireAudioClip: {fileID: 8300000, guid: 79c781879da4b6c4f8c7cd79fd034759, type: 3}
   ReloadAudioClip: {fileID: 8300000, guid: 53b8e7c6ac6cd6d49977438b25dacfc7, type: 3}
+  shootingEvent:
+    Guid:
+      Data1: -1816839479
+      Data2: 1136402358
+      Data3: -630279034
+      Data4: -1797916194
+    Path: event:/Rifle Fire
   PrefabRayTrail: {fileID: 1691346627199228128, guid: bc513dca9b359aa49aac8365c74ad13d,
     type: 3}
   DisabledOnEmpty: 0
@@ -166,6 +174,37 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &171244861155495666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8613203814553789430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2049319884
+      Data2: 1304012699
+      Data3: -910413676
+      Data4: -917715049
+    Path: event:/Rifle Equip
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &2198550043461616411
 PrefabInstance:
   m_ObjectHideFlags: 0
