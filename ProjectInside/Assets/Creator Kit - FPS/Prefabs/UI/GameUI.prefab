@@ -966,6 +966,7 @@ GameObject:
   - component: {fileID: 4072112387700551444}
   - component: {fileID: 7991520427560420391}
   - component: {fileID: 5495116328941188860}
+  - component: {fileID: 3292766774667026080}
   m_Layer: 5
   m_Name: LevelSelect
   m_TagString: Untagged
@@ -1087,6 +1088,35 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &3292766774667026080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2354022734466475638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 9041765360153425353}
+          m_TargetAssemblyTypeName: buttonHoverSFX, Assembly-CSharp
+          m_MethodName: PlayHover
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &2535005010009452086
 GameObject:
   m_ObjectHideFlags: 0
@@ -2553,6 +2583,7 @@ GameObject:
   m_Component:
   - component: {fileID: 336986229191502273}
   - component: {fileID: 1648332810518289509}
+  - component: {fileID: 9041765360153425353}
   m_Layer: 5
   m_Name: FinalUI
   m_TagString: Untagged
@@ -2599,6 +2630,18 @@ MonoBehaviour:
   TimeSpent: {fileID: 8711372948987152578}
   FinalTime: {fileID: 9086912671824640896}
   FinalScore: {fileID: 7620222879702116531}
+--- !u!114 &9041765360153425353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4219104099706360979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1042707661b2d3b4f9a8c51330d4583b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4268602537983105817
 GameObject:
   m_ObjectHideFlags: 0
@@ -3171,6 +3214,7 @@ GameObject:
   - component: {fileID: 7527238645668858012}
   - component: {fileID: 1158468020285504262}
   - component: {fileID: 583117175234557901}
+  - component: {fileID: 1854577181849072380}
   m_Layer: 5
   m_Name: RestartGame
   m_TagString: Untagged
@@ -3292,6 +3336,35 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1854577181849072380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5596183514641063309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 9041765360153425353}
+          m_TargetAssemblyTypeName: buttonHoverSFX, Assembly-CSharp
+          m_MethodName: PlayHover
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &5976697860871968068
 GameObject:
   m_ObjectHideFlags: 0
@@ -3413,9 +3486,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: ExitGame
+      - m_Target: {fileID: 9041765360153425353}
+        m_TargetAssemblyTypeName: buttonHoverSFX, Assembly-CSharp
+        m_MethodName: PlayHover
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3716,6 +3789,7 @@ GameObject:
   - component: {fileID: 6330049738764295115}
   - component: {fileID: 5537832544819524482}
   - component: {fileID: 5335893652416653896}
+  - component: {fileID: 6917301474477972465}
   m_Layer: 5
   m_Name: ExitGame
   m_TagString: Untagged
@@ -3837,6 +3911,35 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &6917301474477972465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6403485203540077783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 9041765360153425353}
+          m_TargetAssemblyTypeName: buttonHoverSFX, Assembly-CSharp
+          m_MethodName: PlayHover
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &6544641807180718608
 GameObject:
   m_ObjectHideFlags: 0
@@ -4165,6 +4268,7 @@ GameObject:
   - component: {fileID: 3932383299445005463}
   - component: {fileID: 7773607137669566687}
   - component: {fileID: 4828792903306449116}
+  - component: {fileID: 7414982877987387179}
   m_Layer: 5
   m_Name: ReturnToGame
   m_TagString: Untagged
@@ -4286,6 +4390,35 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &7414982877987387179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6863730921264658993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 9041765360153425353}
+          m_TargetAssemblyTypeName: buttonHoverSFX, Assembly-CSharp
+          m_MethodName: PlayHover
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &6897188903763027266
 GameObject:
   m_ObjectHideFlags: 0
