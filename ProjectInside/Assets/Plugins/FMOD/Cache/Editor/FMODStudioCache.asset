@@ -4311,7 +4311,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -1351621264264063633}
   cacheVersion: 131858
-  cacheTime: 639125833874554343
+  cacheTime: 639125846964663519
   SerializableEventsDict:
   - key: event:/Bacteria Death
     index: 0
@@ -5665,10 +5665,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Footsteps.bank
   Name: Footsteps
   StudioPath: bank:/Footsteps
-  lastModified: 639125833874519181
+  lastModified: 639125846964663519
   FileSizes:
   - Name: Desktop
-    Value: 617536
+    Value: 48064
   Exists: 1
 --- !u!114 &2608453852698601320
 MonoBehaviour:
