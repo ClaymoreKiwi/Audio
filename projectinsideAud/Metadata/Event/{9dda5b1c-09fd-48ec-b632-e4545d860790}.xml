@@ -56,7 +56,11 @@
 			<destination>{bb00a29c-2409-44f9-85de-d2aed4ed0ba3}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{5d1f2d1a-1cda-40eb-8f07-51a79ab1b96e}" />
+	<object class="EventAutomatableProperties" id="{5d1f2d1a-1cda-40eb-8f07-51a79ab1b96e}">
+		<property name="maxVoices">
+			<value>8</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{c98dba3d-ebd7-4068-9e19-1d8b429b3ea1}" />
 	<object class="GroupTrack" id="{4ae88294-332c-4476-8fdb-5a3410e3c1b8}">
 		<relationship name="modules">
@@ -99,6 +103,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{16dbef72-e054-49b1-ad89-49a201aaff38}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -137,6 +144,8 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{800c941c-d3a8-40fc-8e01-dc8554fbf6f8}">
 		<relationship name="effects">
+			<destination>{f74d61a3-1d85-4e32-9e93-83870ca0aacb}</destination>
+			<destination>{83fc701c-1bd3-4db6-992f-d59daff14fbc}</destination>
 			<destination>{ba4b5f07-1a6a-4b36-a4a6-46983d869377}</destination>
 		</relationship>
 	</object>
@@ -159,5 +168,21 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{b4d660cd-2835-42a8-9bd1-0b9b379c0c9e}" />
+	<object class="DistortionEffect" id="{f74d61a3-1d85-4e32-9e93-83870ca0aacb}">
+		<property name="level">
+			<value>0.949999988</value>
+		</property>
+	</object>
+	<object class="MultibandEqEffect" id="{83fc701c-1bd3-4db6-992f-d59daff14fbc}">
+		<property name="filterTypeA">
+			<value>4</value>
+		</property>
+		<property name="frequencyA">
+			<value>363.729401</value>
+		</property>
+		<property name="qualityA">
+			<value>0.434896529</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{ba4b5f07-1a6a-4b36-a4a6-46983d869377}" />
 </objects>

@@ -211,11 +211,27 @@ MonoBehaviour:
   DestroyedEffect: {fileID: 0}
   deathEvent:
     Guid:
-      Data1: -1646634212
-      Data2: 1223428605
-      Data3: 1424241334
-      Data4: -1878555043
-    Path: event:/Bacteria Death
+      Data1: 222445971
+      Data2: 1308088387
+      Data3: 11614896
+      Data4: -1886198775
+    Path: event:/RBC Death
+  hitDialogueEvent:
+    Guid:
+      Data1: -231594544
+      Data2: 1166107038
+      Data3: -839575673
+      Data4: -913202323
+    Path: event:/RBC_Voicelines
+  hitVocalizationEvent:
+    Guid:
+      Data1: 1336211481
+      Data2: 1221167920
+      Data3: -442702933
+      Data4: 347473583
+    Path: event:/RBC Hit
+  dialogueChance: 30
+  hitCooldown: 0.4
   HitPlayer: {fileID: 5180989449417381527}
   IdleSource: {fileID: 1794190175530118467}
 --- !u!136 &6689394087353256158
@@ -400,6 +416,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
+  roomTags: []
 --- !u!1001 &8605128913963509447
 PrefabInstance:
   m_ObjectHideFlags: 0
