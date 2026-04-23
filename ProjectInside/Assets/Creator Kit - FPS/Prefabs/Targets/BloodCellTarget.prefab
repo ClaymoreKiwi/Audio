@@ -231,7 +231,6 @@ MonoBehaviour:
       Data4: 347473583
     Path: event:/RBC Hit
   dialogueChance: 30
-  hitCooldown: 0.4
   HitPlayer: {fileID: 5180989449417381527}
   IdleSource: {fileID: 1794190175530118467}
 --- !u!136 &6689394087353256158

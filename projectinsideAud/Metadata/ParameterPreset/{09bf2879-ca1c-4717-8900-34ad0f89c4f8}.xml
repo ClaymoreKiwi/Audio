@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{09bf2879-ca1c-4717-8900-34ad0f89c4f8}">
+		<property name="name">
+			<value>RoomSounds</value>
+		</property>
+		<relationship name="folder">
+			<destination>{be24e92e-ff3a-4599-aca9-5bbf1992fee8}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{52f385ea-cc5c-4ebe-b899-30eeca011b1d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{52f385ea-cc5c-4ebe-b899-30eeca011b1d}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>11</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>BrainRoom</value>
+			<value>HeartRoom</value>
+			<value>LongCorridor</value>
+			<value>CornerCorridor</value>
+			<value>VCorridor</value>
+			<value>defaultRoom</value>
+			<value>Stomach</value>
+			<value>Acid</value>
+			<value>Bone</value>
+			<value>metal</value>
+			<value>fat</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
