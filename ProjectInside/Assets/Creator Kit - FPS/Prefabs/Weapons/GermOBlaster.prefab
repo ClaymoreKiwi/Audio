@@ -72,6 +72,13 @@ MonoBehaviour:
       Data3: -630279034
       Data4: -1797916194
     Path: event:/Rifle Fire
+  reloadEvent:
+    Guid:
+      Data1: 280917571
+      Data2: 1215873188
+      Data3: 299419568
+      Data4: 2112192879
+    Path: event:/Rifle Reload
   PrefabRayTrail: {fileID: 1691346627199228128, guid: bc513dca9b359aa49aac8365c74ad13d,
     type: 3}
   DisabledOnEmpty: 0

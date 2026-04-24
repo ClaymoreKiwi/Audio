@@ -66,18 +66,18 @@ MonoBehaviour:
   ReloadAudioClip: {fileID: 8300000, guid: 4fa47482629cb5e4ea45c714aee0165f, type: 3}
   shootingEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1836694844
+      Data2: 1179863578
+      Data3: -271705411
+      Data4: -499541483
+    Path: event:/Pistol Fire
   reloadEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 778485399
+      Data2: 1207171208
+      Data3: 1683581874
+      Data4: -2107921504
+    Path: event:/Pistol_Reload
   PrefabRayTrail: {fileID: 1691346627199228128, guid: bc513dca9b359aa49aac8365c74ad13d,
     type: 3}
   DisabledOnEmpty: 0

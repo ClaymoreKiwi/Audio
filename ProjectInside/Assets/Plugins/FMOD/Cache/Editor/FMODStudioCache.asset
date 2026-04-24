@@ -256,10 +256,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/WeaponReloading.bank
   Name: WeaponReloading
   StudioPath: bank:/WeaponReloading
-  lastModified: 639125832484813732
+  lastModified: 639126380156147341
   FileSizes:
   - Name: Desktop
-    Value: 14656
+    Value: 62752
   Exists: 1
 --- !u!114 &-8565403577893365068
 MonoBehaviour:
@@ -1788,10 +1788,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/RedBloodCells.bank
   Name: RedBloodCells
   StudioPath: bank:/RedBloodCells
-  lastModified: 639125832482086058
+  lastModified: 639126360608726614
   FileSizes:
   - Name: Desktop
-    Value: 1063616
+    Value: 1063648
   Exists: 1
 --- !u!114 &-5594810911432262264
 MonoBehaviour:
@@ -1875,10 +1875,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/WeaponEquip.bank
   Name: WeaponEquip
   StudioPath: bank:/WeaponEquip
-  lastModified: 639125832483936848
+  lastModified: 639126381425550161
   FileSizes:
   - Name: Desktop
-    Value: 16064
+    Value: 30592
   Exists: 1
 --- !u!114 &-5346208475871946242
 MonoBehaviour:
@@ -2551,10 +2551,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Bacteria.bank
   Name: Bacteria
   StudioPath: bank:/Bacteria
-  lastModified: 639125832471161891
+  lastModified: 639126360599620183
   FileSizes:
   - Name: Desktop
-    Value: 676352
+    Value: 676416
   Exists: 1
 --- !u!114 &-3729590345393677491
 MonoBehaviour:
@@ -3209,6 +3209,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 123870
+--- !u!114 &-2328999335927682992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pill Grenade Rattle
+  m_EditorClassIdentifier: 
+  Path: event:/Pill Grenade Rattle
+  Guid:
+    Data1: -1368940894
+    Data2: 1176086847
+    Data3: 409244066
+    Data4: 1210714961
+  Banks:
+  - {fileID: -8597491653935047987}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1200
 --- !u!114 &-2306290843541848413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3619,10 +3646,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639125833874554343
+  lastModified: 639126383993044626
   FileSizes:
   - Name: Desktop
-    Value: 2548
+    Value: 2868
   Exists: 1
 --- !u!114 &-1348144233184634052
 MonoBehaviour:
@@ -3927,7 +3954,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/WallImpacts.bank
   Name: WallImpacts
   StudioPath: bank:/WallImpacts
-  lastModified: 639125832483460029
+  lastModified: 639126360609275881
   FileSizes:
   - Name: Desktop
     Value: 506
@@ -4305,13 +4332,20 @@ MonoBehaviour:
   - {fileID: 1534648258138132793}
   - {fileID: -2219894848422603061}
   - {fileID: 7569484729838795491}
+  - {fileID: 8700728140495568216}
+  - {fileID: 8607035080204021554}
+  - {fileID: -2328999335927682992}
+  - {fileID: 8338172060750819121}
+  - {fileID: 1951364825969802412}
+  - {fileID: 1589153591387143124}
+  - {fileID: 2111604271731494346}
   EditorParameters: []
   MasterBanks:
   - {fileID: 917080729605728688}
   StringsBanks:
   - {fileID: -1351621264264063633}
   cacheVersion: 131858
-  cacheTime: 639125846964663519
+  cacheTime: 639126383994112369
   SerializableEventsDict:
   - key: event:/Bacteria Death
     index: 0
@@ -4353,6 +4387,20 @@ MonoBehaviour:
     index: 18
   - key: event:/Bacteria VLs
     index: 19
+  - key: event:/Rifle Reload
+    index: 20
+  - key: event:/Pistol Fire
+    index: 21
+  - key: event:/Pill Grenade Rattle
+    index: 22
+  - key: event:/Pill Grenade Equip
+    index: 23
+  - key: event:/Pill Grenade Throw
+    index: 24
+  - key: event:/Pill Grenade Countdown
+    index: 25
+  - key: event:/Pill Grenade Explosion
+    index: 26
 --- !u!114 &32170978077254670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4442,7 +4490,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/UI Exit.bank
   Name: UI Exit
   StudioPath: bank:/UI Exit
-  lastModified: 639125832482920896
+  lastModified: 639126360609130496
   FileSizes:
   - Name: Desktop
     Value: 3424
@@ -4590,7 +4638,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/bg.bank
   Name: bg
   StudioPath: bank:/bg
-  lastModified: 639125832480351162
+  lastModified: 639126360606277282
   FileSizes:
   - Name: Desktop
     Value: 861184
@@ -4650,7 +4698,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/PlayerInjury.bank
   Name: PlayerInjury
   StudioPath: bank:/PlayerInjury
-  lastModified: 639125832480940996
+  lastModified: 639126360606572144
   FileSizes:
   - Name: Desktop
     Value: 506
@@ -4670,7 +4718,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639125833874554343
+  lastModified: 639126383993036394
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -5211,6 +5259,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5000
+--- !u!114 &1589153591387143124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pill Grenade Countdown
+  m_EditorClassIdentifier: 
+  Path: event:/Pill Grenade Countdown
+  Guid:
+    Data1: -1742888920
+    Data2: 1188510726
+    Data3: 394973621
+    Data4: -967253136
+  Banks:
+  - {fileID: 3466019261454334755}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5500
 --- !u!114 &1597349184051690907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5385,6 +5460,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1240
+--- !u!114 &1951364825969802412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pill Grenade Throw
+  m_EditorClassIdentifier: 
+  Path: event:/Pill Grenade Throw
+  Guid:
+    Data1: -695707543
+    Data2: 1117496426
+    Data3: 391187891
+    Data4: -997694423
+  Banks:
+  - {fileID: 3466019261454334755}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5000
 --- !u!114 &1992936208649178148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5445,6 +5547,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 506
   Exists: 1
+--- !u!114 &2111604271731494346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pill Grenade Explosion
+  m_EditorClassIdentifier: 
+  Path: event:/Pill Grenade Explosion
+  Guid:
+    Data1: 2115427423
+    Data2: 1178281633
+    Data3: -1521141360
+    Data4: 1093838658
+  Banks:
+  - {fileID: 3466019261454334755}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3020
 --- !u!114 &2125095808328248931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5665,7 +5794,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Footsteps.bank
   Name: Footsteps
   StudioPath: bank:/Footsteps
-  lastModified: 639125846964663519
+  lastModified: 639126360606549945
   FileSizes:
   - Name: Desktop
     Value: 48064
@@ -6041,10 +6170,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/WeaponFiring.bank
   Name: WeaponFiring
   StudioPath: bank:/WeaponFiring
-  lastModified: 639125832484317538
+  lastModified: 639126383994112369
   FileSizes:
   - Name: Desktop
-    Value: 9600
+    Value: 196288
   Exists: 1
 --- !u!114 &3529169311041746758
 MonoBehaviour:
@@ -6223,7 +6352,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/AcidBubbles.bank
   Name: AcidBubbles
   StudioPath: bank:/AcidBubbles
-  lastModified: 639125832460368751
+  lastModified: 639126360591697315
   FileSizes:
   - Name: Desktop
     Value: 506
@@ -6484,7 +6613,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Weapons.bank
   Name: Weapons
   StudioPath: bank:/Weapons
-  lastModified: 639125832485248951
+  lastModified: 639126360610298930
   FileSizes:
   - Name: Desktop
     Value: 11008
@@ -7080,7 +7209,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Ambiant.bank
   Name: Ambiant
   StudioPath: bank:/Ambiant
-  lastModified: 639125832469562293
+  lastModified: 639126360598528846
   FileSizes:
   - Name: Desktop
     Value: 830400
@@ -7100,7 +7229,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/UI Enter.bank
   Name: UI Enter
   StudioPath: bank:/UI Enter
-  lastModified: 639125832482450025
+  lastModified: 639126360608926370
   FileSizes:
   - Name: Desktop
     Value: 5472
@@ -7421,7 +7550,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/UI Hover.bank
   Name: UI Hover
   StudioPath: bank:/UI Hover
-  lastModified: 639125832483399917
+  lastModified: 639126360609270874
   FileSizes:
   - Name: Desktop
     Value: 3584
@@ -8029,6 +8158,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 506
   Exists: 1
+--- !u!114 &8338172060750819121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pill Grenade Equip
+  m_EditorClassIdentifier: 
+  Path: event:/Pill Grenade Equip
+  Guid:
+    Data1: -1503912553
+    Data2: 1230584392
+    Data3: -161818986
+    Data4: 1819343037
+  Banks:
+  - {fileID: -5363621136763227625}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1120
 --- !u!114 &8403687292911155007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8124,6 +8280,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 506
   Exists: 1
+--- !u!114 &8607035080204021554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pistol Fire
+  m_EditorClassIdentifier: 
+  Path: event:/Pistol Fire
+  Guid:
+    Data1: -1836694844
+    Data2: 1179863578
+    Data3: -271705411
+    Data4: -499541483
+  Banks:
+  - {fileID: 3466019261454334755}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 874
 --- !u!114 &8631404148370580940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8218,6 +8401,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 10524
+--- !u!114 &8700728140495568216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Rifle Reload
+  m_EditorClassIdentifier: 
+  Path: event:/Rifle Reload
+  Guid:
+    Data1: 280917571
+    Data2: 1215873188
+    Data3: 299419568
+    Data4: 2112192879
+  Banks:
+  - {fileID: -8597491653935047987}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1128
 --- !u!114 &8742596452780172585
 MonoBehaviour:
   m_ObjectHideFlags: 0

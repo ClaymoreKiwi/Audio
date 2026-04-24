@@ -66,6 +66,7 @@ public class Weapon : MonoBehaviour
     public AudioClip ReloadAudioClip;
     [SerializeField] public EventReference shootingEvent;
     [SerializeField] public EventReference reloadEvent;
+    [SerializeField] public EventReference equipEvent;
         
 
     [Header("Visual Settings")]
@@ -500,7 +501,8 @@ public class WeaponEditor : Editor
    SerializedProperty m_AmmoDisplayProp;
    SerializedProperty m_DisabledOnEmpty;
    SerializedProperty m_ShootingEventProp;
-    SerializedProperty m_reloadEventProp;
+   SerializedProperty m_reloadEventProp;
+   SerializedProperty m_equipEventProp;
 
     void OnEnable()
    {
@@ -523,7 +525,8 @@ public class WeaponEditor : Editor
        m_AmmoDisplayProp = serializedObject.FindProperty("AmmoDisplay");
        m_DisabledOnEmpty = serializedObject.FindProperty("DisabledOnEmpty");
        m_ShootingEventProp = serializedObject.FindProperty("shootingEvent");
-        m_reloadEventProp = serializedObject.FindProperty("reloadEvent");
+       m_reloadEventProp = serializedObject.FindProperty("reloadEvent");
+       m_equipEventProp = serializedObject.FindProperty("equipEvent")
     }
 
    public override void OnInspectorGUI()
@@ -552,6 +555,7 @@ public class WeaponEditor : Editor
         EditorGUILayout.PropertyField(m_ReloadAudioClipProp);
         EditorGUILayout.PropertyField(m_ShootingEventProp);
         EditorGUILayout.PropertyField(m_reloadEventProp);
+        EditorGUILayout.PropertyField(m_equipEventProp);
 
 
         if (m_WeaponTypeProp.intValue == (int)Weapon.WeaponType.Raycast)
