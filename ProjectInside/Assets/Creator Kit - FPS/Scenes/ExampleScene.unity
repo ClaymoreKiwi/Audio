@@ -3490,7 +3490,7 @@ PrefabInstance:
     - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
         type: 3}
       propertyPath: jumpEvent.Path
-      value: 
+      value: event:/Player Jump Vocalisation
       objectReference: {fileID: 0}
     - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
         type: 3}
@@ -3500,27 +3500,27 @@ PrefabInstance:
     - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
         type: 3}
       propertyPath: jumpLandEvent.Path
-      value: 
+      value: event:/Jumping Land Impact
       objectReference: {fileID: 0}
     - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
         type: 3}
       propertyPath: jumpEvent.Guid.Data1
-      value: 0
+      value: -1439114645
       objectReference: {fileID: 0}
     - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
         type: 3}
       propertyPath: jumpEvent.Guid.Data2
-      value: 0
+      value: 1157867440
       objectReference: {fileID: 0}
     - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
         type: 3}
       propertyPath: jumpEvent.Guid.Data3
-      value: 0
+      value: 1231817127
       objectReference: {fileID: 0}
     - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
         type: 3}
       propertyPath: jumpEvent.Guid.Data4
-      value: 0
+      value: 2127507453
       objectReference: {fileID: 0}
     - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
         type: 3}
@@ -3545,22 +3545,22 @@ PrefabInstance:
     - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
         type: 3}
       propertyPath: jumpLandEvent.Guid.Data1
-      value: 0
+      value: -1545307361
       objectReference: {fileID: 0}
     - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
         type: 3}
       propertyPath: jumpLandEvent.Guid.Data2
-      value: 0
+      value: 1219997367
       objectReference: {fileID: 0}
     - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
         type: 3}
       propertyPath: jumpLandEvent.Guid.Data3
-      value: 0
+      value: 861290172
       objectReference: {fileID: 0}
     - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
         type: 3}
       propertyPath: jumpLandEvent.Guid.Data4
-      value: 0
+      value: 1548161840
       objectReference: {fileID: 0}
     - target: {fileID: 6003619676189176501, guid: 6ca000ead671ebe449deb210e0a19be8,
         type: 3}
