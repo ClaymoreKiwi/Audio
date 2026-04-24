@@ -111,6 +111,13 @@ MonoBehaviour:
       Data3: 409244066
       Data4: 1210714961
     Path: event:/Pill Grenade Rattle
+  equipEvent:
+    Guid:
+      Data1: -1503912553
+      Data2: 1230584392
+      Data3: -161818986
+      Data4: 1819343037
+    Path: event:/Pill Grenade Equip
   PrefabRayTrail: {fileID: 0}
   DisabledOnEmpty: 1
   AmmoDisplay: {fileID: 0}

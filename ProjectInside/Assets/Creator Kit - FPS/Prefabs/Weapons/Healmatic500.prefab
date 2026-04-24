@@ -78,6 +78,13 @@ MonoBehaviour:
       Data3: 1683581874
       Data4: -2107921504
     Path: event:/Pistol_Reload
+  equipEvent:
+    Guid:
+      Data1: -1200385233
+      Data2: 1221267466
+      Data3: 970661539
+      Data4: 22824998
+    Path: event:/Pistol_Equip
   PrefabRayTrail: {fileID: 1691346627199228128, guid: bc513dca9b359aa49aac8365c74ad13d,
     type: 3}
   DisabledOnEmpty: 0
