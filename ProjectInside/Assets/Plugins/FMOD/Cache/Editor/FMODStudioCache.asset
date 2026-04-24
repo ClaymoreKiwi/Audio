@@ -3303,33 +3303,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 123870
---- !u!114 &-2328999335927682992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Pill Grenade Rattle
-  m_EditorClassIdentifier: 
-  Path: event:/Pill Grenade Rattle
-  Guid:
-    Data1: -1368940894
-    Data2: 1176086847
-    Data3: 409244066
-    Data4: 1210714961
-  Banks:
-  - {fileID: -8597491653935047987}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1200
 --- !u!114 &-2306290843541848413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5407,33 +5380,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5000
---- !u!114 &1589153591387143124
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Pill Grenade Countdown
-  m_EditorClassIdentifier: 
-  Path: event:/Pill Grenade Countdown
-  Guid:
-    Data1: -1742888920
-    Data2: 1188510726
-    Data3: 394973621
-    Data4: -967253136
-  Banks:
-  - {fileID: 3466019261454334755}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 5500
 --- !u!114 &1597349184051690907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5628,33 +5574,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1240
---- !u!114 &1951364825969802412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Pill Grenade Throw
-  m_EditorClassIdentifier: 
-  Path: event:/Pill Grenade Throw
-  Guid:
-    Data1: -695707543
-    Data2: 1117496426
-    Data3: 391187891
-    Data4: -997694423
-  Banks:
-  - {fileID: 3466019261454334755}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 5000
 --- !u!114 &1992936208649178148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5715,33 +5634,6 @@ MonoBehaviour:
   - Name: Desktop
     Value: 506
   Exists: 1
---- !u!114 &2111604271731494346
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Pill Grenade Explosion
-  m_EditorClassIdentifier: 
-  Path: event:/Pill Grenade Explosion
-  Guid:
-    Data1: 2115427423
-    Data2: 1178281633
-    Data3: -1521141360
-    Data4: 1093838658
-  Banks:
-  - {fileID: 3466019261454334755}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3020
 --- !u!114 &2125095808328248931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8467,33 +8359,6 @@ MonoBehaviour:
   - Name: Desktop
     Value: 506
   Exists: 1
---- !u!114 &8338172060750819121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Pill Grenade Equip
-  m_EditorClassIdentifier: 
-  Path: event:/Pill Grenade Equip
-  Guid:
-    Data1: -1503912553
-    Data2: 1230584392
-    Data3: -161818986
-    Data4: 1819343037
-  Banks:
-  - {fileID: -5363621136763227625}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1120
 --- !u!114 &8403687292911155007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8589,33 +8454,6 @@ MonoBehaviour:
   - Name: Desktop
     Value: 506
   Exists: 1
---- !u!114 &8607035080204021554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Pistol Fire
-  m_EditorClassIdentifier: 
-  Path: event:/Pistol Fire
-  Guid:
-    Data1: -1836694844
-    Data2: 1179863578
-    Data3: -271705411
-    Data4: -499541483
-  Banks:
-  - {fileID: 3466019261454334755}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 874
 --- !u!114 &8631404148370580940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8710,33 +8548,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 10524
---- !u!114 &8700728140495568216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Rifle Reload
-  m_EditorClassIdentifier: 
-  Path: event:/Rifle Reload
-  Guid:
-    Data1: 280917571
-    Data2: 1215873188
-    Data3: 299419568
-    Data4: 2112192879
-  Banks:
-  - {fileID: -8597491653935047987}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1128
 --- !u!114 &8742596452780172585
 MonoBehaviour:
   m_ObjectHideFlags: 0
