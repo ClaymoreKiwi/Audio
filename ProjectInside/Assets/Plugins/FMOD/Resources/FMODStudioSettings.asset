@@ -567,6 +567,12 @@ MonoBehaviour:
   - Bacteria
   - bg
   - Footsteps
+  - ImpactBones
+  - ImpactCorridor
+  - ImpactHeadRoom
+  - ImpactHeartRoom
+  - ImpactStomachAcid
+  - ImpactStomachRoom
   - PlayerInjury
   - RedBloodCells
   - UI Enter
