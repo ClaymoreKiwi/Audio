@@ -218,9 +218,10 @@ public class Weapon : MonoBehaviour
         m_CurrentState = WeaponState.Firing;
         
         m_Animator.SetTrigger("fire");
+        RuntimeManager.PlayOneShot(shootingEvent, transform.position);
 
         m_Source.pitch = UnityEngine.Random.Range(0.7f, 1.0f);
-        RuntimeManager.PlayOneShot(shootingEvent, transform.position);
+        
 
         CameraShaker.Instance.Shake(0.2f, 0.05f * advancedSettings.screenShakeMultiplier);
 
