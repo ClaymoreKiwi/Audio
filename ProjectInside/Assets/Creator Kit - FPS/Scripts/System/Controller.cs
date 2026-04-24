@@ -150,7 +150,7 @@ public class Controller : MonoBehaviour
                 m_VerticalSpeed = JumpSpeed;
                 m_Grounded = false;
                 loosedGrounding = true;
-                FootstepPlayer.PlayClip(JumpingAudioCLip, 0.8f,1.1f);
+                FootstepPlayer.PlayClip(JumpingAudioCLip, 0.8f,1.1f, true,false);
             }
             
             bool running = m_Weapons[m_CurrentWeapon].CurrentState == Weapon.WeaponState.Idle && Input.GetButton("Run");
@@ -239,7 +239,8 @@ public class Controller : MonoBehaviour
 
         if (!wasGrounded && m_Grounded)
         {
-            FootstepPlayer.PlayClip(LandingAudioClip, 0.8f,1.1f);
+            // landing
+            FootstepPlayer.PlayClip(LandingAudioClip, 0.8f,1.1f, false, true);
         }
     }
 

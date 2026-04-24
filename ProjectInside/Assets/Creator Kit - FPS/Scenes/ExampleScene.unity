@@ -3489,8 +3489,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
         type: 3}
+      propertyPath: jumpEvent.Path
+      value: event:/Player Jump Vocalisation
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
       propertyPath: footstepEvent.Path
       value: event:/Footsteps
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: jumpLandEvent.Path
+      value: event:/Player Land Vocalisations
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: jumpEvent.Guid.Data1
+      value: -1439114645
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: jumpEvent.Guid.Data2
+      value: 1157867440
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: jumpEvent.Guid.Data3
+      value: 1231817127
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: jumpEvent.Guid.Data4
+      value: 2127507453
       objectReference: {fileID: 0}
     - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
         type: 3}
@@ -3511,6 +3541,26 @@ PrefabInstance:
         type: 3}
       propertyPath: footstepEvent.Guid.Data4
       value: -1823801017
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: jumpLandEvent.Guid.Data1
+      value: 1226555321
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: jumpLandEvent.Guid.Data2
+      value: 1241895630
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: jumpLandEvent.Guid.Data3
+      value: 2109185416
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: jumpLandEvent.Guid.Data4
+      value: -592786340
       objectReference: {fileID: 0}
     - target: {fileID: 6003619676189176501, guid: 6ca000ead671ebe449deb210e0a19be8,
         type: 3}
@@ -5919,6 +5969,20 @@ MonoBehaviour:
   PitchMin: 0.8
   PitchMax: 1.1
   footstepEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  jumpEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  jumpLandEvent:
     Guid:
       Data1: 0
       Data2: 0

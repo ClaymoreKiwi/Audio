@@ -222,7 +222,6 @@ public class Weapon : MonoBehaviour
         RuntimeManager.PlayOneShot(shootingEvent, transform.position);
 
         m_Source.pitch = UnityEngine.Random.Range(0.7f, 1.0f);
-        
 
         CameraShaker.Instance.Shake(0.2f, 0.05f * advancedSettings.screenShakeMultiplier);
 

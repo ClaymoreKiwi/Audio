@@ -11,6 +11,8 @@ public class RandomPlayer : MonoBehaviour
     public float PitchMin = 1.0f;
     public float PitchMax = 1.0f;
     [SerializeField] private EventReference footstepEvent;
+    [SerializeField] private EventReference jumpEvent;
+    [SerializeField] private EventReference jumpLandEvent;
     public string[] roomTags;
 
     void Awake()
@@ -28,12 +30,25 @@ public class RandomPlayer : MonoBehaviour
         if(Clips.Length == 0)
             return;
         
-        PlayClip(GetRandomClip(), PitchMin, PitchMax);
+        PlayClip(GetRandomClip(), PitchMin, PitchMax, false, false);
     }
 
-    public void PlayClip(AudioClip clip, float pitchMin, float pitchMax)
+    public void PlayClip(AudioClip clip, float pitchMin, float pitchMax, bool ComingFromJump, bool isLanding)
     {
-        EventInstance instance = RuntimeManager.CreateInstance(footstepEvent);
+        EventInstance instance;
+        if(!ComingFromJump && !isLanding)
+        {
+            instance = RuntimeManager.CreateInstance(footstepEvent);
+        }
+        else if(isLanding)
+        {
+            // this will be our landing
+            instance = RuntimeManager.CreateInstance(jumpLandEvent);
+        }
+        else
+        {
+            instance = RuntimeManager.CreateInstance(jumpEvent);
+        }
 
         instance.set3DAttributes(RuntimeUtils.To3DAttributes(transform));
         

@@ -575,6 +575,7 @@ MonoBehaviour:
   - ImpactStomachAcid
   - ImpactStomachRoom
   - PlayerInjury
+  - PlayerJumps
   - RedBloodCells
   - UI Enter
   - UI Exit
