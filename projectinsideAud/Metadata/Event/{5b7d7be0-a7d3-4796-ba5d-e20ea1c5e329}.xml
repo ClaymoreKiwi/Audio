@@ -93,11 +93,8 @@
 	</object>
 	<object class="MixerBusPanner" id="{521feca1-5c96-4ef9-b5c5-a42601d817c3}" />
 	<object class="MultiSound" id="{7d16028b-3f05-40b7-9f4f-a6fd44f87a83}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
 		<property name="length">
-			<value>0.65000000000000002</value>
+			<value>0.54000000000000004</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{3550bd61-4450-4832-92b8-749d64ad5e4a}</destination>
@@ -163,7 +160,7 @@
 	<object class="MixerBusFader" id="{73292337-f72f-41ab-a587-15eda1b1f3d5}" />
 	<object class="SpatialiserEffect" id="{d91ded2f-dfc8-4bf7-bcb3-f573e29801d5}">
 		<property name="distanceRolloffType">
-			<value>2</value>
+			<value>1</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{ee41579d-0524-4633-af86-36d663b2d617}" />
