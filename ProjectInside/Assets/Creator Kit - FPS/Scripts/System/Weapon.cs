@@ -527,7 +527,7 @@ public class WeaponEditor : Editor
        m_DisabledOnEmpty = serializedObject.FindProperty("DisabledOnEmpty");
        m_ShootingEventProp = serializedObject.FindProperty("shootingEvent");
        m_reloadEventProp = serializedObject.FindProperty("reloadEvent");
-       m_equipEventProp = serializedObject.FindProperty("equipEvent")
+       m_equipEventProp = serializedObject.FindProperty("equipEvent");
     }
 
    public override void OnInspectorGUI()
