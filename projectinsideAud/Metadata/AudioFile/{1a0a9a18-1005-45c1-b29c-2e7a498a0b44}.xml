@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{1a0a9a18-1005-45c1-b29c-2e7a498a0b44}">
+		<property name="assetPath">
+			<value>Impact Corridor_08.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.35408163265306125</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b12c445f-a210-42f9-bfbc-6ca87c664ca7}</destination>
+		</relationship>
+	</object>
+</objects>

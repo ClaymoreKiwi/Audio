@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{bab5fd2a-6716-4404-9780-90ff79e3645d}">
+		<property name="assetPath">
+			<value>Impact Stomach Room_15.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.66113378684807256</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b12c445f-a210-42f9-bfbc-6ca87c664ca7}</destination>
+		</relationship>
+	</object>
+</objects>
