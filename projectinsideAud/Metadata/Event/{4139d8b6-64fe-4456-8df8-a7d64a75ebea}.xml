@@ -5,7 +5,7 @@
 			<value>Bacteria VLs</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{408b7bb9-0a91-4418-a703-150aa018e468}</destination>
@@ -160,10 +160,16 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{6ef623df-fd7e-435d-a2a1-9c89d9d77e77}">
 		<relationship name="effects">
+			<destination>{928b054d-f17a-463a-bb80-949185697897}</destination>
 			<destination>{512c70c3-2a03-4219-8eea-5bf73232a24d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e8106d2d-b397-4a72-9090-211577c9fe18}" />
 	<object class="MixerBusFader" id="{c74a90df-e3ef-4e54-84d6-c68b72167cb6}" />
+	<object class="SpatialiserEffect" id="{928b054d-f17a-463a-bb80-949185697897}">
+		<property name="distanceRolloffType">
+			<value>2</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{512c70c3-2a03-4219-8eea-5bf73232a24d}" />
 </objects>
