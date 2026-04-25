@@ -787,6 +787,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 40
   Length: 63272
+--- !u!114 &-7992292181667629260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PlayerDamage
+  m_EditorClassIdentifier: 
+  Path: event:/PlayerDamage
+  Guid:
+    Data1: -276468320
+    Data2: 1093904023
+    Data3: -1138603602
+    Data4: -809935336
+  Banks:
+  - {fileID: -7828979472417951401}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-7992174728825701945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -909,10 +936,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/PlayerInjury.bank
   Name: PlayerInjury
   StudioPath: bank:/PlayerInjury
-  lastModified: 639127393606768451
+  lastModified: 639127478938367782
   FileSizes:
   - Name: Desktop
-    Value: 506
+    Value: 1058
   Exists: 1
 --- !u!114 &-7820139470912725364
 MonoBehaviour:
@@ -1837,7 +1864,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639127393606743301
+  lastModified: 639127478938292546
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -6324,13 +6351,14 @@ MonoBehaviour:
   - {fileID: -1238534425973123895}
   - {fileID: -6206821126817129581}
   - {fileID: 6138868639714710717}
+  - {fileID: -7992292181667629260}
   EditorParameters: []
   MasterBanks:
   - {fileID: -6538247988566559740}
   StringsBanks:
   - {fileID: 5716103138596282422}
   cacheVersion: 131858
-  cacheTime: 639127393612081096
+  cacheTime: 639127478938367782
   SerializableEventsDict:
   - key: event:/Heartbeat
     index: 0
@@ -6404,6 +6432,8 @@ MonoBehaviour:
     index: 34
   - key: event:/Rifle Equip
     index: 35
+  - key: event:/PlayerDamage
+    index: 36
 --- !u!114 &32170978077254670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10550,10 +10580,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639127393606743301
+  lastModified: 639127478938302556
   FileSizes:
   - Name: Desktop
-    Value: 3716
+    Value: 3764
   Exists: 1
 --- !u!114 &5722817156796076615
 MonoBehaviour:

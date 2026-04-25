@@ -6,6 +6,8 @@ using UnityEngine;
 using UnityEngine.Rendering.PostProcessing;
 using UnityEngine.Rendering.Universal;
 using Vignette = UnityEngine.Rendering.PostProcessing.Vignette;
+using FMODUnity;
+
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -46,6 +48,7 @@ public class Controller : MonoBehaviour
     public PostProcessVolume volume;
     private PostProcessProfile runtimeProfile;
     private Vignette vignette;
+    [SerializeField] private EventReference injuryEvent;
     public Vector3 velocityDir = Vector3.zero;
 
     [Header("Audio")]
@@ -372,7 +375,7 @@ public class Controller : MonoBehaviour
         PlayerHealth -= damage;
 
         vignette.intensity.value = 0.4f;
-
+        RuntimeManager.PlayOneShot(injuryEvent, transform.position);
         yield return new WaitForSeconds(canTakeDamageTimer); // 2 seconds
 
         canTakeDamage = true;
