@@ -1,7 +1,12 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Rendering.PostProcessing;
+using UnityEngine.Rendering.Universal;
+using Vignette = UnityEngine.Rendering.PostProcessing.Vignette;
+
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
@@ -36,6 +41,11 @@ public class Controller : MonoBehaviour
     public float RunningSpeed = 7.0f;
     public float JumpSpeed = 5.0f;
     public float PlayerHealth = 100.0f;
+    private bool canTakeDamage = true;
+    public float canTakeDamageTimer;
+    public PostProcessVolume volume;
+    private PostProcessProfile runtimeProfile;
+    private Vignette vignette;
     public Vector3 velocityDir = Vector3.zero;
 
     [Header("Audio")]
@@ -70,6 +80,11 @@ public class Controller : MonoBehaviour
     
     void Start()
     {
+        runtimeProfile = volume.profile;
+        runtimeProfile.TryGetSettings(out vignette);
+        vignette.intensity.overrideState = true;
+        vignette.intensity.value = 0.286f;
+
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
@@ -108,6 +123,11 @@ public class Controller : MonoBehaviour
         if (CanPause && Input.GetButtonDown("Menu"))
         {
             PauseMenu.Instance.Display();
+        }
+
+        if (vignette.intensity.value > 0.286f)
+        {
+            vignette.intensity.value -= Time.deltaTime;
         }
 
         if (PlayerHealth <= 0)
@@ -333,14 +353,28 @@ public class Controller : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("germ"))
+        if (canTakeDamage)
         {
-            PlayerHealth--;
+            if (other.gameObject.CompareTag("germ"))
+            {
+                StartCoroutine(TakeDamage(1.0f));
+            }
+            if (other.gameObject.CompareTag("germSpike"))
+            {
+                StartCoroutine(TakeDamage(5.0f));
+            }
         }
+    }
 
-        if (other.gameObject.CompareTag("germSpike"))
-        {
-            PlayerHealth -= 5;
-        }
+    IEnumerator TakeDamage(float damage)
+    {
+        canTakeDamage = false;
+        PlayerHealth -= damage;
+
+        vignette.intensity.value = 0.4f;
+
+        yield return new WaitForSeconds(canTakeDamageTimer); // 2 seconds
+
+        canTakeDamage = true;
     }
 }

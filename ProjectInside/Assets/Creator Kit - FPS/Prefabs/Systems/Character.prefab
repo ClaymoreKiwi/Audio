@@ -566,6 +566,7 @@ MonoBehaviour:
   RunningSpeed: 10
   JumpSpeed: 5
   PlayerHealth: 100
+  canTakeDamageTimer: 0.5
   velocityDir: {x: 0, y: 0, z: 0}
   FootstepPlayer: {fileID: 4771553560791580875}
   JumpingAudioCLip: {fileID: 8300000, guid: d44cae06e297aa4458bf0a432cdf4f03, type: 3}

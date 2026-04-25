@@ -624,6 +624,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1782824343737523952, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: vignette
+      value: 
+      objectReference: {fileID: 1349374445}
     - target: {fileID: 1782824343737523953, guid: 6ca000ead671ebe449deb210e0a19be8,
         type: 3}
       propertyPath: m_RootOrder
@@ -865,6 +870,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7a29801ef1207442893876b7560238a, type: 3}
+--- !u!114 &1349374445 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2152182228128132133, guid: f7a29801ef1207442893876b7560238a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1349374444}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1781100812
 GameObject:
   m_ObjectHideFlags: 0
@@ -994,6 +1011,21 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
+  hitDialogueEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  hitVocalizationEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  dialogueChance: 30
   HitPlayer: {fileID: 1799685895}
   IdleSource: {fileID: 1143829069}
 --- !u!135 &1940522684
