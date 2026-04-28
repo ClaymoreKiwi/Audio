@@ -398,11 +398,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 163821448
-      Data2: 1309341108
-      Data3: 1741686719
-      Data4: 2055804635
-    Path: event:/BackgroundMusic
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 2
@@ -567,10 +567,39 @@ MonoBehaviour:
   JumpSpeed: 5
   PlayerHealth: 100
   canTakeDamageTimer: 0.5
+  volume: {fileID: 0}
+  injuryEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   velocityDir: {x: 0, y: 0, z: 0}
   FootstepPlayer: {fileID: 4771553560791580875}
   JumpingAudioCLip: {fileID: 8300000, guid: d44cae06e297aa4458bf0a432cdf4f03, type: 3}
   LandingAudioClip: {fileID: 8300000, guid: 80b8397262d56df49828a3b530021dba, type: 3}
+  PistolEquipEvent:
+    Guid:
+      Data1: -1200385233
+      Data2: 1221267466
+      Data3: 970661539
+      Data4: 22824998
+    Path: event:/Pistol_Equip
+  RifleEquipEvent:
+    Guid:
+      Data1: -2049319884
+      Data2: 1304012699
+      Data3: -910413676
+      Data4: -917715049
+    Path: event:/Rifle Equip
+  PillEquipEvent:
+    Guid:
+      Data1: -1503912553
+      Data2: 1230584392
+      Data3: -161818986
+      Data4: 1819343037
+    Path: event:/Pill Grenade Equip
 --- !u!143 &1782824343737523964
 CharacterController:
   m_ObjectHideFlags: 0

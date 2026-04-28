@@ -559,8 +559,36 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks: []
-  Banks: []
+  MasterBanks:
+  - Master
+  Banks:
+  - AcidBubbles
+  - Ambiant
+  - Bacteria
+  - bg
+  - Boss
+  - Footsteps
+  - GrenadeGermImpact
+  - GrenadeRBCImpact
+  - ImpactAll
+  - ImpactBones
+  - ImpactHeadRoom
+  - ImpactHeartRoom
+  - ImpactJumpLand
+  - ImpactStomachAcid
+  - ImpactStomachRoom
+  - KeyandDoorFX
+  - PlayerInjury
+  - PlayerJumps
+  - RedBloodCells
+  - UI Enter
+  - UI Exit
+  - UI Hover
+  - WallImpacts
+  - WeaponEquip
+  - WeaponFiring
+  - WeaponReloading
+  - Weapons
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

@@ -11,6 +11,7 @@ public class Projectile : MonoBehaviour
     public float ReachRadius = 5.0f;
     public float damage = 10.0f;
     public AudioClip DestroyedSound;
+    public int id;
     
     //TODO : maybe pool that somewhere to not have to create one for each projectile.
     public GameObject PrefabOnDestruction;
@@ -23,6 +24,7 @@ public class Projectile : MonoBehaviour
     {
         PoolSystem.Instance.InitPool(PrefabOnDestruction, 4);
         m_Rigidbody = GetComponent<Rigidbody>();
+        id = 1;
     }
 
     public void Launch(Weapon launcher, Vector3 direction, float force)
@@ -59,7 +61,7 @@ public class Projectile : MonoBehaviour
         {
             Target t = s_SphereCastPool[i].GetComponent<Target>();
             
-            t.Got(damage);
+            t.Got(damage, this);
         }
         
         gameObject.SetActive(false);

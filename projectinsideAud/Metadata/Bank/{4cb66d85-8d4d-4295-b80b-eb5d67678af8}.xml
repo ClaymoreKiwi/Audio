@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="Bank" id="{750520cd-ee7a-4b79-9ad2-d3d6da3cf2d6}">
+	<object class="Bank" id="{4cb66d85-8d4d-4295-b80b-eb5d67678af8}">
 		<property name="name">
-			<value>ImpactAll</value>
+			<value>GrenadeRBCImpact</value>
 		</property>
 		<relationship name="folder">
 			<destination>{e3c26521-43eb-4221-8949-54a77171eb3a}</destination>
