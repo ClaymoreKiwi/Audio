@@ -297,7 +297,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Footsteps.bank
   Name: Footsteps
   StudioPath: bank:/Footsteps
-  lastModified: 639128926443905949
+  lastModified: 639129682564340876
   FileSizes:
   - Name: Desktop
     Value: 48064
@@ -496,6 +496,26 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 54976
+  Exists: 1
+--- !u!114 &-8508976576793103240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Boss.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/Boss.bank
+  Name: Boss
+  StudioPath: bank:/Boss
+  lastModified: 639129682573231065
+  FileSizes:
+  - Name: Desktop
+    Value: 849056
   Exists: 1
 --- !u!114 &-8492178163258690060
 MonoBehaviour:
@@ -856,7 +876,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/UI Enter.bank
   Name: UI Enter
   StudioPath: bank:/UI Enter
-  lastModified: 639128926458888154
+  lastModified: 639129682569683603
   FileSizes:
   - Name: Desktop
     Value: 5472
@@ -990,10 +1010,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/ImpactHeadRoom.bank
   Name: ImpactHeadRoom
   StudioPath: bank:/ImpactHeadRoom
-  lastModified: 639128926447246694
+  lastModified: 639129682565296701
   FileSizes:
   - Name: Desktop
-    Value: 80448
+    Value: 80480
   Exists: 1
 --- !u!114 &-7915074477734552206
 MonoBehaviour:
@@ -1117,7 +1137,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/RedBloodCells.bank
   Name: RedBloodCells
   StudioPath: bank:/RedBloodCells
-  lastModified: 639128926458478766
+  lastModified: 639129682569520077
   FileSizes:
   - Name: Desktop
     Value: 1063648
@@ -1617,7 +1637,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/ImpactCorridor.bank
   Name: ImpactCorridor
   StudioPath: bank:/ImpactCorridor
-  lastModified: 639128926446039446
+  lastModified: 639129682564923618
   FileSizes:
   - Name: Desktop
     Value: 74784
@@ -1987,7 +2007,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Weapons.bank
   Name: Weapons
   StudioPath: bank:/Weapons
-  lastModified: 639128926966421228
+  lastModified: 639129682572105601
   FileSizes:
   - Name: Desktop
     Value: 11008
@@ -2881,7 +2901,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/ImpactStomachRoom.bank
   Name: ImpactStomachRoom
   StudioPath: bank:/ImpactStomachRoom
-  lastModified: 639128926451748924
+  lastModified: 639129682566653183
   FileSizes:
   - Name: Desktop
     Value: 130752
@@ -2953,6 +2973,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 506
   Exists: 1
+--- !u!114 &-5696495532492120770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PlayerDamage
+  m_EditorClassIdentifier: 
+  Path: event:/PlayerDamage
+  Guid:
+    Data1: -276468320
+    Data2: 1093904023
+    Data3: -1138603602
+    Data4: -809935336
+  Banks:
+  - {fileID: 285315730653716944}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-5685803987067933834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2968,7 +3015,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/UI Hover.bank
   Name: UI Hover
   StudioPath: bank:/UI Hover
-  lastModified: 639128926460077052
+  lastModified: 639129682570105559
   FileSizes:
   - Name: Desktop
     Value: 3584
@@ -3106,7 +3153,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 863
+  Length: 874
 --- !u!114 &-5530294716593541620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3707,10 +3754,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/bg.bank
   Name: bg
   StudioPath: bank:/bg
-  lastModified: 639128932467488148
+  lastModified: 639129682564041130
   FileSizes:
   - Name: Desktop
-    Value: 1689888
+    Value: 861184
   Exists: 1
 --- !u!114 &-4684202575873461783
 MonoBehaviour:
@@ -4355,6 +4402,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1074
   Exists: 1
+--- !u!114 &-3650442257855809225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Boss Vocalisations (Non-Dialogue)
+  m_EditorClassIdentifier: 
+  Path: event:/Boss Vocalisations (Non-Dialogue)
+  Guid:
+    Data1: 2108544760
+    Data2: 1306577899
+    Data3: 691309735
+    Data4: 2079478785
+  Banks:
+  - {fileID: -8508976576793103240}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5000
 --- !u!114 &-3602599457323013055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4401,7 +4475,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 128000
+  Length: 64000
 --- !u!114 &-3586123525620090745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4965,10 +5039,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/WeaponFiring.bank
   Name: WeaponFiring
   StudioPath: bank:/WeaponFiring
-  lastModified: 639128926965176973
+  lastModified: 639129682571481615
   FileSizes:
   - Name: Desktop
-    Value: 204128
+    Value: 196288
   Exists: 1
 --- !u!114 &-2833999522249510418
 MonoBehaviour:
@@ -5242,7 +5316,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/WeaponEquip.bank
   Name: WeaponEquip
   StudioPath: bank:/WeaponEquip
-  lastModified: 639128926460716720
+  lastModified: 639129682570462010
   FileSizes:
   - Name: Desktop
     Value: 30592
@@ -5681,6 +5755,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 506
   Exists: 1
+--- !u!114 &-1861011738381370697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Boss VLs
+  m_EditorClassIdentifier: 
+  Path: event:/Boss VLs
+  Guid:
+    Data1: -968610982
+    Data2: 1222511746
+    Data3: 2047808897
+    Data4: 267581075
+  Banks:
+  - {fileID: -8508976576793103240}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5000
 --- !u!114 &-1732176508748637052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5968,26 +6069,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-1390052711166171986
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/KeyandDoorFX.bank
-  m_EditorClassIdentifier: 
-  Path: ../projectinsideAud/Build/Desktop/KeyandDoorFX.bank
-  Name: KeyandDoorFX
-  StudioPath: bank:/KeyandDoorFX
-  lastModified: 639128927252482233
-  FileSizes:
-  - Name: Desktop
-    Value: 15392
-  Exists: 1
 --- !u!114 &-1386004226859950617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6555,7 +6636,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1646
+  Length: 1128
 --- !u!114 &-832785471832649354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6891,7 +6972,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 375
+  Length: 500
 --- !u!114 &-283872069001190931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7069,7 +7150,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/ImpactBones.bank
   Name: ImpactBones
   StudioPath: bank:/ImpactBones
-  lastModified: 639128926444986522
+  lastModified: 639129682564568965
   FileSizes:
   - Name: Desktop
     Value: 21024
@@ -7193,7 +7274,6 @@ MonoBehaviour:
   - {fileID: 20118477111438461}
   - {fileID: 5648984499747908730}
   - {fileID: -5714029117363716930}
-  - {fileID: -1390052711166171986}
   - {fileID: 5348249322804549480}
   - {fileID: 285315730653716944}
   - {fileID: 8969021901913369042}
@@ -7207,6 +7287,7 @@ MonoBehaviour:
   - {fileID: 8297211424270954573}
   - {fileID: -6718496779324951063}
   - {fileID: -4688621563657472363}
+  - {fileID: -8508976576793103240}
   EditorEvents:
   - {fileID: 8216471831731614785}
   - {fileID: 760518898545880338}
@@ -7223,7 +7304,6 @@ MonoBehaviour:
   - {fileID: -1492768969964142299}
   - {fileID: -2199615203497168800}
   - {fileID: -5662942332267045259}
-  - {fileID: 348284427918629189}
   - {fileID: -1053736270901265264}
   - {fileID: 7507531813184983211}
   - {fileID: 4925216237413962583}
@@ -7245,13 +7325,16 @@ MonoBehaviour:
   - {fileID: -3846117459260019949}
   - {fileID: -3900584352353249267}
   - {fileID: -3599361603278561992}
+  - {fileID: -1861011738381370697}
+  - {fileID: -3650442257855809225}
+  - {fileID: -5696495532492120770}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5348249322804549480}
   StringsBanks:
   - {fileID: 1267338042444409461}
   cacheVersion: 131858
-  cacheTime: 639128932467488148
+  cacheTime: 639129682573231065
   SerializableEventsDict:
   - key: event:/Heartbeat
     index: 0
@@ -7283,50 +7366,54 @@ MonoBehaviour:
     index: 13
   - key: event:/Stomach Room Impact
     index: 14
-  - key: event:/Key collect
-    index: 15
   - key: event:/Player Jump Vocalisation
-    index: 16
+    index: 15
   - key: event:/Player Land Vocalisations
-    index: 17
+    index: 16
   - key: event:/RBC Hit
-    index: 18
+    index: 17
   - key: event:/RBC Death
-    index: 19
+    index: 18
   - key: event:/RBC_Voicelines
-    index: 20
+    index: 19
   - key: event:/UI Enter
-    index: 21
+    index: 20
   - key: event:/UI Exit
-    index: 22
+    index: 21
   - key: event:/UI Hover
-    index: 23
+    index: 22
   - key: event:/Pistol_Equip
-    index: 24
+    index: 23
   - key: event:/Pill Grenade Equip
-    index: 25
+    index: 24
   - key: event:/Pill Grenade Countdown
-    index: 26
+    index: 25
   - key: event:/Pill Grenade Explosion
-    index: 27
+    index: 26
   - key: event:/Pill Grenade Throw
-    index: 28
+    index: 27
   - key: event:/Rifle Fire 2
-    index: 29
+    index: 28
   - key: event:/Pistol Fire
-    index: 30
+    index: 29
   - key: event:/Rifle Fire
-    index: 31
+    index: 30
   - key: event:/Rifle Reload
-    index: 32
+    index: 31
   - key: event:/Pistol_Reload
-    index: 33
+    index: 32
   - key: event:/Pill Grenade Rattle
-    index: 34
+    index: 33
   - key: event:/Rifle Equip
-    index: 35
+    index: 34
   - key: event:/BackgroundMusic
+    index: 35
+  - key: event:/Boss VLs
     index: 36
+  - key: event:/Boss Vocalisations (Non-Dialogue)
+    index: 37
+  - key: event:/PlayerDamage
+    index: 38
 --- !u!114 &20118477111438461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7342,10 +7429,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/ImpactJumpLand.bank
   Name: ImpactJumpLand
   StudioPath: bank:/ImpactJumpLand
-  lastModified: 639128926449209342
+  lastModified: 639129682565966985
   FileSizes:
   - Name: Desktop
-    Value: 33824
+    Value: 33856
   Exists: 1
 --- !u!114 &32170978077254670
 MonoBehaviour:
@@ -7518,10 +7605,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/PlayerInjury.bank
   Name: PlayerInjury
   StudioPath: bank:/PlayerInjury
-  lastModified: 639128926451890701
+  lastModified: 639129682566708873
   FileSizes:
   - Name: Desktop
-    Value: 506
+    Value: 1058
   Exists: 1
 --- !u!114 &337703789372939257
 MonoBehaviour:
@@ -7550,33 +7637,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 500
---- !u!114 &348284427918629189
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Key collect
-  m_EditorClassIdentifier: 
-  Path: event:/Key collect
-  Guid:
-    Data1: -559360371
-    Data2: 1341110529
-    Data3: 562527410
-    Data4: -1760764330
-  Banks:
-  - {fileID: -1390052711166171986}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &373585824588183112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8372,10 +8432,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639128926451855156
+  lastModified: 639129682566669145
   FileSizes:
   - Name: Desktop
-    Value: 3800
+    Value: 3918
   Exists: 1
 --- !u!114 &1269644985077324279
 MonoBehaviour:
@@ -9408,7 +9468,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/WallImpacts.bank
   Name: WallImpacts
   StudioPath: bank:/WallImpacts
-  lastModified: 639128926460094393
+  lastModified: 639129682570111204
   FileSizes:
   - Name: Desktop
     Value: 506
@@ -9700,7 +9760,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/UI Exit.bank
   Name: UI Exit
   StudioPath: bank:/UI Exit
-  lastModified: 639128926459566106
+  lastModified: 639129682569901478
   FileSizes:
   - Name: Desktop
     Value: 3424
@@ -11587,10 +11647,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Bacteria.bank
   Name: Bacteria
   StudioPath: bank:/Bacteria
-  lastModified: 639128926431370499
+  lastModified: 639129682557448220
   FileSizes:
   - Name: Desktop
-    Value: 677088
+    Value: 677024
   Exists: 1
 --- !u!114 &5275793219337441304
 MonoBehaviour:
@@ -11647,7 +11707,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639128926451827390
+  lastModified: 639129682566664389
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -11854,7 +11914,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/ImpactStomachAcid.bank
   Name: ImpactStomachAcid
   StudioPath: bank:/ImpactStomachAcid
-  lastModified: 639128926450058773
+  lastModified: 639129682566192092
   FileSizes:
   - Name: Desktop
     Value: 23680
@@ -12223,7 +12283,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Ambiant.bank
   Name: Ambiant
   StudioPath: bank:/Ambiant
-  lastModified: 639128926428945587
+  lastModified: 639129682556226498
   FileSizes:
   - Name: Desktop
     Value: 830752
@@ -13202,7 +13262,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/AcidBubbles.bank
   Name: AcidBubbles
   StudioPath: bank:/AcidBubbles
-  lastModified: 639128926416473549
+  lastModified: 639129682549545990
   FileSizes:
   - Name: Desktop
     Value: 506
@@ -13652,10 +13712,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/WeaponReloading.bank
   Name: WeaponReloading
   StudioPath: bank:/WeaponReloading
-  lastModified: 639128926965926604
+  lastModified: 639129682571821102
   FileSizes:
   - Name: Desktop
-    Value: 63296
+    Value: 62752
   Exists: 1
 --- !u!114 &8338172060750819121
 MonoBehaviour:
@@ -14110,7 +14170,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/ImpactHeartRoom.bank
   Name: ImpactHeartRoom
   StudioPath: bank:/ImpactHeartRoom
-  lastModified: 639128926448433014
+  lastModified: 639129682565665635
   FileSizes:
   - Name: Desktop
     Value: 79008
@@ -14150,10 +14210,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/PlayerJumps.bank
   Name: PlayerJumps
   StudioPath: bank:/PlayerJumps
-  lastModified: 639128926453696874
+  lastModified: 639129682567358437
   FileSizes:
   - Name: Desktop
-    Value: 181600
+    Value: 181664
   Exists: 1
 --- !u!114 &9004262879008979541
 MonoBehaviour:

@@ -1013,19 +1013,19 @@ MonoBehaviour:
     Path: 
   hitDialogueEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -968610982
+      Data2: 1222511746
+      Data3: 2047808897
+      Data4: 267581075
+    Path: event:/Boss VLs
   hitVocalizationEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  dialogueChance: 30
+      Data1: 2108544760
+      Data2: 1306577899
+      Data3: 691309735
+      Data4: 2079478785
+    Path: event:/Boss Vocalisations (Non-Dialogue)
+  dialogueChance: 51
   HitPlayer: {fileID: 1799685895}
   IdleSource: {fileID: 1143829069}
 --- !u!135 &1940522684

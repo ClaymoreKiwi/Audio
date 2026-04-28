@@ -566,6 +566,7 @@ MonoBehaviour:
   - Ambiant
   - Bacteria
   - bg
+  - Boss
   - Footsteps
   - ImpactBones
   - ImpactCorridor
@@ -574,7 +575,6 @@ MonoBehaviour:
   - ImpactJumpLand
   - ImpactStomachAcid
   - ImpactStomachRoom
-  - KeyandDoorFX
   - PlayerInjury
   - PlayerJumps
   - RedBloodCells
