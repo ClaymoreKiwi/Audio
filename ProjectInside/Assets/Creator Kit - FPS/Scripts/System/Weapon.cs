@@ -254,7 +254,7 @@ public class Weapon : MonoBehaviour
         if (Physics.Raycast(r, out hit, 1000.0f, ~(1 << 9), QueryTriggerInteraction.Ignore))
         {
             Renderer renderer = hit.collider.GetComponentInChildren<Renderer>();
-            ImpactManager.Instance.PlayImpact(hit.point, hit.normal, renderer == null ? null : renderer.sharedMaterial);
+            ImpactManager.Instance.PlayImpact(hit.point, hit.normal, hit, renderer == null ? null : renderer.sharedMaterial);
 
             //if too close, the trail effect would look weird if it arced to hit the wall, so only correct it if far
             if (hit.distance > 5.0f)

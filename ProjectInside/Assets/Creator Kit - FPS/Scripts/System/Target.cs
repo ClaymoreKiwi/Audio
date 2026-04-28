@@ -13,6 +13,7 @@ public class Target : MonoBehaviour
 
     [Header("Audio")]
     [SerializeField] private EventReference deathEvent;
+    [SerializeField] private EventReference deathGrenadeEvent;
     
     [Header("Hit Audio Setup")]
     [SerializeField] private EventReference hitDialogueEvent;      
@@ -57,7 +58,7 @@ public class Target : MonoBehaviour
         }
     }
 
-    public void Got(float damage)
+    public void Got(float damage, Projectile p = null)
     {
         if (m_Destroyed) return;
 
@@ -84,7 +85,14 @@ public class Target : MonoBehaviour
         }
         
         // Play death sound
-        RuntimeManager.PlayOneShot(deathEvent, transform.position);
+        if (p != null)
+        {
+            RuntimeManager.PlayOneShot(deathGrenadeEvent, transform.position);
+        }
+        else 
+        {
+            RuntimeManager.PlayOneShot(deathEvent, transform.position);
+        }
 
         if (DestroyedEffect != null)
         {

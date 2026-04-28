@@ -159,6 +159,20 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
+  jumpEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  jumpLandEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   roomTags: []
 --- !u!1 &4416957870019831525
 GameObject:
@@ -402,6 +416,13 @@ MonoBehaviour:
       Data3: 1424241334
       Data4: -1878555043
     Path: event:/Bacteria Death
+  deathGrenadeEvent:
+    Guid:
+      Data1: -809720232
+      Data2: 1089271487
+      Data3: 2014630335
+      Data4: -148356014
+    Path: event:/Germs Grenade Impact
   hitDialogueEvent:
     Guid:
       Data1: 1094310070
@@ -417,7 +438,6 @@ MonoBehaviour:
       Data4: 702793121
     Path: event:/Bacteria Vocalisations (Non-Dialogue)
   dialogueChance: 30
-  hitCooldown: 0.4
   HitPlayer: {fileID: 8212324151211496083}
   IdleSource: {fileID: 2512953057398773005}
 --- !u!195 &8741598888237563853
