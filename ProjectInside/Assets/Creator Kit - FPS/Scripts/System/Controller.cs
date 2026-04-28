@@ -55,6 +55,9 @@ public class Controller : MonoBehaviour
     public RandomPlayer FootstepPlayer;
     public AudioClip JumpingAudioCLip;
     public AudioClip LandingAudioClip;
+    [SerializeField] public EventReference PistolEquipEvent;
+    [SerializeField] public EventReference RifleEquipEvent;
+    [SerializeField] public EventReference PillEquipEvent;
     
     float m_VerticalSpeed = 0.0f;
     bool m_IsPaused = false;
@@ -312,6 +315,13 @@ public class Controller : MonoBehaviour
         }
 
         m_CurrentWeapon = number;
+
+        if (m_CurrentWeapon == 0)
+            RuntimeManager.PlayOneShot(RifleEquipEvent, transform.position);
+        else if (m_CurrentWeapon == 1)
+            RuntimeManager.PlayOneShot(PistolEquipEvent, transform.position);
+        else if (m_CurrentWeapon == 2)
+            RuntimeManager.PlayOneShot(PillEquipEvent, transform.position);
 
         if (m_CurrentWeapon < 0)
             m_CurrentWeapon = m_Weapons.Count - 1;

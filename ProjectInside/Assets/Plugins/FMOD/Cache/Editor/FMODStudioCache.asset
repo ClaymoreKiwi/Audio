@@ -297,7 +297,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Footsteps.bank
   Name: Footsteps
   StudioPath: bank:/Footsteps
-  lastModified: 639129682564340876
+  lastModified: 639128926443905949
   FileSizes:
   - Name: Desktop
     Value: 48064
@@ -512,7 +512,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Boss.bank
   Name: Boss
   StudioPath: bank:/Boss
-  lastModified: 639129696587239066
+  lastModified: 639129751723496488
   FileSizes:
   - Name: Desktop
     Value: 849664
@@ -876,7 +876,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/UI Enter.bank
   Name: UI Enter
   StudioPath: bank:/UI Enter
-  lastModified: 639129682569683603
+  lastModified: 639128926458888154
   FileSizes:
   - Name: Desktop
     Value: 5472
@@ -1010,10 +1010,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/ImpactHeadRoom.bank
   Name: ImpactHeadRoom
   StudioPath: bank:/ImpactHeadRoom
-  lastModified: 639129682565296701
+  lastModified: 639128926447246694
   FileSizes:
   - Name: Desktop
-    Value: 80480
+    Value: 80448
   Exists: 1
 --- !u!114 &-7915074477734552206
 MonoBehaviour:
@@ -1137,7 +1137,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/RedBloodCells.bank
   Name: RedBloodCells
   StudioPath: bank:/RedBloodCells
-  lastModified: 639129682569520077
+  lastModified: 639128926458478766
   FileSizes:
   - Name: Desktop
     Value: 1063648
@@ -1637,7 +1637,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/ImpactCorridor.bank
   Name: ImpactCorridor
   StudioPath: bank:/ImpactCorridor
-  lastModified: 639129682564923618
+  lastModified: 639128926446039446
   FileSizes:
   - Name: Desktop
     Value: 74784
@@ -2007,7 +2007,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Weapons.bank
   Name: Weapons
   StudioPath: bank:/Weapons
-  lastModified: 639129682572105601
+  lastModified: 639129751724447639
   FileSizes:
   - Name: Desktop
     Value: 11008
@@ -2901,7 +2901,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/ImpactStomachRoom.bank
   Name: ImpactStomachRoom
   StudioPath: bank:/ImpactStomachRoom
-  lastModified: 639129682566653183
+  lastModified: 639128926451748924
   FileSizes:
   - Name: Desktop
     Value: 130752
@@ -3015,7 +3015,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/UI Hover.bank
   Name: UI Hover
   StudioPath: bank:/UI Hover
-  lastModified: 639129682570105559
+  lastModified: 639128926460077052
   FileSizes:
   - Name: Desktop
     Value: 3584
@@ -3254,7 +3254,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1750
+  Length: 1550
 --- !u!114 &-5388062748420603292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3754,10 +3754,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/bg.bank
   Name: bg
   StudioPath: bank:/bg
-  lastModified: 639129746365366135
+  lastModified: 639128932467488148
   FileSizes:
   - Name: Desktop
-    Value: 1689920
+    Value: 1689888
   Exists: 1
 --- !u!114 &-4684202575873461783
 MonoBehaviour:
@@ -4267,7 +4267,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 738
+  Length: 769
 --- !u!114 &-3846117459260019949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5039,7 +5039,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/WeaponFiring.bank
   Name: WeaponFiring
   StudioPath: bank:/WeaponFiring
-  lastModified: 639129746366185066
+  lastModified: 639128926965176973
   FileSizes:
   - Name: Desktop
     Value: 204128
@@ -5316,7 +5316,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/WeaponEquip.bank
   Name: WeaponEquip
   StudioPath: bank:/WeaponEquip
-  lastModified: 639129682570462010
+  lastModified: 639129754645890321
   FileSizes:
   - Name: Desktop
     Value: 30592
@@ -5946,7 +5946,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1120
+  Length: 1151
 --- !u!114 &-1566700162089506393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7150,7 +7150,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/ImpactBones.bank
   Name: ImpactBones
   StudioPath: bank:/ImpactBones
-  lastModified: 639129682564568965
+  lastModified: 639128926444986522
   FileSizes:
   - Name: Desktop
     Value: 21024
@@ -7336,7 +7336,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 1267338042444409461}
   cacheVersion: 131858
-  cacheTime: 639129746366395855
+  cacheTime: 639129754645890321
   SerializableEventsDict:
   - key: event:/Heartbeat
     index: 0
@@ -7416,6 +7416,8 @@ MonoBehaviour:
     index: 37
   - key: event:/PlayerDamage
     index: 38
+  - key: event:/Key collect
+    index: 39
 --- !u!114 &20118477111438461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7431,10 +7433,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/ImpactJumpLand.bank
   Name: ImpactJumpLand
   StudioPath: bank:/ImpactJumpLand
-  lastModified: 639129682565966985
+  lastModified: 639128926449209342
   FileSizes:
   - Name: Desktop
-    Value: 33856
+    Value: 33824
   Exists: 1
 --- !u!114 &32170978077254670
 MonoBehaviour:
@@ -7607,7 +7609,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/PlayerInjury.bank
   Name: PlayerInjury
   StudioPath: bank:/PlayerInjury
-  lastModified: 639129682566708873
+  lastModified: 639129734328186351
   FileSizes:
   - Name: Desktop
     Value: 1058
@@ -8434,7 +8436,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639129746365761503
+  lastModified: 639129751723594807
   FileSizes:
   - Name: Desktop
     Value: 4060
@@ -9470,7 +9472,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/KeyandDoorFX.bank
   Name: KeyandDoorFX
   StudioPath: bank:/KeyandDoorFX
-  lastModified: 639129746365745781
+  lastModified: 639128927252482233
   FileSizes:
   - Name: Desktop
     Value: 15392
@@ -9490,7 +9492,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/WallImpacts.bank
   Name: WallImpacts
   StudioPath: bank:/WallImpacts
-  lastModified: 639129682570111204
+  lastModified: 639128926460094393
   FileSizes:
   - Name: Desktop
     Value: 506
@@ -9782,7 +9784,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/UI Exit.bank
   Name: UI Exit
   StudioPath: bank:/UI Exit
-  lastModified: 639129682569901478
+  lastModified: 639128926459566106
   FileSizes:
   - Name: Desktop
     Value: 3424
@@ -11696,10 +11698,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Bacteria.bank
   Name: Bacteria
   StudioPath: bank:/Bacteria
-  lastModified: 639129682557448220
+  lastModified: 639128926431370499
   FileSizes:
   - Name: Desktop
-    Value: 677024
+    Value: 677088
   Exists: 1
 --- !u!114 &5275793219337441304
 MonoBehaviour:
@@ -11756,7 +11758,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639129746365757521
+  lastModified: 639129751723583834
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -11963,7 +11965,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/ImpactStomachAcid.bank
   Name: ImpactStomachAcid
   StudioPath: bank:/ImpactStomachAcid
-  lastModified: 639129682566192092
+  lastModified: 639128926450058773
   FileSizes:
   - Name: Desktop
     Value: 23680
@@ -12332,7 +12334,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Ambiant.bank
   Name: Ambiant
   StudioPath: bank:/Ambiant
-  lastModified: 639129682556226498
+  lastModified: 639128926428945587
   FileSizes:
   - Name: Desktop
     Value: 830752
@@ -13311,7 +13313,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/AcidBubbles.bank
   Name: AcidBubbles
   StudioPath: bank:/AcidBubbles
-  lastModified: 639129682549545990
+  lastModified: 639128926416473549
   FileSizes:
   - Name: Desktop
     Value: 506
@@ -13761,10 +13763,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/WeaponReloading.bank
   Name: WeaponReloading
   StudioPath: bank:/WeaponReloading
-  lastModified: 639129746366395855
+  lastModified: 639129751724281509
   FileSizes:
   - Name: Desktop
-    Value: 63328
+    Value: 63296
   Exists: 1
 --- !u!114 &8338172060750819121
 MonoBehaviour:
@@ -14219,7 +14221,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/ImpactHeartRoom.bank
   Name: ImpactHeartRoom
   StudioPath: bank:/ImpactHeartRoom
-  lastModified: 639129682565665635
+  lastModified: 639128926448433014
   FileSizes:
   - Name: Desktop
     Value: 79008
@@ -14259,10 +14261,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/PlayerJumps.bank
   Name: PlayerJumps
   StudioPath: bank:/PlayerJumps
-  lastModified: 639129682567358437
+  lastModified: 639128926453696874
   FileSizes:
   - Name: Desktop
-    Value: 181664
+    Value: 181600
   Exists: 1
 --- !u!114 &9004262879008979541
 MonoBehaviour:
