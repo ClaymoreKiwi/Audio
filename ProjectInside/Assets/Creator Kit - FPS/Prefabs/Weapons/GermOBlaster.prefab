@@ -67,11 +67,11 @@ MonoBehaviour:
   ReloadAudioClip: {fileID: 8300000, guid: 53b8e7c6ac6cd6d49977438b25dacfc7, type: 3}
   shootingEvent:
     Guid:
-      Data1: -1816839479
-      Data2: 1136402358
-      Data3: -630279034
-      Data4: -1797916194
-    Path: event:/Rifle Fire
+      Data1: 155287461
+      Data2: 1217353043
+      Data3: 1228366782
+      Data4: -1889508561
+    Path: event:/Rifle Fire 2
   reloadEvent:
     Guid:
       Data1: 280917571

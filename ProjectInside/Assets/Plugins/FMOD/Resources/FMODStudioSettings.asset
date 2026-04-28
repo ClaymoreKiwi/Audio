@@ -574,6 +574,7 @@ MonoBehaviour:
   - ImpactJumpLand
   - ImpactStomachAcid
   - ImpactStomachRoom
+  - KeyandDoorFX
   - PlayerInjury
   - PlayerJumps
   - RedBloodCells
