@@ -2,6 +2,7 @@
 using UnityEngine;
 using FMODUnity;
 using FMOD.Studio;
+using System.Collections;
 
 /// <summary>
 /// This handle impacts on object from the raycast of the weapon. It will create a pool of the prefabs for performance
@@ -55,15 +56,31 @@ public class ImpactManager : MonoBehaviour
         sys.gameObject.SetActive(true);
         sys.Play();
 
-        var source = WorldAudioPool.GetWorldSFXSource();
+        //var source = WorldAudioPool.GetWorldSFXSource();
 
-        source.transform.position = position;
-        source.pitch = Random.Range(0.8f, 1.1f);
-        EventInstance instance;
-            instance = RuntimeManager.CreateInstance("event:/Impact Library");
-            instance.set3DAttributes(RuntimeUtils.To3DAttributes(hit.collider.gameObject.transform));
-            instance.setParameterByNameWithLabel("RoomSounds", hit.collider.tag);
-            instance.start();
-            instance.release();
+        //source.transform.position = position;
+        //source.pitch = Random.Range(0.8f, 1.1f);
+        //EventInstance instance;
+        //    instance = RuntimeManager.CreateInstance("event:/Impact Library");
+        //    //instance.set3DAttributes(RuntimeUtils.To3DAttributes(hit.collider.gameObject.transform));
+        //    var attributes = RuntimeUtils.To3DAttributes(position);
+        //    instance.set3DAttributes(attributes);
+        //    instance.setParameterByNameWithLabel("RoomSounds", hit.collider.tag);
+        //    instance.start();
+        //    instance.release();
+        StartCoroutine(PlayImpactSoundNextFrame(position, hit));
     }
+
+    private IEnumerator PlayImpactSoundNextFrame(Vector3 position, RaycastHit hit)
+{
+    yield return null; // wait 1 frame so sparks render first
+
+    EventInstance instance = RuntimeManager.CreateInstance("event:/Impact Library");
+
+    instance.set3DAttributes(RuntimeUtils.To3DAttributes(position));
+    instance.setParameterByNameWithLabel("RoomSounds", hit.collider.tag);
+
+    instance.start();
+    instance.release();
+}
 }
