@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{35f636f3-b6e3-4270-b21c-911b301c6a28}">
+		<property name="name">
+			<value>BossStageStepper</value>
+		</property>
+		<relationship name="folder">
+			<destination>{be24e92e-ff3a-4599-aca9-5bbf1992fee8}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{010314d4-7c19-4155-8f9e-53f98d78b159}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{010314d4-7c19-4155-8f9e-53f98d78b159}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Stage 1</value>
+			<value>Stage 2</value>
+			<value>Stage 3</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -3153,7 +3153,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 874
+  Length: 863
 --- !u!114 &-5530294716593541620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3754,10 +3754,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/bg.bank
   Name: bg
   StudioPath: bank:/bg
-  lastModified: 639129682564041130
+  lastModified: 639129746365366135
   FileSizes:
   - Name: Desktop
-    Value: 861184
+    Value: 1689920
   Exists: 1
 --- !u!114 &-4684202575873461783
 MonoBehaviour:
@@ -4475,7 +4475,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 64000
+  Length: 128000
 --- !u!114 &-3586123525620090745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5039,10 +5039,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/WeaponFiring.bank
   Name: WeaponFiring
   StudioPath: bank:/WeaponFiring
-  lastModified: 639129682571481615
+  lastModified: 639129746366185066
   FileSizes:
   - Name: Desktop
-    Value: 196288
+    Value: 204128
   Exists: 1
 --- !u!114 &-2833999522249510418
 MonoBehaviour:
@@ -6636,7 +6636,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1128
+  Length: 1646
 --- !u!114 &-832785471832649354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6972,7 +6972,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 500
+  Length: 375
 --- !u!114 &-283872069001190931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7288,6 +7288,7 @@ MonoBehaviour:
   - {fileID: -6718496779324951063}
   - {fileID: -4688621563657472363}
   - {fileID: -8508976576793103240}
+  - {fileID: 2169223625046012990}
   EditorEvents:
   - {fileID: 8216471831731614785}
   - {fileID: 760518898545880338}
@@ -7328,13 +7329,14 @@ MonoBehaviour:
   - {fileID: -1861011738381370697}
   - {fileID: -3650442257855809225}
   - {fileID: -5696495532492120770}
+  - {fileID: 4594488622470903469}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5348249322804549480}
   StringsBanks:
   - {fileID: 1267338042444409461}
   cacheVersion: 131858
-  cacheTime: 639129696587239066
+  cacheTime: 639129746366395855
   SerializableEventsDict:
   - key: event:/Heartbeat
     index: 0
@@ -8432,10 +8434,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639129682566669145
+  lastModified: 639129746365761503
   FileSizes:
   - Name: Desktop
-    Value: 3918
+    Value: 4060
   Exists: 1
 --- !u!114 &1269644985077324279
 MonoBehaviour:
@@ -9453,6 +9455,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1146
+--- !u!114 &2169223625046012990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/KeyandDoorFX.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/KeyandDoorFX.bank
+  Name: KeyandDoorFX
+  StudioPath: bank:/KeyandDoorFX
+  lastModified: 639129746365745781
+  FileSizes:
+  - Name: Desktop
+    Value: 15392
+  Exists: 1
 --- !u!114 &2210365801877830646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11156,6 +11178,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1388
   Exists: 1
+--- !u!114 &4594488622470903469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Key collect
+  m_EditorClassIdentifier: 
+  Path: event:/Key collect
+  Guid:
+    Data1: -559360371
+    Data2: 1341110529
+    Data3: 562527410
+    Data4: -1760764330
+  Banks:
+  - {fileID: 2169223625046012990}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &4654404740822741913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11707,7 +11756,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639129682566664389
+  lastModified: 639129746365757521
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -13712,10 +13761,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/WeaponReloading.bank
   Name: WeaponReloading
   StudioPath: bank:/WeaponReloading
-  lastModified: 639129682571821102
+  lastModified: 639129746366395855
   FileSizes:
   - Name: Desktop
-    Value: 62752
+    Value: 63328
   Exists: 1
 --- !u!114 &8338172060750819121
 MonoBehaviour:

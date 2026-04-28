@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{ab734714-1e54-4d78-9d40-277211f4e6a5}">
+		<property name="name">
+			<value>Boss Music Stage</value>
+		</property>
+		<relationship name="folder">
+			<destination>{be24e92e-ff3a-4599-aca9-5bbf1992fee8}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{1bfff1d3-e8d3-4c29-8a58-752f1491979e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{1bfff1d3-e8d3-4c29-8a58-752f1491979e}">
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
