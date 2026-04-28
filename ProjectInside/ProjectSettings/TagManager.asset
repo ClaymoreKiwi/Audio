@@ -17,6 +17,7 @@ TagManager:
   - fat
   - germ
   - germSpike
+  - rbc
   layers:
   - Default
   - TransparentFX

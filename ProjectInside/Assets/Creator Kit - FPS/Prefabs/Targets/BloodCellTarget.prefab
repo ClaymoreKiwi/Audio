@@ -144,7 +144,7 @@ GameObject:
   - component: {fileID: 6689394087353256158}
   m_Layer: 10
   m_Name: BloodCellTarget
-  m_TagString: Untagged
+  m_TagString: rbc
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -216,6 +216,13 @@ MonoBehaviour:
       Data3: 11614896
       Data4: -1886198775
     Path: event:/RBC Death
+  deathGrenadeEvent:
+    Guid:
+      Data1: 2013147311
+      Data2: 1184851715
+      Data3: 1464646590
+      Data4: -1000554359
+    Path: event:/Red Blood Cells Grenade Impact
   hitDialogueEvent:
     Guid:
       Data1: -231594544
@@ -409,6 +416,20 @@ MonoBehaviour:
   PitchMin: 0.8
   PitchMax: 1.1
   footstepEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  jumpEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  jumpLandEvent:
     Guid:
       Data1: 0
       Data2: 0

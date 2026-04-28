@@ -6035,25 +6035,25 @@ MonoBehaviour:
   PitchMax: 1.1
   footstepEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -973660618
+      Data2: 1263503351
+      Data3: -1816697165
+      Data4: -1823801017
+    Path: event:/Footsteps
   jumpEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1439114645
+      Data2: 1157867440
+      Data3: 1231817127
+      Data4: 2127507453
+    Path: event:/Player Jump Vocalisation
   jumpLandEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1545307361
+      Data2: 1219997367
+      Data3: 861290172
+      Data4: 1548161840
+    Path: event:/Jumping Land Impact
   roomTags: []
 --- !u!82 &1293402503
 AudioSource:
