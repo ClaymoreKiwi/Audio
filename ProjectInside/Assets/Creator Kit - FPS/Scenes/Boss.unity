@@ -626,6 +626,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1782824343737523952, guid: 6ca000ead671ebe449deb210e0a19be8,
         type: 3}
+      propertyPath: volume
+      value: 
+      objectReference: {fileID: 1959541712}
+    - target: {fileID: 1782824343737523952, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
       propertyPath: vignette
       value: 
       objectReference: {fileID: 1349374445}
@@ -688,6 +693,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Character
+      objectReference: {fileID: 0}
+    - target: {fileID: 6003619676189176501, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: EventReference.Path
+      value: event:/BossMusic
+      objectReference: {fileID: 0}
+    - target: {fileID: 6003619676189176501, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: 1114673694
+      objectReference: {fileID: 0}
+    - target: {fileID: 6003619676189176501, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1229785161
+      objectReference: {fileID: 0}
+    - target: {fileID: 6003619676189176501, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: -2135303015
+      objectReference: {fileID: 0}
+    - target: {fileID: 6003619676189176501, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: 1227486554
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1049,6 +1079,55 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 1.1355431
   m_Center: {x: 0.04, y: 0.8799984, z: 0.45558196}
+--- !u!1 &1959541711
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1959541713}
+  - component: {fileID: 1959541712}
+  m_Layer: 0
+  m_Name: GlobalPostProcessingVolume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1959541712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959541711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: 9c501c517cfc76c4594b0ad3a892fd81, type: 2}
+  isGlobal: 1
+  blendDistance: 0
+  weight: 1
+  priority: 0
+--- !u!4 &1959541713
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959541711}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1061,3 +1140,4 @@ SceneRoots:
   - {fileID: 610433620}
   - {fileID: 1781100813}
   - {fileID: 793772775}
+  - {fileID: 1959541713}

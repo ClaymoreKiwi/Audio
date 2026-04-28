@@ -398,11 +398,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 163821448
-      Data2: 1309341108
-      Data3: 1741686719
-      Data4: 2055804635
-    Path: event:/BackgroundMusic
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 2
@@ -567,6 +567,14 @@ MonoBehaviour:
   JumpSpeed: 5
   PlayerHealth: 100
   canTakeDamageTimer: 0.5
+  volume: {fileID: 0}
+  injuryEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   velocityDir: {x: 0, y: 0, z: 0}
   FootstepPlayer: {fileID: 4771553560791580875}
   JumpingAudioCLip: {fileID: 8300000, guid: d44cae06e297aa4458bf0a432cdf4f03, type: 3}

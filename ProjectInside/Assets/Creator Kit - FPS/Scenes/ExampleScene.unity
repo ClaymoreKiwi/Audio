@@ -3607,6 +3607,31 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6003619676189176501, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: EventReference.Path
+      value: event:/BackgroundMusic
+      objectReference: {fileID: 0}
+    - target: {fileID: 6003619676189176501, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: 163821448
+      objectReference: {fileID: 0}
+    - target: {fileID: 6003619676189176501, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1309341108
+      objectReference: {fileID: 0}
+    - target: {fileID: 6003619676189176501, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: 1741686719
+      objectReference: {fileID: 0}
+    - target: {fileID: 6003619676189176501, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: 2055804635
+      objectReference: {fileID: 0}
     - target: {fileID: 8170487785117336800, guid: 6ca000ead671ebe449deb210e0a19be8,
         type: 3}
       propertyPath: m_Enabled
