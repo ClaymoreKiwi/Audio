@@ -1110,10 +1110,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/ImpactAll.bank
   Name: ImpactAll
   StudioPath: bank:/ImpactAll
-  lastModified: 639129840433144328
+  lastModified: 639129922062360351
   FileSizes:
   - Name: Desktop
-    Value: 482176
+    Value: 519808
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -1209,7 +1209,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -6618288883105386045}
   cacheVersion: 131858
-  cacheTime: 639129840433144328
+  cacheTime: 639129922062360351
   SerializableEventsDict:
   - key: event:/Heartbeat
     index: 0
@@ -1615,7 +1615,7 @@ MonoBehaviour:
   - {fileID: 822497502729838096}
   MinDistance: 1
   MaxDistance: 20
-  Length: 365
+  Length: 0
 --- !u!114 &3118010363069192228
 MonoBehaviour:
   m_ObjectHideFlags: 0
