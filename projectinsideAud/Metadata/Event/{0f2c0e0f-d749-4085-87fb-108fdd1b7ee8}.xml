@@ -5,7 +5,7 @@
 			<value>Stomach Acid</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{408b7bb9-0a91-4418-a703-150aa018e468}</destination>
@@ -30,6 +30,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{996898a3-17ce-429c-8da8-84916c8958f7}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{efa59715-9ea2-46e3-9481-5ff37456b105}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{22789e81-a4c4-44f3-8c67-82c5c15a217a}">
@@ -66,6 +69,9 @@
 	<object class="Timeline" id="{996898a3-17ce-429c-8da8-84916c8958f7}">
 		<relationship name="modules">
 			<destination>{feb50be2-69c0-4025-94c0-2ebe29aad862}</destination>
+		</relationship>
+		<relationship name="markers">
+			<destination>{fee918e2-a3bd-435e-8894-30b5e29664dc}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{6a8a98b9-b881-4d9b-bc10-03d5498ed5d6}">
@@ -107,6 +113,20 @@
 			<destination>{6a8a98b9-b881-4d9b-bc10-03d5498ed5d6}</destination>
 		</relationship>
 	</object>
+	<object class="LoopRegion" id="{fee918e2-a3bd-435e-8894-30b5e29664dc}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>44.977052154195015</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{996898a3-17ce-429c-8da8-84916c8958f7}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{8fbd28d6-3b05-4574-90f6-830e1216fdb0}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{4cbacb61-0faa-4bb6-80d6-cb59b214a16b}">
 		<relationship name="effects">
 			<destination>{7a18f706-1ca4-4c3b-96ec-c6065b86692c}</destination>
@@ -116,10 +136,22 @@
 	<object class="MixerBusFader" id="{09874a33-f7d7-45b1-91dd-2dc4728fe787}" />
 	<object class="MixerBusEffectChain" id="{1c0ea28b-918a-4dea-bc81-bc1e21e6e850}">
 		<relationship name="effects">
+			<destination>{a1cbe4cc-fa39-4f01-aa8a-462737f900c5}</destination>
 			<destination>{d247c12a-08a5-488c-a8d1-bc77f547f81d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f16994f5-cd79-41bc-bbd9-d935ec3f17e4}" />
 	<object class="MixerBusFader" id="{7a18f706-1ca4-4c3b-96ec-c6065b86692c}" />
+	<object class="SpatialiserEffect" id="{a1cbe4cc-fa39-4f01-aa8a-462737f900c5}">
+		<property name="distanceRolloffType">
+			<value>1</value>
+		</property>
+		<property name="maximumDistance">
+			<value>10</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{d247c12a-08a5-488c-a8d1-bc77f547f81d}" />
 </objects>

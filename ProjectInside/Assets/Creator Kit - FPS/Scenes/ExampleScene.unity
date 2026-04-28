@@ -2445,6 +2445,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2947946e8fce6a04e90a006983e11ac0, type: 3}
+--- !u!1 &617381573 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6653453589325725112, guid: 4cbb64337ca003c4d831290a0e9f461e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1163255546}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &617999217
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5390,6 +5396,10 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6653453589325725112, guid: 4cbb64337ca003c4d831290a0e9f461e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1163255549}
     - targetCorrespondingSourceObject: {fileID: 3537400163770161954, guid: 4cbb64337ca003c4d831290a0e9f461e,
         type: 3}
       insertIndex: -1
@@ -5401,7 +5411,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1163255546}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 617381573}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fa10db84855c96498cc4953c7da0467, type: 3}
@@ -5413,6 +5423,37 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1163255546}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1163255549
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617381573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 254545423
+      Data2: 1082513225
+      Data3: -1894712441
+      Data4: -394388515
+    Path: event:/Stomach Acid
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &1175313918 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7950644908328659727, guid: d184a8f503c347b4b9e8e5d5f816ef53,
@@ -6035,25 +6076,25 @@ MonoBehaviour:
   PitchMax: 1.1
   footstepEvent:
     Guid:
-      Data1: -973660618
-      Data2: 1263503351
-      Data3: -1816697165
-      Data4: -1823801017
-    Path: event:/Footsteps
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   jumpEvent:
     Guid:
-      Data1: -1439114645
-      Data2: 1157867440
-      Data3: 1231817127
-      Data4: 2127507453
-    Path: event:/Player Jump Vocalisation
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   jumpLandEvent:
     Guid:
-      Data1: -1545307361
-      Data2: 1219997367
-      Data3: 861290172
-      Data4: 1548161840
-    Path: event:/Jumping Land Impact
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   roomTags: []
 --- !u!82 &1293402503
 AudioSource:
