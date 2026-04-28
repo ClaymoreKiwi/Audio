@@ -5,7 +5,7 @@
 			<value>Boss Vocalisations (Non-Dialogue)</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{408b7bb9-0a91-4418-a703-150aa018e468}</destination>
@@ -196,10 +196,12 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{49079409-e50b-4676-bfd2-5bb0203f1530}">
 		<relationship name="effects">
+			<destination>{5430f02f-a156-4e51-a1a1-fe483439ffe5}</destination>
 			<destination>{7d16e6b2-bfdd-439e-a35d-187f7f1d7ac6}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{49d06b92-b4bf-4b73-af46-a3bb94b053a3}" />
 	<object class="MixerBusFader" id="{38e1158a-9393-4346-a1d6-3144ff69ebf8}" />
+	<object class="SpatialiserEffect" id="{5430f02f-a156-4e51-a1a1-fe483439ffe5}" />
 	<object class="MixerBusFader" id="{7d16e6b2-bfdd-439e-a35d-187f7f1d7ac6}" />
 </objects>

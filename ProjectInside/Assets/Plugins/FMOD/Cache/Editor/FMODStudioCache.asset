@@ -512,10 +512,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Boss.bank
   Name: Boss
   StudioPath: bank:/Boss
-  lastModified: 639129682573231065
+  lastModified: 639129696587239066
   FileSizes:
   - Name: Desktop
-    Value: 849056
+    Value: 849664
   Exists: 1
 --- !u!114 &-8492178163258690060
 MonoBehaviour:
@@ -4423,7 +4423,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -8508976576793103240}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -5776,7 +5776,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -8508976576793103240}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -7334,7 +7334,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 1267338042444409461}
   cacheVersion: 131858
-  cacheTime: 639129682573231065
+  cacheTime: 639129696587239066
   SerializableEventsDict:
   - key: event:/Heartbeat
     index: 0

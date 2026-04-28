@@ -5,7 +5,7 @@
 			<value>Boss VLs</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{408b7bb9-0a91-4418-a703-150aa018e468}</destination>
@@ -220,10 +220,12 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{b327fe8c-12c4-4f60-807e-ec354ec7d198}">
 		<relationship name="effects">
+			<destination>{20aa03bb-3c8b-419c-85c1-d7a02b4c002a}</destination>
 			<destination>{dc62224d-5712-4791-a171-754a61c325c4}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{224a0c6a-ee09-4951-aba8-3a7875fb221a}" />
 	<object class="MixerBusFader" id="{262a608a-f7cd-4166-acf5-eedec09d25ce}" />
+	<object class="SpatialiserEffect" id="{20aa03bb-3c8b-419c-85c1-d7a02b4c002a}" />
 	<object class="MixerBusFader" id="{dc62224d-5712-4791-a171-754a61c325c4}" />
 </objects>
