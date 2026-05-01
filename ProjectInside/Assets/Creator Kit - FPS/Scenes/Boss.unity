@@ -1120,7 +1120,7 @@ MonoBehaviour:
       Data3: 691309735
       Data4: 2079478785
     Path: event:/Boss Vocalisations (Non-Dialogue)
-  dialogueChance: 51
+  dialogueChance: 25.5
   HitPlayer: {fileID: 1799685895}
   IdleSource: {fileID: 1143829069}
 --- !u!135 &1940522684

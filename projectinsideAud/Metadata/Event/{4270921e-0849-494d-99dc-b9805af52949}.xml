@@ -126,6 +126,9 @@
 		<property name="length">
 			<value>28</value>
 		</property>
+		<property name="volume">
+			<value>0.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{acb9e964-0209-499d-acd1-122ebf1b92a7}</destination>
 		</relationship>
@@ -137,11 +140,17 @@
 		<property name="length">
 			<value>28</value>
 		</property>
+		<property name="volume">
+			<value>1</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{e3e01726-3d4b-4839-a84d-88917f901332}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{9343ae8f-4a7c-4408-8a12-8958becc3f3a}">
+		<property name="volume">
+			<value>-5</value>
+		</property>
 		<property name="name">
 			<value>Intensity Stage 1</value>
 		</property>

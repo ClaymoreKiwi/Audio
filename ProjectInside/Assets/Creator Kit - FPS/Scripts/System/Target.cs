@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using FMOD.Studio;
 using FMODUnity;
@@ -35,27 +33,24 @@ public class Target : MonoBehaviour
 
     public Action<float, float> OnHealthChanged;
 
-    // Tracks what this specific mob is currently saying/grunting
     private EventInstance m_LocalAudioInstance;              
-    
-    // Shared across all mobs to track if anyone is speaking Dialogue
     private static EventInstance s_GlobalDialogueInstance;
 
     void Awake()
     {
         Helpers.RecursiveLayerChange(transform, LayerMask.NameToLayer("Target"));
-        
-        if(DestroyedEffect)
+
+        if(DestroyedEffect != null && PoolSystem.Instance != null)
+        {
             PoolSystem.Instance.InitPool(DestroyedEffect, 16);
+        }
     }
 
-    // Use OnEnable for initialization so pooled objects reset properly
     void OnEnable()
     {
         m_CurrentHealth = health;
-        m_Destroyed = false; // Reset death state
+        m_Destroyed = false; 
 
-        // Broadcast initial health value
         OnHealthChanged?.Invoke(m_CurrentHealth, health);
 
         if(IdleSource != null && IdleSource.clip != null)
@@ -71,27 +66,29 @@ public class Target : MonoBehaviour
 
         m_CurrentHealth -= damage;
         OnHealthChanged?.Invoke(m_CurrentHealth, health);
-        // Survived the hit
+        
         if(m_CurrentHealth > 0)
         {
             PlayHitAudio();
             return;
         }
 
-        // Target is destroyed
+        m_Destroyed = true; 
+
+        // Stop and release the audio instance
         if (m_LocalAudioInstance.isValid())
         {
-            // Stop any audio this mob is currently making since they are now dead
             m_LocalAudioInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
             
-            // If this instance was speaking dialogue and is now dead, clear the global dialogue instance so others can speak
             if (m_LocalAudioInstance.handle == s_GlobalDialogueInstance.handle)
             {
                 s_GlobalDialogueInstance.clearHandle();
             }
+            
+            m_LocalAudioInstance.release();
+            m_LocalAudioInstance.clearHandle();
         }
         
-        // Play death sound
         if (p != null)
         {
             RuntimeManager.PlayOneShot(deathGrenadeEvent, transform.position);
@@ -101,32 +98,40 @@ public class Target : MonoBehaviour
             RuntimeManager.PlayOneShot(deathEvent, transform.position);
         }
 
-        if (DestroyedEffect != null)
+        if (DestroyedEffect != null && PoolSystem.Instance != null)
         {
             var effect = PoolSystem.Instance.GetInstance<ParticleSystem>(DestroyedEffect);
-            effect.time = 0.0f;
-            effect.Play();
-            effect.transform.position = transform.position;
+            if (effect != null)
+            {
+                effect.time = 0.0f;
+                effect.Play();
+                effect.transform.position = transform.position;
+            }
         }
 
-        m_Destroyed = true;
         gameObject.SetActive(false);
-        GameSystem.Instance.TargetDestroyed(pointValue);
+        
+        if (GameSystem.Instance != null)
+        {
+            GameSystem.Instance.TargetDestroyed(pointValue);
+        }
     }
 
     private void PlayHitAudio()
     {
-        // Check if this mob is already making a sound
         if (m_LocalAudioInstance.isValid())
         {
             m_LocalAudioInstance.getPlaybackState(out PLAYBACK_STATE localState);
             if (localState != PLAYBACK_STATE.STOPPED)
             {
-                return; // Let them finish what they are saying/grunting
+                return; 
             }
+            
+            // If the old sound is stopped, release it from memory before making a new one
+            m_LocalAudioInstance.release();
+            m_LocalAudioInstance.clearHandle();
         }
 
-        // Decide if they want to speak dialogue
         bool wantsToSpeakDialogue = false;
         if (!hitDialogueEvent.IsNull)
         {
@@ -136,17 +141,15 @@ public class Target : MonoBehaviour
             }
         }
 
-        // If they want to speak dialogue, check if anyone is currently speaking dialogue globally
         if (wantsToSpeakDialogue && s_GlobalDialogueInstance.isValid())
         {
             s_GlobalDialogueInstance.getPlaybackState(out PLAYBACK_STATE globalState);
             if (globalState != PLAYBACK_STATE.STOPPED)
             {
-                wantsToSpeakDialogue = false; // Fallback to grunt
+                wantsToSpeakDialogue = false; 
             }
         }
 
-        // Assign the final event based on the logic above
         EventReference eventToPlay = wantsToSpeakDialogue ? hitDialogueEvent : hitVocalizationEvent;
 
         if (!eventToPlay.IsNull) 
@@ -154,9 +157,6 @@ public class Target : MonoBehaviour
             m_LocalAudioInstance = RuntimeManager.CreateInstance(eventToPlay);
             m_LocalAudioInstance.set3DAttributes(RuntimeUtils.To3DAttributes(transform.position));
             m_LocalAudioInstance.start();
-            
-            // Release immediately since we won't need to manipulate this instance again
-            m_LocalAudioInstance.release(); 
             
             if (wantsToSpeakDialogue)
             {
@@ -170,6 +170,8 @@ public class Target : MonoBehaviour
         if (m_LocalAudioInstance.isValid())
         {
             m_LocalAudioInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            m_LocalAudioInstance.release();
+            m_LocalAudioInstance.clearHandle();
         }
     }
 }
