@@ -12,6 +12,7 @@ public class RandomPlayer : MonoBehaviour
     public float PitchMax = 1.0f;
     [SerializeField] private EventReference footstepEvent;
     [SerializeField] private EventReference jumpEvent;
+    [SerializeField] private EventReference jumpLandEventVocals;
     [SerializeField] private EventReference jumpLandEvent;
     public string[] roomTags;
 
@@ -36,6 +37,7 @@ public class RandomPlayer : MonoBehaviour
     public void PlayClip(AudioClip clip, float pitchMin, float pitchMax, bool ComingFromJump, bool isLanding)
     {
         EventInstance instance;
+        EventInstance instance2 = RuntimeManager.CreateInstance(jumpLandEventVocals);
         if(!ComingFromJump && !isLanding)
         {
             instance = RuntimeManager.CreateInstance(footstepEvent);
@@ -44,20 +46,19 @@ public class RandomPlayer : MonoBehaviour
         {
             // this will be our landing
             instance = RuntimeManager.CreateInstance(jumpLandEvent);
+            instance2.set3DAttributes(RuntimeUtils.To3DAttributes(transform));
+            RaycastChecker(instance2);
+            instance2.start();
+            instance2.release();
         }
         else
         {
             instance = RuntimeManager.CreateInstance(jumpEvent);
         }
 
+        RaycastChecker(instance);
+
         instance.set3DAttributes(RuntimeUtils.To3DAttributes(transform));
-        
-        RaycastHit hit;
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.down), out hit, Mathf.Infinity))
-        {
-            //we have tags for each room, just need these to pass into fmod for the correct sound
-            instance.setParameterByNameWithLabel("RoomSounds", hit.collider.tag);
-        }
 
         float randomPitch = Random.Range(pitchMin, pitchMax);
         instance.setParameterByName("PitchShifterVar", randomPitch);
@@ -65,5 +66,15 @@ public class RandomPlayer : MonoBehaviour
         instance.start();
         instance.release();
         //RuntimeManager.PlayOneShot(footstepEvent, transform.position);
+    }
+
+    void RaycastChecker(EventInstance instance)
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.down), out hit, Mathf.Infinity))
+        {
+            //we have tags for each room, just need these to pass into fmod for the correct sound
+            instance.setParameterByNameWithLabel("RoomSounds", hit.collider.tag);
+        }
     }
 }

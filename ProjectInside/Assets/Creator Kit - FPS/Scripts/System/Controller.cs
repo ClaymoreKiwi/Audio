@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using FMOD.Studio;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering.PostProcessing;
@@ -384,8 +385,13 @@ public class Controller : MonoBehaviour
         canTakeDamage = false;
         PlayerHealth -= damage;
 
+        EventInstance instance = RuntimeManager.CreateInstance(injuryEvent);
+        float randomPitch = UnityEngine.Random.Range(0.10f, 1.9f);
+        instance.setParameterByName("PitchShifterVar", randomPitch);
+
+        instance.start();
+        instance.release();
         vignette.intensity.value = 0.4f;
-        RuntimeManager.PlayOneShot(injuryEvent, transform.position);
         yield return new WaitForSeconds(canTakeDamageTimer); // 2 seconds
 
         canTakeDamage = true;
