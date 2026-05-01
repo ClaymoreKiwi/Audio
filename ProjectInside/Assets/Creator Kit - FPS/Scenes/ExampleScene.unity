@@ -3613,6 +3613,31 @@ PrefabInstance:
       propertyPath: jumpLandEvent.Guid.Data4
       value: 1548161840
       objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: jumpLandEventVocals.Path
+      value: event:/Player Land Vocalisations
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: jumpLandEventVocals.Guid.Data1
+      value: 1226555321
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: jumpLandEventVocals.Guid.Data2
+      value: 1241895630
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: jumpLandEventVocals.Guid.Data3
+      value: 2109185416
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: jumpLandEventVocals.Guid.Data4
+      value: -592786340
+      objectReference: {fileID: 0}
     - target: {fileID: 6003619676189176501, guid: 6ca000ead671ebe449deb210e0a19be8,
         type: 3}
       propertyPath: m_Enabled
@@ -6122,6 +6147,13 @@ MonoBehaviour:
       Data4: 0
     Path: 
   jumpEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  jumpLandEventVocals:
     Guid:
       Data1: 0
       Data2: 0

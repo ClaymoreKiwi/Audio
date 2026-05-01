@@ -935,10 +935,10 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/Footsteps.bank
   Name: Footsteps
   StudioPath: bank:/Footsteps
-  lastModified: 639132687383560197
+  lastModified: 639132712702715865
   FileSizes:
   - Name: Desktop
-    Value: 48160
+    Value: 72896
   Exists: 1
 --- !u!114 &-4877795584024144398
 MonoBehaviour:
@@ -1313,7 +1313,7 @@ MonoBehaviour:
   Path: ../projectinsideAud/Build/Desktop/PlayerJumps.bank
   Name: PlayerJumps
   StudioPath: bank:/PlayerJumps
-  lastModified: 639132687387197174
+  lastModified: 639132712703523746
   FileSizes:
   - Name: Desktop
     Value: 181600
@@ -2214,7 +2214,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -5597474019618717244}
   cacheVersion: 131858
-  cacheTime: 639132700297221367
+  cacheTime: 639132712703523746
   SerializableEventsDict:
   - key: event:/Stomach Acid
     index: 0
