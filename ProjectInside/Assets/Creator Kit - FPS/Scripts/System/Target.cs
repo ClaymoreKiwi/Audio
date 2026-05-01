@@ -1,8 +1,10 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using FMOD.Studio;
 using FMODUnity;
+using Random = UnityEngine.Random;
 
 public class Target : MonoBehaviour
 {
@@ -17,7 +19,7 @@ public class Target : MonoBehaviour
     
     [Header("Hit Audio Setup")]
     [SerializeField] private EventReference hitDialogueEvent;      
-    [SerializeField] private EventReference hitVocalizationEvent; 
+    [SerializeField] private EventReference hitVocalizationEvent;
     
     [Tooltip("Percentage chance (0 to 100) to play dialogue instead of a generic vocalization.")]
     [Range(0, 100)]
@@ -30,6 +32,8 @@ public class Target : MonoBehaviour
 
     private bool m_Destroyed = false;
     private float m_CurrentHealth;
+
+    public Action<float, float> OnHealthChanged;
 
     // Tracks what this specific mob is currently saying/grunting
     private EventInstance m_LocalAudioInstance;              
@@ -51,6 +55,9 @@ public class Target : MonoBehaviour
         m_CurrentHealth = health;
         m_Destroyed = false; // Reset death state
 
+        // Broadcast initial health value
+        OnHealthChanged?.Invoke(m_CurrentHealth, health);
+
         if(IdleSource != null && IdleSource.clip != null)
         {
             IdleSource.time = Random.Range(0.0f, IdleSource.clip.length);
@@ -63,7 +70,7 @@ public class Target : MonoBehaviour
         if (m_Destroyed) return;
 
         m_CurrentHealth -= damage;
-        
+        OnHealthChanged?.Invoke(m_CurrentHealth, health);
         // Survived the hit
         if(m_CurrentHealth > 0)
         {
