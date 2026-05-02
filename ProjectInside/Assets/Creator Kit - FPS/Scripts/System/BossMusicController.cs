@@ -31,7 +31,11 @@ public class BossMusicController : MonoBehaviour
         float healthPercentage = currentHealth / maxHealth;
         int newStage = 0;
 
-        if (healthPercentage <= 0.33f) 
+        if (currentHealth <= 0)
+        {
+            newStage = 3; // Boss defeated stage
+        }
+        else if (healthPercentage <= 0.33f) 
         {
             newStage = 2;
         }
