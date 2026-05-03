@@ -25,6 +25,7 @@ public class Key : MonoBehaviour
 
         if (keychain != null)
         {
+            RuntimeManager.PlayOneShot(KeyCollectEvent, transform.position);
             keychain.GrabbedKey(keyType);
             Destroy(gameObject);
         }

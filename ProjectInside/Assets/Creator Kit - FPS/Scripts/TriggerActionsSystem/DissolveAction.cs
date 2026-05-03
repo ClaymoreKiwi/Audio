@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
+using FMOD.Studio;
+using FMODUnity;
 
 public class DissolveAction : GameAction
 {
@@ -17,6 +19,10 @@ public class DissolveAction : GameAction
     MaterialPropertyBlock m_PropertyBlock;
 
     int m_CutoffProperty;
+
+    [Header("Audio")]
+    public AudioClip DoorOpenAudioClip;
+    [SerializeField] public EventReference DoorOpenEvent;
 
     void Start ()
     {
@@ -40,6 +46,7 @@ public class DissolveAction : GameAction
 
         float value = FadeIn.Evaluate(Mathf.InverseLerp(0, DissolveEffectTime, m_Timer));
 
+
         m_PropertyBlock.SetFloat(m_CutoffProperty,value);
         foreach (var r in m_Renderers)
         {
@@ -60,6 +67,7 @@ public class DissolveAction : GameAction
     public override void Activated()
     {
         enabled = true;
+        RuntimeManager.PlayOneShot(DoorOpenEvent, transform.position);
         m_ParticleSystem.Play();
     }
 }
