@@ -1094,11 +1094,11 @@ MonoBehaviour:
   DestroyedEffect: {fileID: 0}
   deathEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1375838964
+      Data2: 1170664086
+      Data3: 1514028461
+      Data4: 1526890306
+    Path: event:/Boss Death
   deathGrenadeEvent:
     Guid:
       Data1: 0
