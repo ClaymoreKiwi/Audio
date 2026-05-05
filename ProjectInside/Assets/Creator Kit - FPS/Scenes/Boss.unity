@@ -634,6 +634,31 @@ PrefabInstance:
       propertyPath: vignette
       value: 
       objectReference: {fileID: 1349374445}
+    - target: {fileID: 1782824343737523952, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: injuryEvent.Path
+      value: event:/PlayerDamage
+      objectReference: {fileID: 0}
+    - target: {fileID: 1782824343737523952, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: injuryEvent.Guid.Data1
+      value: -276468320
+      objectReference: {fileID: 0}
+    - target: {fileID: 1782824343737523952, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: injuryEvent.Guid.Data2
+      value: 1093904023
+      objectReference: {fileID: 0}
+    - target: {fileID: 1782824343737523952, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: injuryEvent.Guid.Data3
+      value: -1138603602
+      objectReference: {fileID: 0}
+    - target: {fileID: 1782824343737523952, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: injuryEvent.Guid.Data4
+      value: -809935336
+      objectReference: {fileID: 0}
     - target: {fileID: 1782824343737523953, guid: 6ca000ead671ebe449deb210e0a19be8,
         type: 3}
       propertyPath: m_RootOrder
@@ -693,6 +718,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Character
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: jumpLandEventVocals.Path
+      value: event:/Player Land Vocalisations
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: jumpLandEventVocals.Guid.Data1
+      value: 1226555321
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: jumpLandEventVocals.Guid.Data2
+      value: 1241895630
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: jumpLandEventVocals.Guid.Data3
+      value: 2109185416
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771553560791580875, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: jumpLandEventVocals.Guid.Data4
+      value: -592786340
       objectReference: {fileID: 0}
     - target: {fileID: 6003619676189176501, guid: 6ca000ead671ebe449deb210e0a19be8,
         type: 3}
