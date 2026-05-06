@@ -39,7 +39,11 @@ public class Projectile : MonoBehaviour
 
         transform.position = launcher.GetCorrectedMuzzlePlace();
         transform.forward = launcher.EndPoint.forward;
-        RuntimeManager.PlayOneShot(countdown, transform.position);
+        
+        EventInstance instance = RuntimeManager.CreateInstance(countdown);
+        instance.set3DAttributes(RuntimeUtils.To3DAttributes(transform));
+        instance.start();
+        instance.release();
 
         gameObject.SetActive(true);
         m_TimeSinceLaunch = 0.0f;
@@ -81,7 +85,11 @@ public class Projectile : MonoBehaviour
 
         source.transform.position = position;
         source.pitch = Random.Range(0.8f, 1.1f);
-        RuntimeManager.PlayOneShot(pillExplosion, transform.position);
+        
+        EventInstance instance = RuntimeManager.CreateInstance(pillExplosion);
+        instance.set3DAttributes(RuntimeUtils.To3DAttributes(transform));
+        instance.start();
+        instance.release();
     }
 
     void Update()

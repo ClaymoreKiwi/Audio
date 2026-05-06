@@ -5,7 +5,7 @@
 			<value>Pill Grenade Countdown</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{408b7bb9-0a91-4418-a703-150aa018e468}</destination>
@@ -136,6 +136,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{d9fb2a5b-7138-4c11-abae-9520386f769b}">
 		<relationship name="effects">
+			<destination>{202b4bb2-ed09-4a21-bee1-89d42a7ce029}</destination>
 			<destination>{35d00a85-6dbc-47de-83c1-504589ff0e33}</destination>
 		</relationship>
 	</object>
@@ -160,5 +161,6 @@
 			<value>1</value>
 		</property>
 	</object>
+	<object class="SpatialiserEffect" id="{202b4bb2-ed09-4a21-bee1-89d42a7ce029}" />
 	<object class="MixerBusFader" id="{35d00a85-6dbc-47de-83c1-504589ff0e33}" />
 </objects>

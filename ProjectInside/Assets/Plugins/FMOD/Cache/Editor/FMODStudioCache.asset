@@ -1,5 +1,25 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9049242531186072864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/KeyandDoorFX.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/KeyandDoorFX.bank
+  Name: KeyandDoorFX
+  StudioPath: bank:/KeyandDoorFX
+  lastModified: 639136694979931530
+  FileSizes:
+  - Name: Desktop
+    Value: 65312
+  Exists: 1
 --- !u!114 &-9032932617761951474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57,6 +77,26 @@ MonoBehaviour:
   - Name: Desktop
     Value: 21024
   Exists: 1
+--- !u!114 &-8968045771189388338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/GrenadeRBCImpact.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/GrenadeRBCImpact.bank
+  Name: GrenadeRBCImpact
+  StudioPath: bank:/GrenadeRBCImpact
+  lastModified: 639136689644294243
+  FileSizes:
+  - Name: Desktop
+    Value: 20608
+  Exists: 1
 --- !u!114 &-8636218040546840230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77,6 +117,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 80448
   Exists: 1
+--- !u!114 &-8574105267477633197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bacteria VLs
+  m_EditorClassIdentifier: 
+  Path: event:/Bacteria VLs
+  Guid:
+    Data1: 1094310070
+    Data2: 1146512638
+    Data3: -693634931
+    Data4: -353667766
+  Banks:
+  - {fileID: -2443109259283451388}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6100
 --- !u!114 &-8550502326196343135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96,6 +163,53 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 11008
+  Exists: 1
+--- !u!114 &-8474770830535050322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Boss Vocalisations (Non-Dialogue)
+  m_EditorClassIdentifier: 
+  Path: event:/Boss Vocalisations (Non-Dialogue)
+  Guid:
+    Data1: 2108544760
+    Data2: 1306577899
+    Data3: 691309735
+    Data4: 2079478785
+  Banks:
+  - {fileID: 6641426132416831654}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 434
+--- !u!114 &-8375147050860354138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/GrenadeGermImpact.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/GrenadeGermImpact.bank
+  Name: GrenadeGermImpact
+  StudioPath: bank:/GrenadeGermImpact
+  lastModified: 639136689644007664
+  FileSizes:
+  - Name: Desktop
+    Value: 42560
   Exists: 1
 --- !u!114 &-8368417607085582562
 MonoBehaviour:
@@ -164,6 +278,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3020
+--- !u!114 &-7988726457950451622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player Jump Vocalisation
+  m_EditorClassIdentifier: 
+  Path: event:/Player Jump Vocalisation
+  Guid:
+    Data1: -1439114645
+    Data2: 1157867440
+    Data3: 1231817127
+    Data4: 2127507453
+  Banks:
+  - {fileID: 65907591849184064}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -774301266644891818}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-7980279515928151683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -247,6 +389,87 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 618
+--- !u!114 &-7901412253478985381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bones Impact
+  m_EditorClassIdentifier: 
+  Path: event:/Bones Impact
+  Guid:
+    Data1: 1042611302
+    Data2: 1129891731
+    Data3: -17891155
+    Data4: -883330360
+  Banks:
+  - {fileID: 6694701630381571845}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 390
+--- !u!114 &-7901167932214139894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Stomach Acid Impact 2
+  m_EditorClassIdentifier: 
+  Path: event:/Stomach Acid Impact 2
+  Guid:
+    Data1: 114320740
+    Data2: 1111056836
+    Data3: -937050736
+    Data4: -319515034
+  Banks:
+  - {fileID: -3567448867308396748}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 658
+--- !u!114 &-7833972452393619380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SpatialHeart
+  m_EditorClassIdentifier: 
+  Path: event:/SpatialHeart
+  Guid:
+    Data1: -168199552
+    Data2: 1288512154
+    Data3: -375834450
+    Data4: -1099341404
+  Banks:
+  - {fileID: 3116847794802267602}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 63272
 --- !u!114 &-7807728578189037066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -274,6 +497,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1825
+--- !u!114 &-7800516123316814381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI Hover
+  m_EditorClassIdentifier: 
+  Path: event:/UI Hover
+  Guid:
+    Data1: -1788219176
+    Data2: 1207113934
+    Data3: -1449135695
+    Data4: 4456233
+  Banks:
+  - {fileID: -6396297451914965200}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 123
 --- !u!114 &-7789340027333679369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -328,6 +578,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 478
+--- !u!114 &-7583280793851187120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RBC Hit
+  m_EditorClassIdentifier: 
+  Path: event:/RBC Hit
+  Guid:
+    Data1: 1336211481
+    Data2: 1221167920
+    Data3: -442702933
+    Data4: 347473583
+  Banks:
+  - {fileID: -189821207218569827}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
 --- !u!114 &-7408518698614481960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -383,6 +660,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 595
+--- !u!114 &-7295316245016778165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Rifle Fire
+  m_EditorClassIdentifier: 
+  Path: event:/Rifle Fire
+  Guid:
+    Data1: -1816839479
+    Data2: 1136402358
+    Data3: -630279034
+    Data4: -1797916194
+  Banks:
+  - {fileID: -5633806901245931010}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
 --- !u!114 &-7196642636447422708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -443,6 +747,30 @@ MonoBehaviour:
   - Name: Desktop
     Value: 875232
   Exists: 1
+--- !u!114 &-7041492042364968255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerDamage/PitchShifterVar
+  m_EditorClassIdentifier: 
+  Name: PitchShifterVar
+  StudioPath: 
+  Min: 0.1
+  Max: 1.9
+  Default: 1
+  ID:
+    data1: 4164943802
+    data2: 2163341973
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-7010716876396073126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -463,6 +791,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 21024
   Exists: 1
+--- !u!114 &-6996855021741623707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Rifle Fire 2
+  m_EditorClassIdentifier: 
+  Path: event:/Rifle Fire 2
+  Guid:
+    Data1: 155287461
+    Data2: 1217353043
+    Data3: 1228366782
+    Data4: -1889508561
+  Banks:
+  - {fileID: -5633806901245931010}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 375
 --- !u!114 &-6899449879898144007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -628,6 +983,61 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 6100
+--- !u!114 &-6550691312841319444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Key collect
+  m_EditorClassIdentifier: 
+  Path: event:/Key collect
+  Guid:
+    Data1: -559360371
+    Data2: 1341110529
+    Data3: 562527410
+    Data4: -1760764330
+  Banks:
+  - {fileID: -9049242531186072864}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6490381240185084665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossMusic/BossStageStepper
+  m_EditorClassIdentifier: 
+  Name: BossStageStepper
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 3264810305
+    data2: 3546898746
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Stage 1
+  - Stage 2
+  - Stage 3
+  - Stage 4
+  Exists: 1
 --- !u!114 &-6434512556666342621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -647,6 +1057,26 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 79008
+  Exists: 1
+--- !u!114 &-6396297451914965200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI Hover.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/UI Hover.bank
+  Name: UI Hover
+  StudioPath: bank:/UI Hover
+  lastModified: 639136689651132830
+  FileSizes:
+  - Name: Desktop
+    Value: 3584
   Exists: 1
 --- !u!114 &-6311523981609521804
 MonoBehaviour:
@@ -702,6 +1132,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 44977
+--- !u!114 &-6129512178450958496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pill Grenade Explosion
+  m_EditorClassIdentifier: 
+  Path: event:/Pill Grenade Explosion
+  Guid:
+    Data1: 2115427423
+    Data2: 1178281633
+    Data3: -1521141360
+    Data4: 1093838658
+  Banks:
+  - {fileID: -5633806901245931010}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3020
 --- !u!114 &-6105053231077763637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -729,6 +1186,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1124
+--- !u!114 &-6072829463983004966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Weapons.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/Weapons.bank
+  Name: Weapons
+  StudioPath: bank:/Weapons
+  lastModified: 639136689653119315
+  FileSizes:
+  - Name: Desktop
+    Value: 11008
+  Exists: 1
 --- !u!114 &-5757218702705827322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -756,6 +1233,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 375
+--- !u!114 &-5633806901245931010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/WeaponFiring.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/WeaponFiring.bank
+  Name: WeaponFiring
+  StudioPath: bank:/WeaponFiring
+  lastModified: 639136694980722693
+  FileSizes:
+  - Name: Desktop
+    Value: 204832
+  Exists: 1
 --- !u!114 &-5630086217277124043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -812,6 +1309,30 @@ MonoBehaviour:
   - fat
   - germ
   - rbc
+  Exists: 1
+--- !u!114 &-5578021133439090371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/PitchShifterVar
+  m_EditorClassIdentifier: 
+  Name: PitchShifterVar
+  StudioPath: 
+  Min: 0.1
+  Max: 1.9
+  Default: 1
+  ID:
+    data1: 4164943802
+    data2: 2163341973
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &-5483109166821250607
 MonoBehaviour:
@@ -880,6 +1401,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 181664
   Exists: 1
+--- !u!114 &-5359736418699218822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bacteria Vocalisations (Non-Dialogue)
+  m_EditorClassIdentifier: 
+  Path: event:/Bacteria Vocalisations (Non-Dialogue)
+  Guid:
+    Data1: 1534950368
+    Data2: 1201055699
+    Data3: 249716154
+    Data4: 702793121
+  Banks:
+  - {fileID: -2443109259283451388}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 540
 --- !u!114 &-5246198633479562533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -927,6 +1475,53 @@ MonoBehaviour:
   - Name: Desktop
     Value: 506
   Exists: 1
+--- !u!114 &-5064803169787213318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Stomach Room Impact
+  m_EditorClassIdentifier: 
+  Path: event:/Stomach Room Impact
+  Guid:
+    Data1: 78763334
+    Data2: 1223871040
+    Data3: 141690256
+    Data4: -406545861
+  Banks:
+  - {fileID: 9050512027746304352}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 701
+--- !u!114 &-4942169105271315291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/ImpactAll.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/ImpactAll.bank
+  Name: ImpactAll
+  StudioPath: bank:/ImpactAll
+  lastModified: 639136689645453850
+  FileSizes:
+  - Name: Desktop
+    Value: 484704
+  Exists: 1
 --- !u!114 &-4880589987117761696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -954,6 +1549,46 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1200
+--- !u!114 &-4854866329936478338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI Enter.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/UI Enter.bank
+  Name: UI Enter
+  StudioPath: bank:/UI Enter
+  lastModified: 639136689650699258
+  FileSizes:
+  - Name: Desktop
+    Value: 5472
+  Exists: 1
+--- !u!114 &-4729706477052068149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerInjury.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/PlayerInjury.bank
+  Name: PlayerInjury
+  StudioPath: bank:/PlayerInjury
+  lastModified: 639136689647632885
+  FileSizes:
+  - Name: Desktop
+    Value: 27072
+  Exists: 1
 --- !u!114 &-4689746630797015215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -991,6 +1626,62 @@ MonoBehaviour:
   - germ
   - rbc
   Exists: 1
+--- !u!114 &-4647341372356249998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pill Grenade Equip
+  m_EditorClassIdentifier: 
+  Path: event:/Pill Grenade Equip
+  Guid:
+    Data1: -1503912553
+    Data2: 1230584392
+    Data3: -161818986
+    Data4: 1819343037
+  Banks:
+  - {fileID: 7779557791700201366}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1151
+--- !u!114 &-4590500984551412345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Footsteps
+  Guid:
+    Data1: -973660618
+    Data2: 1263503351
+    Data3: -1816697165
+    Data4: -1823801017
+  Banks:
+  - {fileID: 8977599946588924871}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -5578021133439090371}
+  - {fileID: 9159493231071622718}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 618
 --- !u!114 &-4485971307747390345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1072,6 +1763,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1000
+--- !u!114 &-4202875101138775168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Heartbeat
+  m_EditorClassIdentifier: 
+  Path: event:/Heartbeat
+  Guid:
+    Data1: -1390541220
+    Data2: 1177255278
+    Data3: 115145918
+    Data4: -1206938324
+  Banks:
+  - {fileID: 3116847794802267602}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 40
+  Length: 63272
 --- !u!114 &-4191404015865351696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1096,6 +1814,88 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-4170534920339646273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BackgroundMusic
+  m_EditorClassIdentifier: 
+  Path: event:/BackgroundMusic
+  Guid:
+    Data1: 163821448
+    Data2: 1309341108
+    Data3: 1741686719
+    Data4: 2055804635
+  Banks:
+  - {fileID: -32614361314421782}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 128000
+--- !u!114 &-4146257737686312815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PlayerDamage
+  m_EditorClassIdentifier: 
+  Path: event:/PlayerDamage
+  Guid:
+    Data1: -276468320
+    Data2: 1093904023
+    Data3: -1138603602
+    Data4: -809935336
+  Banks:
+  - {fileID: -4729706477052068149}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -7041492042364968255}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5400
+--- !u!114 &-4144920900361536703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Boss Death
+  m_EditorClassIdentifier: 
+  Path: event:/Boss Death
+  Guid:
+    Data1: -1375838964
+    Data2: 1170664086
+    Data3: 1514028461
+    Data4: 1526890306
+  Banks:
+  - {fileID: 6641426132416831654}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1825
 --- !u!114 &-4121031336194048214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1190,6 +1990,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 595
+--- !u!114 &-4005962432625654651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pistol Fire
+  m_EditorClassIdentifier: 
+  Path: event:/Pistol Fire
+  Guid:
+    Data1: -1836694844
+    Data2: 1179863578
+    Data3: -271705411
+    Data4: -499541483
+  Banks:
+  - {fileID: -5633806901245931010}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 863
 --- !u!114 &-3878874026292630898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1209,6 +2036,80 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 27072
+  Exists: 1
+--- !u!114 &-3825744917433663577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Rifle Equip
+  m_EditorClassIdentifier: 
+  Path: event:/Rifle Equip
+  Guid:
+    Data1: -2049319884
+    Data2: 1304012699
+    Data3: -910413676
+    Data4: -917715049
+  Banks:
+  - {fileID: -6072829463983004966}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 769
+--- !u!114 &-3692100254015432649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Head Room Impact
+  m_EditorClassIdentifier: 
+  Path: event:/Head Room Impact
+  Guid:
+    Data1: -1819714008
+    Data2: 1137105812
+    Data3: -1863420259
+    Data4: -1692948406
+  Banks:
+  - {fileID: 2628316226265300846}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 595
+--- !u!114 &-3567448867308396748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/ImpactStomachAcid.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/ImpactStomachAcid.bank
+  Name: ImpactStomachAcid
+  StudioPath: bank:/ImpactStomachAcid
+  lastModified: 639136689646706258
+  FileSizes:
+  - Name: Desktop
+    Value: 25472
   Exists: 1
 --- !u!114 &-3441533001615481653
 MonoBehaviour:
@@ -1535,6 +2436,26 @@ MonoBehaviour:
   - Name: Desktop
     Value: 204096
   Exists: 1
+--- !u!114 &-2443109259283451388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Bacteria.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/Bacteria.bank
+  Name: Bacteria
+  StudioPath: bank:/Bacteria
+  lastModified: 639136689626891546
+  FileSizes:
+  - Name: Desktop
+    Value: 688704
+  Exists: 1
 --- !u!114 &-2423455391665062376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1832,6 +2753,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 5472
   Exists: 1
+--- !u!114 &-1532985748614251989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI Enter
+  m_EditorClassIdentifier: 
+  Path: event:/UI Enter
+  Guid:
+    Data1: -2104828064
+    Data2: 1158167117
+    Data3: -872250957
+    Data4: 904868204
+  Banks:
+  - {fileID: -4854866329936478338}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 285
 --- !u!114 &-1502188168708348031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1886,6 +2834,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3000
+--- !u!114 &-1289352560845708819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Brain Signals/BrainDist
+  m_EditorClassIdentifier: 
+  Name: BrainDist
+  StudioPath: 
+  Min: 0
+  Max: 20
+  Default: 0
+  ID:
+    data1: 4111261330
+    data2: 1838022807
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-1132891746672176575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1953,6 +2925,53 @@ MonoBehaviour:
   - Name: Desktop
     Value: 63328
   Exists: 1
+--- !u!114 &-1025797925509949515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/WeaponReloading.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/WeaponReloading.bank
+  Name: WeaponReloading
+  StudioPath: bank:/WeaponReloading
+  lastModified: 639136694980985227
+  FileSizes:
+  - Name: Desktop
+    Value: 63328
+  Exists: 1
+--- !u!114 &-1019246093554128793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pill Grenade Countdown
+  m_EditorClassIdentifier: 
+  Path: event:/Pill Grenade Countdown
+  Guid:
+    Data1: -1742888920
+    Data2: 1188510726
+    Data3: 394973621
+    Data4: -967253136
+  Banks:
+  - {fileID: -5633806901245931010}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3000
 --- !u!114 &-931677097280502626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2000,6 +3019,63 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 540
+--- !u!114 &-882671364093747179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 639136694979951503
+  FileSizes:
+  - Name: Desktop
+    Value: 4492
+  Exists: 1
+--- !u!114 &-774301266644891818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Jump Vocalisation/RoomSounds
+  m_EditorClassIdentifier: 
+  Name: RoomSounds
+  StudioPath: 
+  Min: 0
+  Max: 12
+  Default: 0
+  ID:
+    data1: 1738605215
+    data2: 3062377921
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - BrainRoom
+  - HeartRoom
+  - LongCorridor
+  - CornerCorridor
+  - VCorridor
+  - defaultRoom
+  - Stomach
+  - Acid
+  - Bone
+  - metal
+  - fat
+  - germ
+  - rbc
+  Exists: 1
 --- !u!114 &-724961352468439040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2111,6 +3187,60 @@ MonoBehaviour:
   - Name: Desktop
     Value: 20608
   Exists: 1
+--- !u!114 &-582125529584397851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pill Grenade Throw
+  m_EditorClassIdentifier: 
+  Path: event:/Pill Grenade Throw
+  Guid:
+    Data1: -695707543
+    Data2: 1117496426
+    Data3: 391187891
+    Data4: -997694423
+  Banks:
+  - {fileID: -5633806901245931010}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5000
+--- !u!114 &-363754644191340350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pistol_Equip
+  m_EditorClassIdentifier: 
+  Path: event:/Pistol_Equip
+  Guid:
+    Data1: -1200385233
+    Data2: 1221267466
+    Data3: 970661539
+    Data4: 22824998
+  Banks:
+  - {fileID: 7779557791700201366}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1581
 --- !u!114 &-228965747390621456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2130,6 +3260,26 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 5472
+  Exists: 1
+--- !u!114 &-189821207218569827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/RedBloodCells.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/RedBloodCells.bank
+  Name: RedBloodCells
+  StudioPath: bank:/RedBloodCells
+  lastModified: 639136689650503471
+  FileSizes:
+  - Name: Desktop
+    Value: 1015072
   Exists: 1
 --- !u!114 &-75816049674124892
 MonoBehaviour:
@@ -2158,6 +3308,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5000
+--- !u!114 &-32614361314421782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/bg.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/bg.bank
+  Name: bg
+  StudioPath: bank:/bg
+  lastModified: 639136689641750663
+  FileSizes:
+  - Name: Desktop
+    Value: 4599072
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2171,89 +3341,90 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 5770184637707714898}
-  - {fileID: 7365026100147780529}
-  - {fileID: -8344269732851847957}
-  - {fileID: -5630086217277124043}
-  - {fileID: -7059568899535216029}
-  - {fileID: 4443595862113611598}
-  - {fileID: -2305487128136643273}
-  - {fileID: 1523853340704209656}
-  - {fileID: 3477271244291255939}
-  - {fileID: -7010716876396073126}
-  - {fileID: 4313970876392983324}
-  - {fileID: -6434512556666342621}
-  - {fileID: 7395358681830498289}
-  - {fileID: -3282171051611455164}
-  - {fileID: 7495869844757892438}
-  - {fileID: 9212871207014146820}
-  - {fileID: 3530858124659702191}
-  - {fileID: -3878874026292630898}
-  - {fileID: -5437053605908530546}
-  - {fileID: -2401673656557315555}
-  - {fileID: -228965747390621456}
-  - {fileID: -7196642636447422708}
-  - {fileID: -7082969804955069378}
-  - {fileID: -5108469815168652690}
-  - {fileID: -4121031336194048214}
-  - {fileID: -2507406683846271403}
-  - {fileID: 6314676747466840541}
-  - {fileID: -8550502326196343135}
-  - {fileID: 7349835896879136548}
+  - {fileID: -882671364093747179}
+  - {fileID: 6767941781114581142}
+  - {fileID: 3116847794802267602}
+  - {fileID: -2443109259283451388}
+  - {fileID: 6641426132416831654}
+  - {fileID: 8977599946588924871}
+  - {fileID: -8375147050860354138}
+  - {fileID: -8968045771189388338}
+  - {fileID: -4942169105271315291}
+  - {fileID: 6694701630381571845}
+  - {fileID: 2628316226265300846}
+  - {fileID: 6692208360956021980}
+  - {fileID: 439946540854825828}
+  - {fileID: -3567448867308396748}
+  - {fileID: 9050512027746304352}
+  - {fileID: -9049242531186072864}
+  - {fileID: 4127535843157796447}
+  - {fileID: -4729706477052068149}
+  - {fileID: 65907591849184064}
+  - {fileID: -189821207218569827}
+  - {fileID: -4854866329936478338}
+  - {fileID: 7758458675852669690}
+  - {fileID: -6396297451914965200}
+  - {fileID: 6200557788254299}
+  - {fileID: 7779557791700201366}
+  - {fileID: -5633806901245931010}
+  - {fileID: -1025797925509949515}
+  - {fileID: -6072829463983004966}
+  - {fileID: -32614361314421782}
   EditorEvents:
-  - {fileID: 1740161659671173086}
-  - {fileID: -1863250864834037552}
-  - {fileID: 2557406899947120587}
-  - {fileID: -3441533001615481653}
-  - {fileID: 2040523927682741900}
-  - {fileID: -4439404955104067829}
-  - {fileID: -4103907181154474353}
-  - {fileID: -7961285224025722367}
-  - {fileID: -7807728578189037066}
-  - {fileID: 7964887004907909913}
-  - {fileID: -1502188168708348031}
-  - {fileID: 12312216731105906}
-  - {fileID: -2927116116614683383}
-  - {fileID: -612685765526300471}
-  - {fileID: 6099699652361601122}
-  - {fileID: 9039626189067095554}
-  - {fileID: -7299101217183427269}
-  - {fileID: -2120096193211877824}
-  - {fileID: -4301207409953458803}
-  - {fileID: -724961352468439040}
-  - {fileID: -2756929410699173174}
-  - {fileID: 8906858395989677481}
-  - {fileID: 3743014438932355871}
-  - {fileID: -1914872310327671743}
-  - {fileID: 1237862802285638530}
-  - {fileID: -3120879278520448118}
-  - {fileID: -7980279515928151683}
-  - {fileID: -2761501500416164039}
-  - {fileID: -1583913876535155024}
-  - {fileID: -6838305061456035483}
-  - {fileID: 3826578553553041178}
-  - {fileID: -2423455391665062376}
-  - {fileID: 3918838238119851437}
-  - {fileID: 8113700490977677465}
-  - {fileID: -2016746553503749086}
-  - {fileID: 8832683679131978572}
-  - {fileID: -75816049674124892}
-  - {fileID: -5246198633479562533}
-  - {fileID: 7379294595704659316}
-  - {fileID: 5158471247677474556}
-  - {fileID: -3114940704768106677}
-  - {fileID: 1542812167910735526}
-  - {fileID: -1906120935971187173}
-  - {fileID: 1624175938309902773}
-  - {fileID: -7408518698614481960}
-  - {fileID: -1132891746672176575}
+  - {fileID: 4491115123124523989}
+  - {fileID: -4202875101138775168}
+  - {fileID: 2941393058527805347}
+  - {fileID: -7833972452393619380}
+  - {fileID: 3770442949572578291}
+  - {fileID: 3720045116539941490}
+  - {fileID: -8574105267477633197}
+  - {fileID: -5359736418699218822}
+  - {fileID: -4144920900361536703}
+  - {fileID: 1404938740895229502}
+  - {fileID: -8474770830535050322}
+  - {fileID: -4590500984551412345}
+  - {fileID: 5077203427099193953}
+  - {fileID: 155277417127644178}
+  - {fileID: 10762373764701306}
+  - {fileID: -7901412253478985381}
+  - {fileID: -3692100254015432649}
+  - {fileID: 8496346463654092706}
+  - {fileID: 6947755212350921833}
+  - {fileID: -7901167932214139894}
+  - {fileID: 3799889419690007970}
+  - {fileID: -5064803169787213318}
+  - {fileID: -6550691312841319444}
+  - {fileID: -4146257737686312815}
+  - {fileID: -7988726457950451622}
+  - {fileID: 8200111999871958378}
+  - {fileID: -7583280793851187120}
+  - {fileID: 3435278196410073656}
+  - {fileID: 566038475285916638}
+  - {fileID: -1532985748614251989}
+  - {fileID: 3314176226688020088}
+  - {fileID: -7800516123316814381}
+  - {fileID: -363754644191340350}
+  - {fileID: -4647341372356249998}
+  - {fileID: -1019246093554128793}
+  - {fileID: -6129512178450958496}
+  - {fileID: -582125529584397851}
+  - {fileID: -6996855021741623707}
+  - {fileID: -4005962432625654651}
+  - {fileID: -7295316245016778165}
+  - {fileID: 996273436357789195}
+  - {fileID: 5158353085656041117}
+  - {fileID: 1900697669778023460}
+  - {fileID: -3825744917433663577}
+  - {fileID: 1847951644828331137}
+  - {fileID: -4170534920339646273}
+  - {fileID: 3422125229973846640}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 3530858124659702191}
+  - {fileID: 4127535843157796447}
   StringsBanks:
-  - {fileID: 5770184637707714898}
+  - {fileID: -882671364093747179}
   cacheVersion: 131858
-  cacheTime: 639136672948635773
+  cacheTime: 639136694980985227
   SerializableEventsDict:
   - key: event:/Stomach Acid
     index: 0
@@ -2347,6 +3518,56 @@ MonoBehaviour:
     index: 44
   - key: event:/BackgroundMusic
     index: 45
+  - key: event:/Area Unlocking
+    index: 46
+--- !u!114 &6200557788254299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/WallImpacts.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/WallImpacts.bank
+  Name: WallImpacts
+  StudioPath: bank:/WallImpacts
+  lastModified: 639136689651137820
+  FileSizes:
+  - Name: Desktop
+    Value: 506
+  Exists: 1
+--- !u!114 &10762373764701306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Impact Library
+  m_EditorClassIdentifier: 
+  Path: event:/Impact Library
+  Guid:
+    Data1: -132273909
+    Data2: 1153622066
+    Data3: -1340422745
+    Data4: 951117421
+  Banks:
+  - {fileID: -4942169105271315291}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 2217392596892117800}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &12312216731105906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2376,6 +3597,53 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 618
+--- !u!114 &65907591849184064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerJumps.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/PlayerJumps.bank
+  Name: PlayerJumps
+  StudioPath: bank:/PlayerJumps
+  lastModified: 639136689648351200
+  FileSizes:
+  - Name: Desktop
+    Value: 181664
+  Exists: 1
+--- !u!114 &155277417127644178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Red Blood Cells Grenade Impact
+  m_EditorClassIdentifier: 
+  Path: event:/Red Blood Cells Grenade Impact
+  Guid:
+    Data1: 2013147311
+    Data2: 1184851715
+    Data3: 1464646590
+    Data4: -1000554359
+  Banks:
+  - {fileID: -8968045771189388338}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 478
 --- !u!114 &156119423668328596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2433,6 +3701,26 @@ MonoBehaviour:
   - germ
   - rbc
   Exists: 1
+--- !u!114 &439946540854825828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/ImpactJumpLand.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/ImpactJumpLand.bank
+  Name: ImpactJumpLand
+  StudioPath: bank:/ImpactJumpLand
+  lastModified: 639136689646474355
+  FileSizes:
+  - Name: Desktop
+    Value: 33856
+  Exists: 1
 --- !u!114 &545295556601678706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2457,6 +3745,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &566038475285916638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RBC_Voicelines
+  m_EditorClassIdentifier: 
+  Path: event:/RBC_Voicelines
+  Guid:
+    Data1: -231594544
+    Data2: 1166107038
+    Data3: -839575673
+    Data4: -913202323
+  Banks:
+  - {fileID: -189821207218569827}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10524
 --- !u!114 &980125307849981500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2512,6 +3827,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &996273436357789195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Rifle Reload
+  m_EditorClassIdentifier: 
+  Path: event:/Rifle Reload
+  Guid:
+    Data1: 280917571
+    Data2: 1215873188
+    Data3: 299419568
+    Data4: 2112192879
+  Banks:
+  - {fileID: -1025797925509949515}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1646
 --- !u!114 &1219977348961068770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2612,6 +3954,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &1404938740895229502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Boss VLs
+  m_EditorClassIdentifier: 
+  Path: event:/Boss VLs
+  Guid:
+    Data1: -968610982
+    Data2: 1222511746
+    Data3: 2047808897
+    Data4: 267581075
+  Banks:
+  - {fileID: 6641426132416831654}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
 --- !u!114 &1451047542666616490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2761,6 +4130,61 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2600
+--- !u!114 &1847951644828331137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BossMusic
+  m_EditorClassIdentifier: 
+  Path: event:/BossMusic
+  Guid:
+    Data1: 1114673694
+    Data2: 1229785161
+    Data3: -2135303015
+    Data4: 1227486554
+  Banks:
+  - {fileID: -32614361314421782}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6490381240185084665}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 212000
+--- !u!114 &1900697669778023460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pill Grenade Rattle
+  m_EditorClassIdentifier: 
+  Path: event:/Pill Grenade Rattle
+  Guid:
+    Data1: -1368940894
+    Data2: 1176086847
+    Data3: 409244066
+    Data4: 1210714961
+  Banks:
+  - {fileID: -1025797925509949515}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1200
 --- !u!114 &1928787779058339880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2835,6 +4259,43 @@ MonoBehaviour:
   - Name: Desktop
     Value: 15712
   Exists: 1
+--- !u!114 &2217392596892117800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Impact Library/RoomSounds
+  m_EditorClassIdentifier: 
+  Name: RoomSounds
+  StudioPath: 
+  Min: 0
+  Max: 12
+  Default: 0
+  ID:
+    data1: 1738605215
+    data2: 3062377921
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - BrainRoom
+  - HeartRoom
+  - LongCorridor
+  - CornerCorridor
+  - VCorridor
+  - defaultRoom
+  - Stomach
+  - Acid
+  - Bone
+  - metal
+  - fat
+  - germ
+  - rbc
+  Exists: 1
 --- !u!114 &2260013413525178243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2903,6 +4364,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2600
+--- !u!114 &2628316226265300846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/ImpactHeadRoom.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/ImpactHeadRoom.bank
+  Name: ImpactHeadRoom
+  StudioPath: bank:/ImpactHeadRoom
+  lastModified: 639136689645909385
+  FileSizes:
+  - Name: Desktop
+    Value: 80480
+  Exists: 1
 --- !u!114 &2658346469747130349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2995,6 +4476,54 @@ MonoBehaviour:
   - germ
   - rbc
   Exists: 1
+--- !u!114 &2941393058527805347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Brain Signals
+  m_EditorClassIdentifier: 
+  Path: event:/Brain Signals
+  Guid:
+    Data1: -125323146
+    Data2: 1077614850
+    Data3: -439409791
+    Data4: 1050869369
+  Banks:
+  - {fileID: 3116847794802267602}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -1289352560845708819}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2600
+--- !u!114 &3116847794802267602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambiant.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/Ambiant.bank
+  Name: Ambiant
+  StudioPath: bank:/Ambiant
+  lastModified: 639136689625773664
+  FileSizes:
+  - Name: Desktop
+    Value: 830752
+  Exists: 1
 --- !u!114 &3169834961725766613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3015,6 +4544,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 830752
   Exists: 1
+--- !u!114 &3314176226688020088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI Exit
+  m_EditorClassIdentifier: 
+  Path: event:/UI Exit
+  Guid:
+    Data1: -1103333052
+    Data2: 1129820502
+    Data3: -1964628548
+    Data4: -1235106505
+  Banks:
+  - {fileID: 7758458675852669690}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 131
 --- !u!114 &3408082408650850481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3042,6 +4598,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1675
+--- !u!114 &3422125229973846640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Area Unlocking
+  m_EditorClassIdentifier: 
+  Path: event:/Area Unlocking
+  Guid:
+    Data1: -429042308
+    Data2: 1255091237
+    Data3: -1431100013
+    Data4: -1962572735
+  Banks:
+  - {fileID: -9049242531186072864}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3500
+--- !u!114 &3435278196410073656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RBC Death
+  m_EditorClassIdentifier: 
+  Path: event:/RBC Death
+  Guid:
+    Data1: 222445971
+    Data2: 1308088387
+    Data3: 11614896
+    Data4: -1886198775
+  Banks:
+  - {fileID: -189821207218569827}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3000
 --- !u!114 &3477271244291255939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3109,6 +4719,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1000
+--- !u!114 &3720045116539941490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bacteria Death
+  m_EditorClassIdentifier: 
+  Path: event:/Bacteria Death
+  Guid:
+    Data1: -1646634212
+    Data2: 1223428605
+    Data3: 1424241334
+    Data4: -1878555043
+  Banks:
+  - {fileID: -2443109259283451388}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1159
 --- !u!114 &3743014438932355871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3163,6 +4800,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 863
+--- !u!114 &3770442949572578291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HeartbeatGlob
+  m_EditorClassIdentifier: 
+  Path: event:/HeartbeatGlob
+  Guid:
+    Data1: -931132263
+    Data2: 1272063658
+    Data3: -75487311
+    Data4: -1753797168
+  Banks:
+  - {fileID: 3116847794802267602}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 63272
+--- !u!114 &3799889419690007970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Stomach Acid Impact
+  m_EditorClassIdentifier: 
+  Path: event:/Stomach Acid Impact
+  Guid:
+    Data1: -715515776
+    Data2: 1131669168
+    Data3: 1927769005
+    Data4: -1080808488
+  Banks:
+  - {fileID: -3567448867308396748}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 658
 --- !u!114 &3826578553553041178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3368,6 +5059,26 @@ MonoBehaviour:
   - Name: Desktop
     Value: 42560
   Exists: 1
+--- !u!114 &4127535843157796447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 639136694979944563
+  FileSizes:
+  - Name: Desktop
+    Value: 1074
+  Exists: 1
 --- !u!114 &4313970876392983324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3408,6 +5119,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 73248
   Exists: 1
+--- !u!114 &4491115123124523989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Stomach Acid
+  m_EditorClassIdentifier: 
+  Path: event:/Stomach Acid
+  Guid:
+    Data1: 254545423
+    Data2: 1082513225
+    Data3: -1894712441
+    Data4: -394388515
+  Banks:
+  - {fileID: 6767941781114581142}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 44977
 --- !u!114 &4957466022498987556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3432,6 +5170,60 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &5077203427099193953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Germs Grenade Impact
+  m_EditorClassIdentifier: 
+  Path: event:/Germs Grenade Impact
+  Guid:
+    Data1: -809720232
+    Data2: 1089271487
+    Data3: 2014630335
+    Data4: -148356014
+  Banks:
+  - {fileID: -8375147050860354138}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 980
+--- !u!114 &5158353085656041117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pistol_Reload
+  m_EditorClassIdentifier: 
+  Path: event:/Pistol_Reload
+  Guid:
+    Data1: 778485399
+    Data2: 1207171208
+    Data3: 1683581874
+    Data4: -2107921504
+  Banks:
+  - {fileID: -1025797925509949515}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1195
 --- !u!114 &5158471247677474556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3577,6 +5369,43 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1825
+--- !u!114 &5988349946715927139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Land Vocalisations/RoomSounds
+  m_EditorClassIdentifier: 
+  Name: RoomSounds
+  StudioPath: 
+  Min: 0
+  Max: 12
+  Default: 0
+  ID:
+    data1: 1738605215
+    data2: 3062377921
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - BrainRoom
+  - HeartRoom
+  - LongCorridor
+  - CornerCorridor
+  - VCorridor
+  - defaultRoom
+  - Stomach
+  - Acid
+  - Bone
+  - metal
+  - fat
+  - germ
+  - rbc
+  Exists: 1
 --- !u!114 &6004738331570113955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3753,6 +5582,113 @@ MonoBehaviour:
   - Name: Desktop
     Value: 73248
   Exists: 1
+--- !u!114 &6641426132416831654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Boss.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/Boss.bank
+  Name: Boss
+  StudioPath: bank:/Boss
+  lastModified: 639136689643276111
+  FileSizes:
+  - Name: Desktop
+    Value: 875232
+  Exists: 1
+--- !u!114 &6692208360956021980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/ImpactHeartRoom.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/ImpactHeartRoom.bank
+  Name: ImpactHeartRoom
+  StudioPath: bank:/ImpactHeartRoom
+  lastModified: 639136689646146098
+  FileSizes:
+  - Name: Desktop
+    Value: 79008
+  Exists: 1
+--- !u!114 &6694701630381571845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/ImpactBones.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/ImpactBones.bank
+  Name: ImpactBones
+  StudioPath: bank:/ImpactBones
+  lastModified: 639136689645663846
+  FileSizes:
+  - Name: Desktop
+    Value: 21024
+  Exists: 1
+--- !u!114 &6767941781114581142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AcidBubbles.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/AcidBubbles.bank
+  Name: AcidBubbles
+  StudioPath: bank:/AcidBubbles
+  lastModified: 639136689619368181
+  FileSizes:
+  - Name: Desktop
+    Value: 600576
+  Exists: 1
+--- !u!114 &6947755212350921833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Jumping Land Impact
+  m_EditorClassIdentifier: 
+  Path: event:/Jumping Land Impact
+  Guid:
+    Data1: -1545307361
+    Data2: 1219997367
+    Data3: 861290172
+    Data4: 1548161840
+  Banks:
+  - {fileID: 439946540854825828}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
 --- !u!114 &6989717333095174347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4061,6 +5997,46 @@ MonoBehaviour:
   - Name: Desktop
     Value: 130752
   Exists: 1
+--- !u!114 &7758458675852669690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI Exit.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/UI Exit.bank
+  Name: UI Exit
+  StudioPath: bank:/UI Exit
+  lastModified: 639136689650930651
+  FileSizes:
+  - Name: Desktop
+    Value: 3424
+  Exists: 1
+--- !u!114 &7779557791700201366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/WeaponEquip.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/WeaponEquip.bank
+  Name: WeaponEquip
+  StudioPath: bank:/WeaponEquip
+  lastModified: 639136694980367419
+  FileSizes:
+  - Name: Desktop
+    Value: 30592
+  Exists: 1
 --- !u!114 &7883292867298945065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4170,6 +6146,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1151
+--- !u!114 &8200111999871958378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player Land Vocalisations
+  m_EditorClassIdentifier: 
+  Path: event:/Player Land Vocalisations
+  Guid:
+    Data1: 1226555321
+    Data2: 1241895630
+    Data3: 2109185416
+    Data4: -592786340
+  Banks:
+  - {fileID: 65907591849184064}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 5988349946715927139}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &8266402717648608549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4197,6 +6201,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5500
+--- !u!114 &8496346463654092706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Heart Room Impact
+  m_EditorClassIdentifier: 
+  Path: event:/Heart Room Impact
+  Guid:
+    Data1: -1572017758
+    Data2: 1218341396
+    Data3: 1046355080
+    Data4: -1637512070
+  Banks:
+  - {fileID: 6692208360956021980}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 555
 --- !u!114 &8597423722021878617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4298,6 +6329,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 701
+--- !u!114 &8977599946588924871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Footsteps.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/Footsteps.bank
+  Name: Footsteps
+  StudioPath: bank:/Footsteps
+  lastModified: 639136689643682053
+  FileSizes:
+  - Name: Desktop
+    Value: 73248
+  Exists: 1
 --- !u!114 &9039626189067095554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4325,6 +6376,63 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 390
+--- !u!114 &9050512027746304352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/ImpactStomachRoom.bank
+  m_EditorClassIdentifier: 
+  Path: ../projectinsideAud/Build/Desktop/ImpactStomachRoom.bank
+  Name: ImpactStomachRoom
+  StudioPath: bank:/ImpactStomachRoom
+  lastModified: 639136689646938831
+  FileSizes:
+  - Name: Desktop
+    Value: 130752
+  Exists: 1
+--- !u!114 &9159493231071622718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/RoomSounds
+  m_EditorClassIdentifier: 
+  Name: RoomSounds
+  StudioPath: 
+  Min: 0
+  Max: 12
+  Default: 0
+  ID:
+    data1: 1738605215
+    data2: 3062377921
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - BrainRoom
+  - HeartRoom
+  - LongCorridor
+  - CornerCorridor
+  - VCorridor
+  - defaultRoom
+  - Stomach
+  - Acid
+  - Bone
+  - metal
+  - fat
+  - germ
+  - rbc
+  Exists: 1
 --- !u!114 &9212871207014146820
 MonoBehaviour:
   m_ObjectHideFlags: 0
