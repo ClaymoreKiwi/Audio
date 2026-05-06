@@ -1,6 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMOD.Studio;
+using FMODUnity;
+
 
 public class Projectile : MonoBehaviour
 {    
@@ -12,6 +15,9 @@ public class Projectile : MonoBehaviour
     public float damage = 10.0f;
     public AudioClip DestroyedSound;
     public int id;
+    [SerializeField] public EventReference countdown;
+    [SerializeField] public EventReference pillExplosion;
+        
     
     //TODO : maybe pool that somewhere to not have to create one for each projectile.
     public GameObject PrefabOnDestruction;
@@ -33,10 +39,12 @@ public class Projectile : MonoBehaviour
 
         transform.position = launcher.GetCorrectedMuzzlePlace();
         transform.forward = launcher.EndPoint.forward;
-        
+        RuntimeManager.PlayOneShot(countdown, transform.position);
+
         gameObject.SetActive(true);
         m_TimeSinceLaunch = 0.0f;
         m_Rigidbody.AddForce(direction * force);
+
     }
     
     void OnCollisionEnter(Collision other)
@@ -73,12 +81,13 @@ public class Projectile : MonoBehaviour
 
         source.transform.position = position;
         source.pitch = Random.Range(0.8f, 1.1f);
-        source.PlayOneShot(DestroyedSound);
+        RuntimeManager.PlayOneShot(pillExplosion, transform.position);
     }
 
     void Update()
     {
         m_TimeSinceLaunch += Time.deltaTime;
+        
 
         if (m_TimeSinceLaunch >= TimeToDestroyed)
         {
