@@ -89,6 +89,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{f3997d96-9058-483c-be01-5d9d2209eea9}" />
 	<object class="SingleSound" id="{04f6a4d3-5c77-43f9-b172-7bcb10295a06}">
+		<property name="start">
+			<value>0.0703125</value>
+		</property>
 		<property name="length">
 			<value>1.1249886621315193</value>
 		</property>
@@ -125,6 +128,10 @@
 	</object>
 	<object class="MixerBusPanner" id="{e02a7619-7652-4428-bbfa-dae635d66965}" />
 	<object class="MixerBusFader" id="{ad18fb6a-e118-4c9e-9c7a-c86807c8f5a2}" />
-	<object class="SpatialiserEffect" id="{ddb495a1-289d-4418-91c6-2c98f2b3cf1a}" />
+	<object class="SpatialiserEffect" id="{ddb495a1-289d-4418-91c6-2c98f2b3cf1a}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{0f507bd1-e5ca-487c-8da8-729bf3e3922d}" />
 </objects>
