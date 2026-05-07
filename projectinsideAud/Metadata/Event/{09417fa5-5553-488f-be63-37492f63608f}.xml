@@ -144,7 +144,7 @@
 			<value>true</value>
 		</property>
 		<property name="wetMix">
-			<value>15</value>
+			<value>14.5</value>
 		</property>
 		<property name="pitch">
 			<value>1</value>
